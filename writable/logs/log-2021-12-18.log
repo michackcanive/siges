@@ -1,0 +1,720 @@
+CRITICAL - 2021-12-18 01:02:31 --> The framework needs the following extension(s) installed and loaded: intl.
+#0 C:\xampp1\htdocs\agenda_festa\system\CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+#1 C:\xampp1\htdocs\agenda_festa\system\CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\xampp1\htdocs\agenda_festa\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 C:\xampp1\htdocs\agenda_festa\public\index.php(28): require('C:\\xampp1\\htdoc...')
+#4 {main}
+CRITICAL - 2021-12-18 01:03:30 --> The framework needs the following extension(s) installed and loaded: intl.
+#0 C:\xampp1\htdocs\agenda_festa\system\CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+#1 C:\xampp1\htdocs\agenda_festa\system\CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\xampp1\htdocs\agenda_festa\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 C:\xampp1\htdocs\agenda_festa\public\index.php(28): require('C:\\xampp1\\htdoc...')
+#4 {main}
+CRITICAL - 2021-12-18 01:04:36 --> The framework needs the following extension(s) installed and loaded: intl.
+#0 C:\xampp1\htdocs\agenda_festa\system\CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+#1 C:\xampp1\htdocs\agenda_festa\system\CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\xampp1\htdocs\agenda_festa\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 C:\xampp1\htdocs\agenda_festa\public\index.php(28): require('C:\\xampp1\\htdoc...')
+#4 {main}
+CRITICAL - 2021-12-18 01:04:38 --> The framework needs the following extension(s) installed and loaded: intl.
+#0 C:\xampp1\htdocs\agenda_festa\system\CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+#1 C:\xampp1\htdocs\agenda_festa\system\CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\xampp1\htdocs\agenda_festa\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 C:\xampp1\htdocs\agenda_festa\public\index.php(28): require('C:\\xampp1\\htdoc...')
+#4 {main}
+CRITICAL - 2021-12-18 01:04:38 --> The framework needs the following extension(s) installed and loaded: intl.
+#0 C:\xampp1\htdocs\agenda_festa\system\CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+#1 C:\xampp1\htdocs\agenda_festa\system\CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\xampp1\htdocs\agenda_festa\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 C:\xampp1\htdocs\agenda_festa\public\index.php(28): require('C:\\xampp1\\htdoc...')
+#4 {main}
+CRITICAL - 2021-12-18 01:04:38 --> The framework needs the following extension(s) installed and loaded: intl.
+#0 C:\xampp1\htdocs\agenda_festa\system\CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+#1 C:\xampp1\htdocs\agenda_festa\system\CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\xampp1\htdocs\agenda_festa\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 C:\xampp1\htdocs\agenda_festa\public\index.php(28): require('C:\\xampp1\\htdoc...')
+#4 {main}
+CRITICAL - 2021-12-18 01:09:37 --> The framework needs the following extension(s) installed and loaded: intl.
+#0 C:\xampp1\htdocs\agenda_festa\system\CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+#1 C:\xampp1\htdocs\agenda_festa\system\CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\xampp1\htdocs\agenda_festa\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 C:\xampp1\htdocs\agenda_festa\public\index.php(28): require('C:\\xampp1\\htdoc...')
+#4 {main}
+CRITICAL - 2021-12-18 09:20:04 --> The framework needs the following extension(s) installed and loaded: intl.
+#0 C:\xampp1\htdocs\agenda_festa\system\CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+#1 C:\xampp1\htdocs\agenda_festa\system\CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\xampp1\htdocs\agenda_festa\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 C:\xampp1\htdocs\agenda_festa\public\index.php(28): require('C:\\xampp1\\htdoc...')
+#4 {main}
+CRITICAL - 2021-12-18 09:23:16 --> The framework needs the following extension(s) installed and loaded: intl.
+#0 C:\xampp1\htdocs\agenda_festa\system\CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+#1 C:\xampp1\htdocs\agenda_festa\system\CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\xampp1\htdocs\agenda_festa\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 C:\xampp1\htdocs\agenda_festa\public\index.php(28): require('C:\\xampp1\\htdoc...')
+#4 {main}
+CRITICAL - 2021-12-18 09:26:14 --> The framework needs the following extension(s) installed and loaded: intl.
+#0 C:\xampp1\htdocs\agenda_festa\system\CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+#1 C:\xampp1\htdocs\agenda_festa\system\CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\xampp1\htdocs\agenda_festa\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 C:\xampp1\htdocs\agenda_festa\spark(45): require('C:\\xampp1\\htdoc...')
+#4 {main}
+CRITICAL - 2021-12-18 12:58:59 --> The framework needs the following extension(s) installed and loaded: intl.
+#0 C:\xampp1\htdocs\agenda_festa\system\CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+#1 C:\xampp1\htdocs\agenda_festa\system\CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\xampp1\htdocs\agenda_festa\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 C:\xampp1\htdocs\agenda_festa\public\index.php(28): require('C:\\xampp1\\htdoc...')
+#4 {main}
+CRITICAL - 2021-12-18 12:59:01 --> The framework needs the following extension(s) installed and loaded: intl.
+#0 C:\xampp1\htdocs\agenda_festa\system\CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+#1 C:\xampp1\htdocs\agenda_festa\system\CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\xampp1\htdocs\agenda_festa\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 C:\xampp1\htdocs\agenda_festa\public\index.php(28): require('C:\\xampp1\\htdoc...')
+#4 {main}
+CRITICAL - 2021-12-18 12:59:01 --> The framework needs the following extension(s) installed and loaded: intl.
+#0 C:\xampp1\htdocs\agenda_festa\system\CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+#1 C:\xampp1\htdocs\agenda_festa\system\CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\xampp1\htdocs\agenda_festa\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 C:\xampp1\htdocs\agenda_festa\public\index.php(28): require('C:\\xampp1\\htdoc...')
+#4 {main}
+CRITICAL - 2021-12-18 12:59:01 --> The framework needs the following extension(s) installed and loaded: intl.
+#0 C:\xampp1\htdocs\agenda_festa\system\CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+#1 C:\xampp1\htdocs\agenda_festa\system\CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\xampp1\htdocs\agenda_festa\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 C:\xampp1\htdocs\agenda_festa\public\index.php(28): require('C:\\xampp1\\htdoc...')
+#4 {main}
+CRITICAL - 2021-12-18 12:59:01 --> The framework needs the following extension(s) installed and loaded: intl.
+#0 C:\xampp1\htdocs\agenda_festa\system\CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+#1 C:\xampp1\htdocs\agenda_festa\system\CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\xampp1\htdocs\agenda_festa\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 C:\xampp1\htdocs\agenda_festa\public\index.php(28): require('C:\\xampp1\\htdoc...')
+#4 {main}
+CRITICAL - 2021-12-18 12:59:01 --> The framework needs the following extension(s) installed and loaded: intl.
+#0 C:\xampp1\htdocs\agenda_festa\system\CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+#1 C:\xampp1\htdocs\agenda_festa\system\CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\xampp1\htdocs\agenda_festa\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 C:\xampp1\htdocs\agenda_festa\public\index.php(28): require('C:\\xampp1\\htdoc...')
+#4 {main}
+CRITICAL - 2021-12-18 12:59:01 --> The framework needs the following extension(s) installed and loaded: intl.
+#0 C:\xampp1\htdocs\agenda_festa\system\CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+#1 C:\xampp1\htdocs\agenda_festa\system\CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\xampp1\htdocs\agenda_festa\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 C:\xampp1\htdocs\agenda_festa\public\index.php(28): require('C:\\xampp1\\htdoc...')
+#4 {main}
+CRITICAL - 2021-12-18 12:59:01 --> The framework needs the following extension(s) installed and loaded: intl.
+#0 C:\xampp1\htdocs\agenda_festa\system\CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+#1 C:\xampp1\htdocs\agenda_festa\system\CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\xampp1\htdocs\agenda_festa\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 C:\xampp1\htdocs\agenda_festa\public\index.php(28): require('C:\\xampp1\\htdoc...')
+#4 {main}
+CRITICAL - 2021-12-18 12:59:01 --> The framework needs the following extension(s) installed and loaded: intl.
+#0 C:\xampp1\htdocs\agenda_festa\system\CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+#1 C:\xampp1\htdocs\agenda_festa\system\CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\xampp1\htdocs\agenda_festa\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 C:\xampp1\htdocs\agenda_festa\public\index.php(28): require('C:\\xampp1\\htdoc...')
+#4 {main}
+CRITICAL - 2021-12-18 12:59:01 --> The framework needs the following extension(s) installed and loaded: intl.
+#0 C:\xampp1\htdocs\agenda_festa\system\CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+#1 C:\xampp1\htdocs\agenda_festa\system\CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\xampp1\htdocs\agenda_festa\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 C:\xampp1\htdocs\agenda_festa\public\index.php(28): require('C:\\xampp1\\htdoc...')
+#4 {main}
+CRITICAL - 2021-12-18 12:59:01 --> The framework needs the following extension(s) installed and loaded: intl.
+#0 C:\xampp1\htdocs\agenda_festa\system\CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+#1 C:\xampp1\htdocs\agenda_festa\system\CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\xampp1\htdocs\agenda_festa\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 C:\xampp1\htdocs\agenda_festa\public\index.php(28): require('C:\\xampp1\\htdoc...')
+#4 {main}
+CRITICAL - 2021-12-18 12:59:02 --> The framework needs the following extension(s) installed and loaded: intl.
+#0 C:\xampp1\htdocs\agenda_festa\system\CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+#1 C:\xampp1\htdocs\agenda_festa\system\CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\xampp1\htdocs\agenda_festa\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 C:\xampp1\htdocs\agenda_festa\public\index.php(28): require('C:\\xampp1\\htdoc...')
+#4 {main}
+CRITICAL - 2021-12-18 12:59:04 --> The framework needs the following extension(s) installed and loaded: intl.
+#0 C:\xampp1\htdocs\agenda_festa\system\CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+#1 C:\xampp1\htdocs\agenda_festa\system\CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\xampp1\htdocs\agenda_festa\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 C:\xampp1\htdocs\agenda_festa\public\index.php(28): require('C:\\xampp1\\htdoc...')
+#4 {main}
+CRITICAL - 2021-12-18 12:59:04 --> The framework needs the following extension(s) installed and loaded: intl.
+#0 C:\xampp1\htdocs\agenda_festa\system\CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+#1 C:\xampp1\htdocs\agenda_festa\system\CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\xampp1\htdocs\agenda_festa\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 C:\xampp1\htdocs\agenda_festa\public\index.php(28): require('C:\\xampp1\\htdoc...')
+#4 {main}
+CRITICAL - 2021-12-18 12:59:04 --> The framework needs the following extension(s) installed and loaded: intl.
+#0 C:\xampp1\htdocs\agenda_festa\system\CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+#1 C:\xampp1\htdocs\agenda_festa\system\CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\xampp1\htdocs\agenda_festa\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 C:\xampp1\htdocs\agenda_festa\public\index.php(28): require('C:\\xampp1\\htdoc...')
+#4 {main}
+CRITICAL - 2021-12-18 12:59:04 --> The framework needs the following extension(s) installed and loaded: intl.
+#0 C:\xampp1\htdocs\agenda_festa\system\CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+#1 C:\xampp1\htdocs\agenda_festa\system\CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\xampp1\htdocs\agenda_festa\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 C:\xampp1\htdocs\agenda_festa\public\index.php(28): require('C:\\xampp1\\htdoc...')
+#4 {main}
+CRITICAL - 2021-12-18 12:59:04 --> The framework needs the following extension(s) installed and loaded: intl.
+#0 C:\xampp1\htdocs\agenda_festa\system\CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+#1 C:\xampp1\htdocs\agenda_festa\system\CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\xampp1\htdocs\agenda_festa\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 C:\xampp1\htdocs\agenda_festa\public\index.php(28): require('C:\\xampp1\\htdoc...')
+#4 {main}
+CRITICAL - 2021-12-18 12:59:04 --> The framework needs the following extension(s) installed and loaded: intl.
+#0 C:\xampp1\htdocs\agenda_festa\system\CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+#1 C:\xampp1\htdocs\agenda_festa\system\CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\xampp1\htdocs\agenda_festa\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 C:\xampp1\htdocs\agenda_festa\public\index.php(28): require('C:\\xampp1\\htdoc...')
+#4 {main}
+CRITICAL - 2021-12-18 12:59:04 --> The framework needs the following extension(s) installed and loaded: intl.
+#0 C:\xampp1\htdocs\agenda_festa\system\CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+#1 C:\xampp1\htdocs\agenda_festa\system\CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\xampp1\htdocs\agenda_festa\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 C:\xampp1\htdocs\agenda_festa\public\index.php(28): require('C:\\xampp1\\htdoc...')
+#4 {main}
+CRITICAL - 2021-12-18 12:59:04 --> The framework needs the following extension(s) installed and loaded: intl.
+#0 C:\xampp1\htdocs\agenda_festa\system\CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+#1 C:\xampp1\htdocs\agenda_festa\system\CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\xampp1\htdocs\agenda_festa\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 C:\xampp1\htdocs\agenda_festa\public\index.php(28): require('C:\\xampp1\\htdoc...')
+#4 {main}
+CRITICAL - 2021-12-18 12:59:04 --> The framework needs the following extension(s) installed and loaded: intl.
+#0 C:\xampp1\htdocs\agenda_festa\system\CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+#1 C:\xampp1\htdocs\agenda_festa\system\CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\xampp1\htdocs\agenda_festa\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 C:\xampp1\htdocs\agenda_festa\public\index.php(28): require('C:\\xampp1\\htdoc...')
+#4 {main}
+CRITICAL - 2021-12-18 12:59:04 --> The framework needs the following extension(s) installed and loaded: intl.
+#0 C:\xampp1\htdocs\agenda_festa\system\CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+#1 C:\xampp1\htdocs\agenda_festa\system\CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\xampp1\htdocs\agenda_festa\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 C:\xampp1\htdocs\agenda_festa\public\index.php(28): require('C:\\xampp1\\htdoc...')
+#4 {main}
+CRITICAL - 2021-12-18 12:59:12 --> The framework needs the following extension(s) installed and loaded: intl.
+#0 C:\xampp1\htdocs\agenda_festa\system\CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+#1 C:\xampp1\htdocs\agenda_festa\system\CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\xampp1\htdocs\agenda_festa\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 C:\xampp1\htdocs\agenda_festa\public\index.php(28): require('C:\\xampp1\\htdoc...')
+#4 {main}
+CRITICAL - 2021-12-18 12:59:12 --> The framework needs the following extension(s) installed and loaded: intl.
+#0 C:\xampp1\htdocs\agenda_festa\system\CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+#1 C:\xampp1\htdocs\agenda_festa\system\CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\xampp1\htdocs\agenda_festa\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 C:\xampp1\htdocs\agenda_festa\public\index.php(28): require('C:\\xampp1\\htdoc...')
+#4 {main}
+CRITICAL - 2021-12-18 12:59:12 --> The framework needs the following extension(s) installed and loaded: intl.
+#0 C:\xampp1\htdocs\agenda_festa\system\CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+#1 C:\xampp1\htdocs\agenda_festa\system\CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\xampp1\htdocs\agenda_festa\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 C:\xampp1\htdocs\agenda_festa\public\index.php(28): require('C:\\xampp1\\htdoc...')
+#4 {main}
+CRITICAL - 2021-12-18 12:59:12 --> The framework needs the following extension(s) installed and loaded: intl.
+#0 C:\xampp1\htdocs\agenda_festa\system\CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+#1 C:\xampp1\htdocs\agenda_festa\system\CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\xampp1\htdocs\agenda_festa\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 C:\xampp1\htdocs\agenda_festa\public\index.php(28): require('C:\\xampp1\\htdoc...')
+#4 {main}
+CRITICAL - 2021-12-18 12:59:12 --> The framework needs the following extension(s) installed and loaded: intl.
+#0 C:\xampp1\htdocs\agenda_festa\system\CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+#1 C:\xampp1\htdocs\agenda_festa\system\CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\xampp1\htdocs\agenda_festa\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 C:\xampp1\htdocs\agenda_festa\public\index.php(28): require('C:\\xampp1\\htdoc...')
+#4 {main}
+CRITICAL - 2021-12-18 12:59:12 --> The framework needs the following extension(s) installed and loaded: intl.
+#0 C:\xampp1\htdocs\agenda_festa\system\CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+#1 C:\xampp1\htdocs\agenda_festa\system\CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\xampp1\htdocs\agenda_festa\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 C:\xampp1\htdocs\agenda_festa\public\index.php(28): require('C:\\xampp1\\htdoc...')
+#4 {main}
+CRITICAL - 2021-12-18 12:59:13 --> The framework needs the following extension(s) installed and loaded: intl.
+#0 C:\xampp1\htdocs\agenda_festa\system\CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+#1 C:\xampp1\htdocs\agenda_festa\system\CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\xampp1\htdocs\agenda_festa\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 C:\xampp1\htdocs\agenda_festa\public\index.php(28): require('C:\\xampp1\\htdoc...')
+#4 {main}
+CRITICAL - 2021-12-18 12:59:13 --> The framework needs the following extension(s) installed and loaded: intl.
+#0 C:\xampp1\htdocs\agenda_festa\system\CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+#1 C:\xampp1\htdocs\agenda_festa\system\CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\xampp1\htdocs\agenda_festa\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 C:\xampp1\htdocs\agenda_festa\public\index.php(28): require('C:\\xampp1\\htdoc...')
+#4 {main}
+CRITICAL - 2021-12-18 12:59:13 --> The framework needs the following extension(s) installed and loaded: intl.
+#0 C:\xampp1\htdocs\agenda_festa\system\CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+#1 C:\xampp1\htdocs\agenda_festa\system\CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\xampp1\htdocs\agenda_festa\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 C:\xampp1\htdocs\agenda_festa\public\index.php(28): require('C:\\xampp1\\htdoc...')
+#4 {main}
+CRITICAL - 2021-12-18 12:59:13 --> The framework needs the following extension(s) installed and loaded: intl.
+#0 C:\xampp1\htdocs\agenda_festa\system\CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+#1 C:\xampp1\htdocs\agenda_festa\system\CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\xampp1\htdocs\agenda_festa\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 C:\xampp1\htdocs\agenda_festa\public\index.php(28): require('C:\\xampp1\\htdoc...')
+#4 {main}
+CRITICAL - 2021-12-18 12:59:17 --> The framework needs the following extension(s) installed and loaded: intl.
+#0 C:\xampp1\htdocs\agenda_festa\system\CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+#1 C:\xampp1\htdocs\agenda_festa\system\CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\xampp1\htdocs\agenda_festa\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 C:\xampp1\htdocs\agenda_festa\public\index.php(28): require('C:\\xampp1\\htdoc...')
+#4 {main}
+CRITICAL - 2021-12-18 12:59:33 --> The framework needs the following extension(s) installed and loaded: intl.
+#0 C:\xampp1\htdocs\agenda_festa\system\CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+#1 C:\xampp1\htdocs\agenda_festa\system\CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\xampp1\htdocs\agenda_festa\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 C:\xampp1\htdocs\agenda_festa\public\index.php(28): require('C:\\xampp1\\htdoc...')
+#4 {main}
+CRITICAL - 2021-12-18 12:59:34 --> The framework needs the following extension(s) installed and loaded: intl.
+#0 C:\xampp1\htdocs\agenda_festa\system\CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+#1 C:\xampp1\htdocs\agenda_festa\system\CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\xampp1\htdocs\agenda_festa\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 C:\xampp1\htdocs\agenda_festa\public\index.php(28): require('C:\\xampp1\\htdoc...')
+#4 {main}
+CRITICAL - 2021-12-18 12:59:42 --> The framework needs the following extension(s) installed and loaded: intl.
+#0 C:\xampp1\htdocs\agenda_festa\system\CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+#1 C:\xampp1\htdocs\agenda_festa\system\CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\xampp1\htdocs\agenda_festa\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 C:\xampp1\htdocs\agenda_festa\public\index.php(28): require('C:\\xampp1\\htdoc...')
+#4 {main}
+CRITICAL - 2021-12-18 12:59:42 --> The framework needs the following extension(s) installed and loaded: intl.
+#0 C:\xampp1\htdocs\agenda_festa\system\CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+#1 C:\xampp1\htdocs\agenda_festa\system\CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\xampp1\htdocs\agenda_festa\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 C:\xampp1\htdocs\agenda_festa\public\index.php(28): require('C:\\xampp1\\htdoc...')
+#4 {main}
+CRITICAL - 2021-12-18 12:59:45 --> The framework needs the following extension(s) installed and loaded: intl.
+#0 C:\xampp1\htdocs\agenda_festa\system\CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+#1 C:\xampp1\htdocs\agenda_festa\system\CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\xampp1\htdocs\agenda_festa\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 C:\xampp1\htdocs\agenda_festa\public\index.php(28): require('C:\\xampp1\\htdoc...')
+#4 {main}
+CRITICAL - 2021-12-18 12:59:45 --> The framework needs the following extension(s) installed and loaded: intl.
+#0 C:\xampp1\htdocs\agenda_festa\system\CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+#1 C:\xampp1\htdocs\agenda_festa\system\CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\xampp1\htdocs\agenda_festa\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 C:\xampp1\htdocs\agenda_festa\public\index.php(28): require('C:\\xampp1\\htdoc...')
+#4 {main}
+CRITICAL - 2021-12-18 12:59:45 --> The framework needs the following extension(s) installed and loaded: intl.
+#0 C:\xampp1\htdocs\agenda_festa\system\CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+#1 C:\xampp1\htdocs\agenda_festa\system\CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\xampp1\htdocs\agenda_festa\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 C:\xampp1\htdocs\agenda_festa\public\index.php(28): require('C:\\xampp1\\htdoc...')
+#4 {main}
+CRITICAL - 2021-12-18 12:59:46 --> The framework needs the following extension(s) installed and loaded: intl.
+#0 C:\xampp1\htdocs\agenda_festa\system\CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+#1 C:\xampp1\htdocs\agenda_festa\system\CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\xampp1\htdocs\agenda_festa\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 C:\xampp1\htdocs\agenda_festa\public\index.php(28): require('C:\\xampp1\\htdoc...')
+#4 {main}
+CRITICAL - 2021-12-18 13:00:17 --> The framework needs the following extension(s) installed and loaded: intl.
+#0 C:\xampp1\htdocs\agenda_festa\system\CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+#1 C:\xampp1\htdocs\agenda_festa\system\CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\xampp1\htdocs\agenda_festa\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 C:\xampp1\htdocs\agenda_festa\public\index.php(28): require('C:\\xampp1\\htdoc...')
+#4 {main}
+CRITICAL - 2021-12-18 13:01:46 --> The framework needs the following extension(s) installed and loaded: intl.
+#0 C:\xampp1\htdocs\agenda_festa\system\CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+#1 C:\xampp1\htdocs\agenda_festa\system\CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\xampp1\htdocs\agenda_festa\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 C:\xampp1\htdocs\agenda_festa\public\index.php(28): require('C:\\xampp1\\htdoc...')
+#4 {main}
+CRITICAL - 2021-12-18 13:01:46 --> The framework needs the following extension(s) installed and loaded: intl.
+#0 C:\xampp1\htdocs\agenda_festa\system\CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+#1 C:\xampp1\htdocs\agenda_festa\system\CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\xampp1\htdocs\agenda_festa\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 C:\xampp1\htdocs\agenda_festa\public\index.php(28): require('C:\\xampp1\\htdoc...')
+#4 {main}
+CRITICAL - 2021-12-18 13:02:06 --> The framework needs the following extension(s) installed and loaded: intl.
+#0 C:\xampp1\htdocs\agenda_festa\system\CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+#1 C:\xampp1\htdocs\agenda_festa\system\CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\xampp1\htdocs\agenda_festa\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 C:\xampp1\htdocs\agenda_festa\spark(45): require('C:\\xampp1\\htdoc...')
+#4 {main}
+CRITICAL - 2021-12-18 07:04:28 --> Call to undefined method App\Controllers\IndexController::initController()
+#0 C:\xampp1\htdocs\agenda_festa\system\CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#1 C:\xampp1\htdocs\agenda_festa\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 C:\xampp1\htdocs\agenda_festa\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#3 {main}
+CRITICAL - 2021-12-18 07:05:34 --> Call to undefined method App\Controllers\IndexController::initController()
+#0 C:\xampp1\htdocs\agenda_festa\system\CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#1 C:\xampp1\htdocs\agenda_festa\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 C:\xampp1\htdocs\agenda_festa\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#3 {main}
+CRITICAL - 2021-12-18 07:06:19 --> Undefined property: CodeIgniter\View\View::$load
+#0 C:\xampp1\htdocs\agenda_festa\app\Views\front\inicio.php(1): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp1\\htdoc...', 1, Array)
+#1 C:\xampp1\htdocs\agenda_festa\system\View\View.php(214): include('C:\\xampp1\\htdoc...')
+#2 C:\xampp1\htdocs\agenda_festa\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp1\htdocs\agenda_festa\system\Common.php(1097): CodeIgniter\View\View->render('front/inicio', Array, true)
+#4 C:\xampp1\htdocs\agenda_festa\app\Controllers\IndexController.php(31): view('front/inicio', Array)
+#5 C:\xampp1\htdocs\agenda_festa\system\CodeIgniter.php(824): App\Controllers\IndexController->index()
+#6 C:\xampp1\htdocs\agenda_festa\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\IndexController))
+#7 C:\xampp1\htdocs\agenda_festa\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp1\htdocs\agenda_festa\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-18 07:09:19 --> Undefined property: CodeIgniter\View\View::$load
+#0 C:\xampp1\htdocs\agenda_festa\app\Views\front\inicio.php(1): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp1\\htdoc...', 1, Array)
+#1 C:\xampp1\htdocs\agenda_festa\system\View\View.php(214): include('C:\\xampp1\\htdoc...')
+#2 C:\xampp1\htdocs\agenda_festa\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp1\htdocs\agenda_festa\system\Common.php(1097): CodeIgniter\View\View->render('front/inicio', Array, true)
+#4 C:\xampp1\htdocs\agenda_festa\app\Controllers\IndexController.php(31): view('front/inicio', Array)
+#5 C:\xampp1\htdocs\agenda_festa\system\CodeIgniter.php(824): App\Controllers\IndexController->index()
+#6 C:\xampp1\htdocs\agenda_festa\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\IndexController))
+#7 C:\xampp1\htdocs\agenda_festa\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp1\htdocs\agenda_festa\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-18 07:10:12 --> Undefined property: CodeIgniter\View\View::$load
+#0 C:\xampp1\htdocs\agenda_festa\app\Views\front\inicio.php(1): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp1\\htdoc...', 1, Array)
+#1 C:\xampp1\htdocs\agenda_festa\system\View\View.php(214): include('C:\\xampp1\\htdoc...')
+#2 C:\xampp1\htdocs\agenda_festa\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp1\htdocs\agenda_festa\system\Common.php(1097): CodeIgniter\View\View->render('front/inicio', Array, true)
+#4 C:\xampp1\htdocs\agenda_festa\app\Controllers\IndexController.php(31): view('front/inicio', Array)
+#5 C:\xampp1\htdocs\agenda_festa\system\CodeIgniter.php(824): App\Controllers\IndexController->index()
+#6 C:\xampp1\htdocs\agenda_festa\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\IndexController))
+#7 C:\xampp1\htdocs\agenda_festa\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp1\htdocs\agenda_festa\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-18 07:12:24 --> Undefined property: CodeIgniter\View\View::$load
+#0 C:\xampp1\htdocs\agenda_festa\app\Views\front\inicio.php(1): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp1\\htdoc...', 1, Array)
+#1 C:\xampp1\htdocs\agenda_festa\system\View\View.php(214): include('C:\\xampp1\\htdoc...')
+#2 C:\xampp1\htdocs\agenda_festa\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp1\htdocs\agenda_festa\system\Common.php(1097): CodeIgniter\View\View->render('front/inicio', Array, true)
+#4 C:\xampp1\htdocs\agenda_festa\app\Controllers\IndexController.php(31): view('front/inicio', Array)
+#5 C:\xampp1\htdocs\agenda_festa\system\CodeIgniter.php(824): App\Controllers\IndexController->index()
+#6 C:\xampp1\htdocs\agenda_festa\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\IndexController))
+#7 C:\xampp1\htdocs\agenda_festa\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp1\htdocs\agenda_festa\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-18 07:13:11 --> Undefined variable: saloes
+#0 C:\xampp1\htdocs\agenda_festa\app\Views\front\inicio.php(202): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp1\\htdoc...', 202, Array)
+#1 C:\xampp1\htdocs\agenda_festa\system\View\View.php(214): include('C:\\xampp1\\htdoc...')
+#2 C:\xampp1\htdocs\agenda_festa\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp1\htdocs\agenda_festa\system\Common.php(1097): CodeIgniter\View\View->render('front/inicio', Array, true)
+#4 C:\xampp1\htdocs\agenda_festa\app\Controllers\IndexController.php(31): view('front/inicio', Array)
+#5 C:\xampp1\htdocs\agenda_festa\system\CodeIgniter.php(824): App\Controllers\IndexController->index()
+#6 C:\xampp1\htdocs\agenda_festa\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\IndexController))
+#7 C:\xampp1\htdocs\agenda_festa\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp1\htdocs\agenda_festa\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-18 07:14:18 --> Undefined variable: salao
+#0 C:\xampp1\htdocs\agenda_festa\app\Views\front\inicio.php(213): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp1\\htdoc...', 213, Array)
+#1 C:\xampp1\htdocs\agenda_festa\system\View\View.php(214): include('C:\\xampp1\\htdoc...')
+#2 C:\xampp1\htdocs\agenda_festa\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp1\htdocs\agenda_festa\system\Common.php(1097): CodeIgniter\View\View->render('front/inicio', Array, true)
+#4 C:\xampp1\htdocs\agenda_festa\app\Controllers\IndexController.php(31): view('front/inicio', Array)
+#5 C:\xampp1\htdocs\agenda_festa\system\CodeIgniter.php(824): App\Controllers\IndexController->index()
+#6 C:\xampp1\htdocs\agenda_festa\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\IndexController))
+#7 C:\xampp1\htdocs\agenda_festa\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp1\htdocs\agenda_festa\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-18 07:14:42 --> Undefined property: CodeIgniter\View\View::$load
+#0 C:\xampp1\htdocs\agenda_festa\app\Views\front\inicio.php(265): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp1\\htdoc...', 265, Array)
+#1 C:\xampp1\htdocs\agenda_festa\system\View\View.php(214): include('C:\\xampp1\\htdoc...')
+#2 C:\xampp1\htdocs\agenda_festa\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp1\htdocs\agenda_festa\system\Common.php(1097): CodeIgniter\View\View->render('front/inicio', Array, true)
+#4 C:\xampp1\htdocs\agenda_festa\app\Controllers\IndexController.php(31): view('front/inicio', Array)
+#5 C:\xampp1\htdocs\agenda_festa\system\CodeIgniter.php(824): App\Controllers\IndexController->index()
+#6 C:\xampp1\htdocs\agenda_festa\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\IndexController))
+#7 C:\xampp1\htdocs\agenda_festa\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp1\htdocs\agenda_festa\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-18 07:15:08 --> Undefined property: CodeIgniter\View\View::$session
+#0 C:\xampp1\htdocs\agenda_festa\app\Views\front\inicio.php(272): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp1\\htdoc...', 272, Array)
+#1 C:\xampp1\htdocs\agenda_festa\system\View\View.php(214): include('C:\\xampp1\\htdoc...')
+#2 C:\xampp1\htdocs\agenda_festa\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp1\htdocs\agenda_festa\system\Common.php(1097): CodeIgniter\View\View->render('front/inicio', Array, true)
+#4 C:\xampp1\htdocs\agenda_festa\app\Controllers\IndexController.php(31): view('front/inicio', Array)
+#5 C:\xampp1\htdocs\agenda_festa\system\CodeIgniter.php(824): App\Controllers\IndexController->index()
+#6 C:\xampp1\htdocs\agenda_festa\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\IndexController))
+#7 C:\xampp1\htdocs\agenda_festa\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp1\htdocs\agenda_festa\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-18 07:15:43 --> Call to undefined function form_open()
+#0 C:\xampp1\htdocs\agenda_festa\system\View\View.php(214): include()
+#1 C:\xampp1\htdocs\agenda_festa\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp1\htdocs\agenda_festa\system\Common.php(1097): CodeIgniter\View\View->render('front/inicio', Array, true)
+#3 C:\xampp1\htdocs\agenda_festa\app\Controllers\IndexController.php(31): view('front/inicio', Array)
+#4 C:\xampp1\htdocs\agenda_festa\system\CodeIgniter.php(824): App\Controllers\IndexController->index()
+#5 C:\xampp1\htdocs\agenda_festa\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\IndexController))
+#6 C:\xampp1\htdocs\agenda_festa\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp1\htdocs\agenda_festa\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-12-18 07:24:13 --> Undefined property: CodeIgniter\View\View::$load
+#0 C:\xampp1\htdocs\agenda_festa\app\Views\front\inicio.php(1): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp1\\htdoc...', 1, Array)
+#1 C:\xampp1\htdocs\agenda_festa\system\View\View.php(214): include('C:\\xampp1\\htdoc...')
+#2 C:\xampp1\htdocs\agenda_festa\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp1\htdocs\agenda_festa\system\Common.php(1097): CodeIgniter\View\View->render('front/inicio', Array, true)
+#4 C:\xampp1\htdocs\agenda_festa\app\Controllers\IndexController.php(31): view('front/inicio', Array)
+#5 C:\xampp1\htdocs\agenda_festa\system\CodeIgniter.php(824): App\Controllers\IndexController->index()
+#6 C:\xampp1\htdocs\agenda_festa\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\IndexController))
+#7 C:\xampp1\htdocs\agenda_festa\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp1\htdocs\agenda_festa\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-18 09:10:59 --> Call to a member function validarCadastro() on null
+#0 C:\xampp1\htdocs\agenda_festa\system\CodeIgniter.php(824): App\Controllers\IndexController->registrar()
+#1 C:\xampp1\htdocs\agenda_festa\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\IndexController))
+#2 C:\xampp1\htdocs\agenda_festa\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp1\htdocs\agenda_festa\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp1\htdocs\agenda_festa\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#5 {main}
+ERROR - 2021-12-18 09:37:55 --> Unknown column 'created_at' in 'field list'
+CRITICAL - 2021-12-18 09:37:55 --> Unknown column 'created_at' in 'field list'
+#0 C:\xampp1\htdocs\agenda_festa\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `tb...', 0)
+#1 C:\xampp1\htdocs\agenda_festa\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\xampp1\htdocs\agenda_festa\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\xampp1\htdocs\agenda_festa\system\Database\BaseBuilder.php(1759): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\xampp1\htdocs\agenda_festa\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp1\htdocs\agenda_festa\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp1\htdocs\agenda_festa\system\Model.php(620): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp1\htdocs\agenda_festa\system\BaseModel.php(658): CodeIgniter\Model->insert(Array, false)
+#8 C:\xampp1\htdocs\agenda_festa\app\Controllers\IndexController.php(65): CodeIgniter\BaseModel->save(Array)
+#9 C:\xampp1\htdocs\agenda_festa\system\CodeIgniter.php(824): App\Controllers\IndexController->registrar()
+#10 C:\xampp1\htdocs\agenda_festa\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\IndexController))
+#11 C:\xampp1\htdocs\agenda_festa\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp1\htdocs\agenda_festa\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 C:\xampp1\htdocs\agenda_festa\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#14 {main}
+ERROR - 2021-12-18 09:49:27 --> Unknown column 'created_at' in 'field list'
+CRITICAL - 2021-12-18 09:49:27 --> Unknown column 'created_at' in 'field list'
+#0 C:\xampp1\htdocs\agenda_festa\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `tb...', 0)
+#1 C:\xampp1\htdocs\agenda_festa\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\xampp1\htdocs\agenda_festa\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\xampp1\htdocs\agenda_festa\system\Database\BaseBuilder.php(1759): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\xampp1\htdocs\agenda_festa\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp1\htdocs\agenda_festa\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp1\htdocs\agenda_festa\system\Model.php(620): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp1\htdocs\agenda_festa\system\BaseModel.php(658): CodeIgniter\Model->insert(Array, false)
+#8 C:\xampp1\htdocs\agenda_festa\app\Controllers\IndexController.php(65): CodeIgniter\BaseModel->save(Array)
+#9 C:\xampp1\htdocs\agenda_festa\system\CodeIgniter.php(824): App\Controllers\IndexController->registrar()
+#10 C:\xampp1\htdocs\agenda_festa\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\IndexController))
+#11 C:\xampp1\htdocs\agenda_festa\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp1\htdocs\agenda_festa\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 C:\xampp1\htdocs\agenda_festa\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#14 {main}
+ERROR - 2021-12-18 09:50:07 --> Unknown column 'created_at' in 'field list'
+CRITICAL - 2021-12-18 09:50:07 --> Unknown column 'created_at' in 'field list'
+#0 C:\xampp1\htdocs\agenda_festa\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `tb...', 0)
+#1 C:\xampp1\htdocs\agenda_festa\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\xampp1\htdocs\agenda_festa\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\xampp1\htdocs\agenda_festa\system\Database\BaseBuilder.php(1759): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\xampp1\htdocs\agenda_festa\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp1\htdocs\agenda_festa\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp1\htdocs\agenda_festa\system\Model.php(620): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp1\htdocs\agenda_festa\system\BaseModel.php(658): CodeIgniter\Model->insert(Array, false)
+#8 C:\xampp1\htdocs\agenda_festa\app\Controllers\IndexController.php(65): CodeIgniter\BaseModel->save(Array)
+#9 C:\xampp1\htdocs\agenda_festa\system\CodeIgniter.php(824): App\Controllers\IndexController->registrar()
+#10 C:\xampp1\htdocs\agenda_festa\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\IndexController))
+#11 C:\xampp1\htdocs\agenda_festa\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp1\htdocs\agenda_festa\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 C:\xampp1\htdocs\agenda_festa\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#14 {main}
+ERROR - 2021-12-18 09:50:18 --> Unknown column 'created_at' in 'field list'
+CRITICAL - 2021-12-18 09:50:18 --> Unknown column 'created_at' in 'field list'
+#0 C:\xampp1\htdocs\agenda_festa\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `tb...', 0)
+#1 C:\xampp1\htdocs\agenda_festa\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\xampp1\htdocs\agenda_festa\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\xampp1\htdocs\agenda_festa\system\Database\BaseBuilder.php(1759): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\xampp1\htdocs\agenda_festa\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp1\htdocs\agenda_festa\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp1\htdocs\agenda_festa\system\Model.php(620): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp1\htdocs\agenda_festa\system\BaseModel.php(658): CodeIgniter\Model->insert(Array, false)
+#8 C:\xampp1\htdocs\agenda_festa\app\Controllers\IndexController.php(65): CodeIgniter\BaseModel->save(Array)
+#9 C:\xampp1\htdocs\agenda_festa\system\CodeIgniter.php(824): App\Controllers\IndexController->registrar()
+#10 C:\xampp1\htdocs\agenda_festa\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\IndexController))
+#11 C:\xampp1\htdocs\agenda_festa\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp1\htdocs\agenda_festa\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 C:\xampp1\htdocs\agenda_festa\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#14 {main}
+CRITICAL - 2021-12-18 09:51:15 --> Invalid file: sucesso_view.php
+#0 C:\xampp1\htdocs\agenda_festa\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('sucesso_view.ph...')
+#1 C:\xampp1\htdocs\agenda_festa\system\Common.php(1097): CodeIgniter\View\View->render('sucesso_view', Array, true)
+#2 C:\xampp1\htdocs\agenda_festa\app\Controllers\IndexController.php(67): view('sucesso_view', Array)
+#3 C:\xampp1\htdocs\agenda_festa\system\CodeIgniter.php(824): App\Controllers\IndexController->registrar()
+#4 C:\xampp1\htdocs\agenda_festa\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\IndexController))
+#5 C:\xampp1\htdocs\agenda_festa\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp1\htdocs\agenda_festa\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp1\htdocs\agenda_festa\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#8 {main}
+CRITICAL - 2021-12-18 09:52:25 --> Invalid file: sucesso_view.php
+#0 C:\xampp1\htdocs\agenda_festa\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('sucesso_view.ph...')
+#1 C:\xampp1\htdocs\agenda_festa\system\Common.php(1097): CodeIgniter\View\View->render('sucesso_view', Array, true)
+#2 C:\xampp1\htdocs\agenda_festa\app\Controllers\IndexController.php(67): view('sucesso_view', Array)
+#3 C:\xampp1\htdocs\agenda_festa\system\CodeIgniter.php(824): App\Controllers\IndexController->registrar()
+#4 C:\xampp1\htdocs\agenda_festa\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\IndexController))
+#5 C:\xampp1\htdocs\agenda_festa\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp1\htdocs\agenda_festa\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp1\htdocs\agenda_festa\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#8 {main}
+CRITICAL - 2021-12-18 11:31:21 --> Call to undefined method App\Controllers\AuthController::initController()
+#0 C:\xampp1\htdocs\agenda_festa\system\CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#1 C:\xampp1\htdocs\agenda_festa\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 C:\xampp1\htdocs\agenda_festa\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#3 C:\xampp1\htdocs\agenda_festa\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#4 {main}
+CRITICAL - 2021-12-18 11:33:14 --> Call to undefined method App\Controllers\AuthController::initController()
+#0 C:\xampp1\htdocs\agenda_festa\system\CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#1 C:\xampp1\htdocs\agenda_festa\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 C:\xampp1\htdocs\agenda_festa\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#3 C:\xampp1\htdocs\agenda_festa\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#4 {main}
+CRITICAL - 2021-12-18 11:49:44 --> Undefined property: App\Controllers\AuthController::$userModel
+#0 C:\xampp1\htdocs\agenda_festa\app\Controllers\AuthController.php(44): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp1\\htdoc...', 44, Array)
+#1 C:\xampp1\htdocs\agenda_festa\system\CodeIgniter.php(824): App\Controllers\AuthController->autenticar()
+#2 C:\xampp1\htdocs\agenda_festa\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+#3 C:\xampp1\htdocs\agenda_festa\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp1\htdocs\agenda_festa\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp1\htdocs\agenda_festa\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#6 {main}
+CRITICAL - 2021-12-18 11:57:16 --> Undefined property: App\Controllers\AuthController::$db
+#0 C:\xampp1\htdocs\agenda_festa\app\Controllers\AuthController.php(47): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp1\\htdoc...', 47, Array)
+#1 C:\xampp1\htdocs\agenda_festa\system\CodeIgniter.php(824): App\Controllers\AuthController->autenticar()
+#2 C:\xampp1\htdocs\agenda_festa\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+#3 C:\xampp1\htdocs\agenda_festa\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp1\htdocs\agenda_festa\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp1\htdocs\agenda_festa\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#6 {main}
+CRITICAL - 2021-12-18 12:10:14 --> Array to string conversion
+#0 C:\xampp1\htdocs\agenda_festa\app\Controllers\AuthController.php(30): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'C:\\xampp1\\htdoc...', 30, Array)
+#1 C:\xampp1\htdocs\agenda_festa\system\CodeIgniter.php(824): App\Controllers\AuthController->autenticar()
+#2 C:\xampp1\htdocs\agenda_festa\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+#3 C:\xampp1\htdocs\agenda_festa\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp1\htdocs\agenda_festa\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp1\htdocs\agenda_festa\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#6 {main}
+CRITICAL - 2021-12-18 12:18:25 -->  route cannot be found while reverse-routing.
+#0 C:\xampp1\htdocs\agenda_festa\system\HTTP\RedirectResponse.php(56): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 C:\xampp1\htdocs\agenda_festa\system\Common.php(840): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 C:\xampp1\htdocs\agenda_festa\app\Controllers\AuthController.php(37): redirect('/login')
+#3 C:\xampp1\htdocs\agenda_festa\system\CodeIgniter.php(824): App\Controllers\AuthController->autenticar()
+#4 C:\xampp1\htdocs\agenda_festa\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+#5 C:\xampp1\htdocs\agenda_festa\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp1\htdocs\agenda_festa\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp1\htdocs\agenda_festa\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#8 {main}
+CRITICAL - 2021-12-18 12:21:41 -->  route cannot be found while reverse-routing.
+#0 C:\xampp1\htdocs\agenda_festa\system\HTTP\RedirectResponse.php(56): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 C:\xampp1\htdocs\agenda_festa\system\Common.php(840): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 C:\xampp1\htdocs\agenda_festa\app\Controllers\AuthController.php(37): redirect('/login', 'refresh')
+#3 C:\xampp1\htdocs\agenda_festa\system\CodeIgniter.php(824): App\Controllers\AuthController->autenticar()
+#4 C:\xampp1\htdocs\agenda_festa\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+#5 C:\xampp1\htdocs\agenda_festa\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp1\htdocs\agenda_festa\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp1\htdocs\agenda_festa\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#8 {main}
+CRITICAL - 2021-12-18 12:22:16 -->  route cannot be found while reverse-routing.
+#0 C:\xampp1\htdocs\agenda_festa\system\HTTP\RedirectResponse.php(56): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 C:\xampp1\htdocs\agenda_festa\system\Common.php(840): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 C:\xampp1\htdocs\agenda_festa\app\Controllers\AuthController.php(37): redirect('http://localhos...', 'refresh')
+#3 C:\xampp1\htdocs\agenda_festa\system\CodeIgniter.php(824): App\Controllers\AuthController->autenticar()
+#4 C:\xampp1\htdocs\agenda_festa\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+#5 C:\xampp1\htdocs\agenda_festa\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp1\htdocs\agenda_festa\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp1\htdocs\agenda_festa\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#8 {main}
+CRITICAL - 2021-12-18 12:22:41 -->  route cannot be found while reverse-routing.
+#0 C:\xampp1\htdocs\agenda_festa\system\HTTP\RedirectResponse.php(56): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 C:\xampp1\htdocs\agenda_festa\system\Common.php(840): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 C:\xampp1\htdocs\agenda_festa\app\Controllers\AuthController.php(37): redirect('http://localhos...')
+#3 C:\xampp1\htdocs\agenda_festa\system\CodeIgniter.php(824): App\Controllers\AuthController->autenticar()
+#4 C:\xampp1\htdocs\agenda_festa\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+#5 C:\xampp1\htdocs\agenda_festa\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp1\htdocs\agenda_festa\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp1\htdocs\agenda_festa\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#8 {main}
+CRITICAL - 2021-12-18 12:23:11 -->  route cannot be found while reverse-routing.
+#0 C:\xampp1\htdocs\agenda_festa\system\HTTP\RedirectResponse.php(56): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 C:\xampp1\htdocs\agenda_festa\system\Common.php(840): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 C:\xampp1\htdocs\agenda_festa\app\Controllers\AuthController.php(37): redirect('http://localhos...')
+#3 C:\xampp1\htdocs\agenda_festa\system\CodeIgniter.php(824): App\Controllers\AuthController->autenticar()
+#4 C:\xampp1\htdocs\agenda_festa\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+#5 C:\xampp1\htdocs\agenda_festa\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp1\htdocs\agenda_festa\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp1\htdocs\agenda_festa\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#8 {main}
+CRITICAL - 2021-12-18 12:41:14 --> Argument 2 passed to CodeIgniter\HTTP\RedirectResponse::to() must be of the type int or null, string given, called in C:\xampp1\htdocs\agenda_festa\app\Controllers\AuthController.php on line 30
+#0 C:\xampp1\htdocs\agenda_festa\app\Controllers\AuthController.php(30): CodeIgniter\HTTP\RedirectResponse->to('authcontroller/...', 'refresh')
+#1 C:\xampp1\htdocs\agenda_festa\system\CodeIgniter.php(824): App\Controllers\AuthController->autenticar()
+#2 C:\xampp1\htdocs\agenda_festa\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+#3 C:\xampp1\htdocs\agenda_festa\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp1\htdocs\agenda_festa\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp1\htdocs\agenda_festa\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#6 {main}
+CRITICAL - 2021-12-18 12:42:01 --> Argument 2 passed to CodeIgniter\HTTP\RedirectResponse::to() must be of the type int or null, string given, called in C:\xampp1\htdocs\agenda_festa\app\Controllers\AuthController.php on line 30
+#0 C:\xampp1\htdocs\agenda_festa\app\Controllers\AuthController.php(30): CodeIgniter\HTTP\RedirectResponse->to('login', 'refresh')
+#1 C:\xampp1\htdocs\agenda_festa\system\CodeIgniter.php(824): App\Controllers\AuthController->autenticar()
+#2 C:\xampp1\htdocs\agenda_festa\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+#3 C:\xampp1\htdocs\agenda_festa\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp1\htdocs\agenda_festa\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp1\htdocs\agenda_festa\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#6 {main}
+CRITICAL - 2021-12-18 12:42:15 --> Argument 2 passed to CodeIgniter\HTTP\RedirectResponse::to() must be of the type int or null, string given, called in C:\xampp1\htdocs\agenda_festa\app\Controllers\AuthController.php on line 30
+#0 C:\xampp1\htdocs\agenda_festa\app\Controllers\AuthController.php(30): CodeIgniter\HTTP\RedirectResponse->to('autenticar', 'refresh')
+#1 C:\xampp1\htdocs\agenda_festa\system\CodeIgniter.php(824): App\Controllers\AuthController->autenticar()
+#2 C:\xampp1\htdocs\agenda_festa\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+#3 C:\xampp1\htdocs\agenda_festa\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp1\htdocs\agenda_festa\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp1\htdocs\agenda_festa\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#6 {main}
+CRITICAL - 2021-12-18 15:18:49 --> Argument 2 passed to CodeIgniter\HTTP\RedirectResponse::to() must be of the type int or null, string given, called in C:\xampp1\htdocs\agenda_festa\app\Controllers\AuthController.php on line 30
+#0 C:\xampp1\htdocs\agenda_festa\app\Controllers\AuthController.php(30): CodeIgniter\HTTP\RedirectResponse->to('autenticar', 'refresh')
+#1 C:\xampp1\htdocs\agenda_festa\system\CodeIgniter.php(824): App\Controllers\AuthController->autenticar()
+#2 C:\xampp1\htdocs\agenda_festa\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+#3 C:\xampp1\htdocs\agenda_festa\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp1\htdocs\agenda_festa\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp1\htdocs\agenda_festa\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#6 {main}
+CRITICAL - 2021-12-18 15:41:37 --> Argument 2 passed to CodeIgniter\HTTP\RedirectResponse::to() must be of the type int or null, string given, called in C:\xampp1\htdocs\agenda_festa\app\Controllers\AuthController.php on line 30
+#0 C:\xampp1\htdocs\agenda_festa\app\Controllers\AuthController.php(30): CodeIgniter\HTTP\RedirectResponse->to('autenticar', 'refresh')
+#1 C:\xampp1\htdocs\agenda_festa\system\CodeIgniter.php(824): App\Controllers\AuthController->autenticar()
+#2 C:\xampp1\htdocs\agenda_festa\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+#3 C:\xampp1\htdocs\agenda_festa\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp1\htdocs\agenda_festa\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp1\htdocs\agenda_festa\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#6 {main}
+CRITICAL - 2021-12-18 16:42:09 --> You must set the database table to be used with your query.
+#0 C:\xampp1\htdocs\agenda_festa\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp1\htdocs\agenda_festa\system\Model.php(717): CodeIgniter\Model->builder()
+#2 C:\xampp1\htdocs\agenda_festa\app\Controllers\IndexController.php(68): CodeIgniter\Model->__call('where', Array)
+#3 C:\xampp1\htdocs\agenda_festa\system\CodeIgniter.php(824): App\Controllers\IndexController->registrar()
+#4 C:\xampp1\htdocs\agenda_festa\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\IndexController))
+#5 C:\xampp1\htdocs\agenda_festa\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp1\htdocs\agenda_festa\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp1\htdocs\agenda_festa\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#8 {main}
+CRITICAL - 2021-12-18 16:43:12 --> Invalid file: sucesso_view.php
+#0 C:\xampp1\htdocs\agenda_festa\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('sucesso_view.ph...')
+#1 C:\xampp1\htdocs\agenda_festa\system\Common.php(1097): CodeIgniter\View\View->render('sucesso_view', Array, true)
+#2 C:\xampp1\htdocs\agenda_festa\app\Controllers\IndexController.php(73): view('sucesso_view', Array)
+#3 C:\xampp1\htdocs\agenda_festa\system\CodeIgniter.php(824): App\Controllers\IndexController->registrar()
+#4 C:\xampp1\htdocs\agenda_festa\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\IndexController))
+#5 C:\xampp1\htdocs\agenda_festa\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp1\htdocs\agenda_festa\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp1\htdocs\agenda_festa\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#8 {main}
+CRITICAL - 2021-12-18 18:53:20 -->  route cannot be found while reverse-routing.
+#0 C:\xampp1\htdocs\agenda_festa\system\HTTP\RedirectResponse.php(56): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 C:\xampp1\htdocs\agenda_festa\system\Common.php(840): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 C:\xampp1\htdocs\agenda_festa\app\Controllers\IndexController.php(32): redirect('/inicio')
+#3 C:\xampp1\htdocs\agenda_festa\system\CodeIgniter.php(824): App\Controllers\IndexController->index()
+#4 C:\xampp1\htdocs\agenda_festa\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\IndexController))
+#5 C:\xampp1\htdocs\agenda_festa\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp1\htdocs\agenda_festa\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp1\htdocs\agenda_festa\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#8 {main}
+CRITICAL - 2021-12-18 18:54:21 -->  route cannot be found while reverse-routing.
+#0 C:\xampp1\htdocs\agenda_festa\system\HTTP\RedirectResponse.php(56): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 C:\xampp1\htdocs\agenda_festa\system\Common.php(840): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 C:\xampp1\htdocs\agenda_festa\app\Controllers\IndexController.php(32): redirect('http://localhos...')
+#3 C:\xampp1\htdocs\agenda_festa\system\CodeIgniter.php(824): App\Controllers\IndexController->index()
+#4 C:\xampp1\htdocs\agenda_festa\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\IndexController))
+#5 C:\xampp1\htdocs\agenda_festa\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp1\htdocs\agenda_festa\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp1\htdocs\agenda_festa\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#8 {main}
+CRITICAL - 2021-12-18 18:54:31 -->  route cannot be found while reverse-routing.
+#0 C:\xampp1\htdocs\agenda_festa\system\HTTP\RedirectResponse.php(56): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 C:\xampp1\htdocs\agenda_festa\system\Common.php(840): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 C:\xampp1\htdocs\agenda_festa\app\Controllers\IndexController.php(32): redirect('http://localhos...')
+#3 C:\xampp1\htdocs\agenda_festa\system\CodeIgniter.php(824): App\Controllers\IndexController->index()
+#4 C:\xampp1\htdocs\agenda_festa\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\IndexController))
+#5 C:\xampp1\htdocs\agenda_festa\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp1\htdocs\agenda_festa\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp1\htdocs\agenda_festa\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#8 {main}

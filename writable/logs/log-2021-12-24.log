@@ -1,0 +1,3 @@
+CRITICAL - 2021-12-24 03:33:06 --> Out of memory (allocated 2097152) (tried to allocate 327680 bytes)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}

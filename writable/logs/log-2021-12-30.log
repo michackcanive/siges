@@ -1,0 +1,76 @@
+CRITICAL - 2021-12-30 01:47:18 --> Undefined index: id_salao
+#0 C:\xampp1\htdocs\agenda_festa\app\Controllers\OperacaoSl.php(168): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp1\\htdoc...', 168, Array)
+#1 C:\xampp1\htdocs\agenda_festa\system\CodeIgniter.php(824): App\Controllers\OperacaoSl->detalhes_sl('img', 'favicon.ico')
+#2 C:\xampp1\htdocs\agenda_festa\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OperacaoSl))
+#3 C:\xampp1\htdocs\agenda_festa\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp1\htdocs\agenda_festa\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp1\htdocs\agenda_festa\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#6 {main}
+CRITICAL - 2021-12-30 01:47:43 --> Undefined index: id_salao
+#0 C:\xampp1\htdocs\agenda_festa\app\Controllers\OperacaoSl.php(168): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp1\\htdoc...', 168, Array)
+#1 C:\xampp1\htdocs\agenda_festa\system\CodeIgniter.php(824): App\Controllers\OperacaoSl->detalhes_sl('img', 'favicon.ico')
+#2 C:\xampp1\htdocs\agenda_festa\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OperacaoSl))
+#3 C:\xampp1\htdocs\agenda_festa\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp1\htdocs\agenda_festa\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp1\htdocs\agenda_festa\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#6 {main}
+CRITICAL - 2021-12-30 01:48:06 --> Undefined index: id_salao
+#0 C:\xampp1\htdocs\agenda_festa\app\Controllers\OperacaoSl.php(168): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp1\\htdoc...', 168, Array)
+#1 C:\xampp1\htdocs\agenda_festa\system\CodeIgniter.php(824): App\Controllers\OperacaoSl->detalhes_sl('img', 'favicon.ico')
+#2 C:\xampp1\htdocs\agenda_festa\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OperacaoSl))
+#3 C:\xampp1\htdocs\agenda_festa\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp1\htdocs\agenda_festa\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp1\htdocs\agenda_festa\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#6 {main}
+CRITICAL - 2021-12-30 01:48:42 --> Undefined index: id_salao
+#0 C:\xampp1\htdocs\agenda_festa\app\Controllers\OperacaoSl.php(168): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp1\\htdoc...', 168, Array)
+#1 C:\xampp1\htdocs\agenda_festa\system\CodeIgniter.php(824): App\Controllers\OperacaoSl->detalhes_sl('img', 'favicon.ico')
+#2 C:\xampp1\htdocs\agenda_festa\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OperacaoSl))
+#3 C:\xampp1\htdocs\agenda_festa\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp1\htdocs\agenda_festa\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp1\htdocs\agenda_festa\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#6 {main}
+CRITICAL - 2021-12-30 01:49:19 --> Undefined index: id_salao
+#0 C:\xampp1\htdocs\agenda_festa\app\Controllers\OperacaoSl.php(168): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp1\\htdoc...', 168, Array)
+#1 C:\xampp1\htdocs\agenda_festa\system\CodeIgniter.php(824): App\Controllers\OperacaoSl->detalhes_sl('img', 'favicon.ico')
+#2 C:\xampp1\htdocs\agenda_festa\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OperacaoSl))
+#3 C:\xampp1\htdocs\agenda_festa\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp1\htdocs\agenda_festa\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp1\htdocs\agenda_festa\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#6 {main}
+CRITICAL - 2021-12-30 01:49:38 --> Undefined variable: totalTime
+#0 C:\xampp1\htdocs\agenda_festa\system\Debug\Toolbar\Views\toolbar.tpl.php(40): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp1\\htdoc...', 40, Array)
+#1 C:\xampp1\htdocs\agenda_festa\system\Debug\Toolbar.php(497): include('C:\\xampp1\\htdoc...')
+#2 C:\xampp1\htdocs\agenda_festa\system\Debug\Toolbar.php(460): CodeIgniter\Debug\Toolbar->format(Array, 'html')
+#3 C:\xampp1\htdocs\agenda_festa\app\Config\Events.php(48): CodeIgniter\Debug\Toolbar->respond()
+#4 C:\xampp1\htdocs\agenda_festa\system\Events\Events.php(149): CodeIgniter\Events\Events::Config\{closure}()
+#5 C:\xampp1\htdocs\agenda_festa\system\CodeIgniter.php(300): CodeIgniter\Events\Events::trigger('pre_system')
+#6 C:\xampp1\htdocs\agenda_festa\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp1\htdocs\agenda_festa\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#8 {main}
+CRITICAL - 2021-12-30 01:49:42 --> Undefined variable: totalTime
+#0 C:\xampp1\htdocs\agenda_festa\system\Debug\Toolbar\Views\toolbar.tpl.php(40): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp1\\htdoc...', 40, Array)
+#1 C:\xampp1\htdocs\agenda_festa\system\Debug\Toolbar.php(497): include('C:\\xampp1\\htdoc...')
+#2 C:\xampp1\htdocs\agenda_festa\system\Debug\Toolbar.php(460): CodeIgniter\Debug\Toolbar->format(Array, 'html')
+#3 C:\xampp1\htdocs\agenda_festa\app\Config\Events.php(48): CodeIgniter\Debug\Toolbar->respond()
+#4 C:\xampp1\htdocs\agenda_festa\system\Events\Events.php(149): CodeIgniter\Events\Events::Config\{closure}()
+#5 C:\xampp1\htdocs\agenda_festa\system\CodeIgniter.php(300): CodeIgniter\Events\Events::trigger('pre_system')
+#6 C:\xampp1\htdocs\agenda_festa\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp1\htdocs\agenda_festa\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#8 {main}
+CRITICAL - 2021-12-30 01:50:06 --> Undefined index: id_salao
+#0 C:\xampp1\htdocs\agenda_festa\app\Controllers\OperacaoSl.php(168): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp1\\htdoc...', 168, Array)
+#1 C:\xampp1\htdocs\agenda_festa\system\CodeIgniter.php(824): App\Controllers\OperacaoSl->detalhes_sl('img', 'favicon.ico')
+#2 C:\xampp1\htdocs\agenda_festa\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OperacaoSl))
+#3 C:\xampp1\htdocs\agenda_festa\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp1\htdocs\agenda_festa\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp1\htdocs\agenda_festa\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#6 {main}
+CRITICAL - 2021-12-30 05:41:02 --> Undefined index: id_salao
+#0 C:\xampp1\htdocs\agenda_festa\app\Controllers\OperacaoSl.php(168): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp1\\htdoc...', 168, Array)
+#1 C:\xampp1\htdocs\agenda_festa\system\CodeIgniter.php(824): App\Controllers\OperacaoSl->detalhes_sl('img', 'favicon.ico')
+#2 C:\xampp1\htdocs\agenda_festa\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OperacaoSl))
+#3 C:\xampp1\htdocs\agenda_festa\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp1\htdocs\agenda_festa\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp1\htdocs\agenda_festa\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#6 {main}

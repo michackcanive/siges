@@ -1,0 +1,18 @@
+CRITICAL - 2021-12-17 23:17:36 --> The framework needs the following extension(s) installed and loaded: intl.
+#0 C:\xampp1\htdocs\agenda_festa\system\CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+#1 C:\xampp1\htdocs\agenda_festa\system\CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\xampp1\htdocs\agenda_festa\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 C:\xampp1\htdocs\agenda_festa\spark(45): require('C:\\xampp1\\htdoc...')
+#4 {main}
+CRITICAL - 2021-12-17 23:21:16 --> The framework needs the following extension(s) installed and loaded: intl.
+#0 C:\xampp1\htdocs\agenda_festa\system\CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+#1 C:\xampp1\htdocs\agenda_festa\system\CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\xampp1\htdocs\agenda_festa\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 C:\xampp1\htdocs\agenda_festa\spark(45): require('C:\\xampp1\\htdoc...')
+#4 {main}
+CRITICAL - 2021-12-17 23:21:30 --> The framework needs the following extension(s) installed and loaded: intl.
+#0 C:\xampp1\htdocs\agenda_festa\system\CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+#1 C:\xampp1\htdocs\agenda_festa\system\CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\xampp1\htdocs\agenda_festa\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 C:\xampp1\htdocs\agenda_festa\spark(45): require('C:\\xampp1\\htdoc...')
+#4 {main}

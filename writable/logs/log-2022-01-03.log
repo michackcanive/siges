@@ -1,0 +1,8 @@
+CRITICAL - 2022-01-03 01:43:09 --> Undefined index: id_salao
+#0 C:\xampp1\htdocs\agenda_festa\app\Controllers\OperacaoSl.php(206): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp1\\htdoc...', 206, Array)
+#1 C:\xampp1\htdocs\agenda_festa\system\CodeIgniter.php(824): App\Controllers\OperacaoSl->detalhes_sl('img', 'favicon.ico')
+#2 C:\xampp1\htdocs\agenda_festa\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OperacaoSl))
+#3 C:\xampp1\htdocs\agenda_festa\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp1\htdocs\agenda_festa\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp1\htdocs\agenda_festa\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#6 {main}

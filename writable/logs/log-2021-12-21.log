@@ -1,0 +1,56 @@
+CRITICAL - 2021-12-21 12:22:52 --> Out of memory (allocated 2097152) (tried to allocate 327680 bytes)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-12-21 13:03:22 --> session_start(): A session had already been started - ignoring
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8, 'session_start()...', 'C:\\xampp1\\htdoc...', 326, Array)
+#1 C:\xampp1\htdocs\agenda_festa\app\Views\acesso\header.php(326): session_start()
+#2 C:\xampp1\htdocs\agenda_festa\system\View\View.php(214): include('C:\\xampp1\\htdoc...')
+#3 C:\xampp1\htdocs\agenda_festa\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 C:\xampp1\htdocs\agenda_festa\system\Common.php(1097): CodeIgniter\View\View->render('acesso/header', Array, true)
+#5 C:\xampp1\htdocs\agenda_festa\app\Controllers\Inicio.php(21): view('acesso/header')
+#6 C:\xampp1\htdocs\agenda_festa\system\CodeIgniter.php(824): App\Controllers\Inicio->index()
+#7 C:\xampp1\htdocs\agenda_festa\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inicio))
+#8 C:\xampp1\htdocs\agenda_festa\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp1\htdocs\agenda_festa\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp1\htdocs\agenda_festa\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#11 {main}
+CRITICAL - 2021-12-21 13:10:44 --> Undefined variable: tipo_de_acesso
+#0 C:\xampp1\htdocs\agenda_festa\app\Views\acesso\header.php(314): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp1\\htdoc...', 314, Array)
+#1 C:\xampp1\htdocs\agenda_festa\system\View\View.php(214): include('C:\\xampp1\\htdoc...')
+#2 C:\xampp1\htdocs\agenda_festa\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp1\htdocs\agenda_festa\system\Common.php(1097): CodeIgniter\View\View->render('acesso/header', Array, true)
+#4 C:\xampp1\htdocs\agenda_festa\app\Controllers\Inicio.php(22): view('acesso/header')
+#5 C:\xampp1\htdocs\agenda_festa\system\CodeIgniter.php(824): App\Controllers\Inicio->index()
+#6 C:\xampp1\htdocs\agenda_festa\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inicio))
+#7 C:\xampp1\htdocs\agenda_festa\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp1\htdocs\agenda_festa\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp1\htdocs\agenda_festa\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#10 {main}
+CRITICAL - 2021-12-21 13:13:03 --> Undefined property: CodeIgniter\View\View::$carregar_view
+#0 C:\xampp1\htdocs\agenda_festa\app\Views\acesso\header.php(314): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp1\\htdoc...', 314, Array)
+#1 C:\xampp1\htdocs\agenda_festa\system\View\View.php(214): include('C:\\xampp1\\htdoc...')
+#2 C:\xampp1\htdocs\agenda_festa\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp1\htdocs\agenda_festa\system\Common.php(1097): CodeIgniter\View\View->render('acesso/header', Array, true)
+#4 C:\xampp1\htdocs\agenda_festa\app\Controllers\Inicio.php(22): view('acesso/header')
+#5 C:\xampp1\htdocs\agenda_festa\system\CodeIgniter.php(824): App\Controllers\Inicio->index()
+#6 C:\xampp1\htdocs\agenda_festa\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inicio))
+#7 C:\xampp1\htdocs\agenda_festa\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp1\htdocs\agenda_festa\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp1\htdocs\agenda_festa\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#10 {main}
+CRITICAL - 2021-12-21 17:35:32 --> Illegal string offset 'foto1'
+#0 C:\xampp1\htdocs\agenda_festa\app\Controllers\OperacaoSl.php(47): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string ...', 'C:\\xampp1\\htdoc...', 47, Array)
+#1 C:\xampp1\htdocs\agenda_festa\system\CodeIgniter.php(824): App\Controllers\OperacaoSl->criar_sl()
+#2 C:\xampp1\htdocs\agenda_festa\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OperacaoSl))
+#3 C:\xampp1\htdocs\agenda_festa\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp1\htdocs\agenda_festa\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp1\htdocs\agenda_festa\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#6 {main}
+CRITICAL - 2021-12-21 17:36:31 --> Illegal string offset 'foto1'
+#0 C:\xampp1\htdocs\agenda_festa\app\Controllers\OperacaoSl.php(47): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string ...', 'C:\\xampp1\\htdoc...', 47, Array)
+#1 C:\xampp1\htdocs\agenda_festa\system\CodeIgniter.php(824): App\Controllers\OperacaoSl->criar_sl()
+#2 C:\xampp1\htdocs\agenda_festa\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OperacaoSl))
+#3 C:\xampp1\htdocs\agenda_festa\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp1\htdocs\agenda_festa\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp1\htdocs\agenda_festa\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#6 {main}

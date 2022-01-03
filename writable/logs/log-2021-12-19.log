@@ -1,0 +1,563 @@
+CRITICAL - 2021-12-19 13:35:20 -->  route cannot be found while reverse-routing.
+#0 C:\xampp1\htdocs\agenda_festa\system\HTTP\RedirectResponse.php(56): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 C:\xampp1\htdocs\agenda_festa\system\Common.php(840): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 C:\xampp1\htdocs\agenda_festa\app\Controllers\Index.php(45): redirect('inicio')
+#3 C:\xampp1\htdocs\agenda_festa\system\CodeIgniter.php(824): App\Controllers\Index->login()
+#4 C:\xampp1\htdocs\agenda_festa\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Index))
+#5 C:\xampp1\htdocs\agenda_festa\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp1\htdocs\agenda_festa\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp1\htdocs\agenda_festa\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#8 {main}
+CRITICAL - 2021-12-19 13:38:52 -->  route cannot be found while reverse-routing.
+#0 C:\xampp1\htdocs\agenda_festa\system\HTTP\RedirectResponse.php(56): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 C:\xampp1\htdocs\agenda_festa\system\Common.php(840): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 C:\xampp1\htdocs\agenda_festa\app\Controllers\Index.php(45): redirect('inicio')
+#3 C:\xampp1\htdocs\agenda_festa\system\CodeIgniter.php(824): App\Controllers\Index->login()
+#4 C:\xampp1\htdocs\agenda_festa\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Index))
+#5 C:\xampp1\htdocs\agenda_festa\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp1\htdocs\agenda_festa\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp1\htdocs\agenda_festa\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#8 {main}
+CRITICAL - 2021-12-19 14:29:58 -->  route cannot be found while reverse-routing.
+#0 C:\xampp1\htdocs\agenda_festa\system\HTTP\RedirectResponse.php(56): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 C:\xampp1\htdocs\agenda_festa\system\Common.php(840): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 C:\xampp1\htdocs\agenda_festa\app\Controllers\AuthController.php(30): redirect('http://localhos...')
+#3 C:\xampp1\htdocs\agenda_festa\system\CodeIgniter.php(824): App\Controllers\AuthController->autenticar()
+#4 C:\xampp1\htdocs\agenda_festa\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+#5 C:\xampp1\htdocs\agenda_festa\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp1\htdocs\agenda_festa\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp1\htdocs\agenda_festa\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#8 {main}
+CRITICAL - 2021-12-19 14:30:41 -->  route cannot be found while reverse-routing.
+#0 C:\xampp1\htdocs\agenda_festa\system\HTTP\RedirectResponse.php(56): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 C:\xampp1\htdocs\agenda_festa\system\Common.php(840): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 C:\xampp1\htdocs\agenda_festa\app\Controllers\AuthController.php(30): redirect('http://localhos...')
+#3 C:\xampp1\htdocs\agenda_festa\system\CodeIgniter.php(824): App\Controllers\AuthController->autenticar()
+#4 C:\xampp1\htdocs\agenda_festa\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+#5 C:\xampp1\htdocs\agenda_festa\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp1\htdocs\agenda_festa\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp1\htdocs\agenda_festa\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#8 {main}
+CRITICAL - 2021-12-19 14:31:07 -->  route cannot be found while reverse-routing.
+#0 C:\xampp1\htdocs\agenda_festa\system\HTTP\RedirectResponse.php(56): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 C:\xampp1\htdocs\agenda_festa\system\Common.php(840): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 C:\xampp1\htdocs\agenda_festa\app\Controllers\AuthController.php(30): redirect('http://localhos...')
+#3 C:\xampp1\htdocs\agenda_festa\system\CodeIgniter.php(824): App\Controllers\AuthController->autenticar()
+#4 C:\xampp1\htdocs\agenda_festa\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+#5 C:\xampp1\htdocs\agenda_festa\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp1\htdocs\agenda_festa\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp1\htdocs\agenda_festa\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#8 {main}
+CRITICAL - 2021-12-19 14:31:34 -->  route cannot be found while reverse-routing.
+#0 C:\xampp1\htdocs\agenda_festa\system\HTTP\RedirectResponse.php(56): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 C:\xampp1\htdocs\agenda_festa\system\Common.php(840): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 C:\xampp1\htdocs\agenda_festa\app\Controllers\AuthController.php(30): redirect('http://localhos...')
+#3 C:\xampp1\htdocs\agenda_festa\system\CodeIgniter.php(824): App\Controllers\AuthController->autenticar()
+#4 C:\xampp1\htdocs\agenda_festa\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+#5 C:\xampp1\htdocs\agenda_festa\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp1\htdocs\agenda_festa\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp1\htdocs\agenda_festa\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#8 {main}
+CRITICAL - 2021-12-19 14:36:14 -->  route cannot be found while reverse-routing.
+#0 C:\xampp1\htdocs\agenda_festa\system\HTTP\RedirectResponse.php(56): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 C:\xampp1\htdocs\agenda_festa\app\Controllers\AuthController.php(30): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 C:\xampp1\htdocs\agenda_festa\system\CodeIgniter.php(824): App\Controllers\AuthController->autenticar()
+#3 C:\xampp1\htdocs\agenda_festa\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+#4 C:\xampp1\htdocs\agenda_festa\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp1\htdocs\agenda_festa\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp1\htdocs\agenda_festa\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#7 {main}
+CRITICAL - 2021-12-19 14:36:18 -->  route cannot be found while reverse-routing.
+#0 C:\xampp1\htdocs\agenda_festa\system\HTTP\RedirectResponse.php(56): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 C:\xampp1\htdocs\agenda_festa\app\Controllers\Index.php(127): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 C:\xampp1\htdocs\agenda_festa\app\Controllers\Index.php(46): App\Controllers\Index->validadorDesession()
+#3 C:\xampp1\htdocs\agenda_festa\system\CodeIgniter.php(824): App\Controllers\Index->login()
+#4 C:\xampp1\htdocs\agenda_festa\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Index))
+#5 C:\xampp1\htdocs\agenda_festa\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp1\htdocs\agenda_festa\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp1\htdocs\agenda_festa\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#8 {main}
+CRITICAL - 2021-12-19 14:36:26 -->  route cannot be found while reverse-routing.
+#0 C:\xampp1\htdocs\agenda_festa\system\HTTP\RedirectResponse.php(56): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 C:\xampp1\htdocs\agenda_festa\app\Controllers\Index.php(127): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 C:\xampp1\htdocs\agenda_festa\app\Controllers\Index.php(46): App\Controllers\Index->validadorDesession()
+#3 C:\xampp1\htdocs\agenda_festa\system\CodeIgniter.php(824): App\Controllers\Index->login()
+#4 C:\xampp1\htdocs\agenda_festa\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Index))
+#5 C:\xampp1\htdocs\agenda_festa\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp1\htdocs\agenda_festa\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp1\htdocs\agenda_festa\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#8 {main}
+CRITICAL - 2021-12-19 14:37:40 -->  route cannot be found while reverse-routing.
+#0 C:\xampp1\htdocs\agenda_festa\system\HTTP\RedirectResponse.php(56): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 C:\xampp1\htdocs\agenda_festa\app\Controllers\AuthController.php(30): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 C:\xampp1\htdocs\agenda_festa\system\CodeIgniter.php(824): App\Controllers\AuthController->autenticar()
+#3 C:\xampp1\htdocs\agenda_festa\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+#4 C:\xampp1\htdocs\agenda_festa\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp1\htdocs\agenda_festa\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp1\htdocs\agenda_festa\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#7 {main}
+CRITICAL - 2021-12-19 14:38:38 -->  route cannot be found while reverse-routing.
+#0 C:\xampp1\htdocs\agenda_festa\system\HTTP\RedirectResponse.php(56): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 C:\xampp1\htdocs\agenda_festa\app\Controllers\AuthController.php(30): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 C:\xampp1\htdocs\agenda_festa\system\CodeIgniter.php(824): App\Controllers\AuthController->autenticar()
+#3 C:\xampp1\htdocs\agenda_festa\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+#4 C:\xampp1\htdocs\agenda_festa\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp1\htdocs\agenda_festa\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp1\htdocs\agenda_festa\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#7 {main}
+CRITICAL - 2021-12-19 14:38:45 -->  route cannot be found while reverse-routing.
+#0 C:\xampp1\htdocs\agenda_festa\system\HTTP\RedirectResponse.php(56): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 C:\xampp1\htdocs\agenda_festa\app\Controllers\AuthController.php(30): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 C:\xampp1\htdocs\agenda_festa\system\CodeIgniter.php(824): App\Controllers\AuthController->autenticar()
+#3 C:\xampp1\htdocs\agenda_festa\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+#4 C:\xampp1\htdocs\agenda_festa\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp1\htdocs\agenda_festa\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp1\htdocs\agenda_festa\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#7 {main}
+CRITICAL - 2021-12-19 15:23:26 --> session_start(): A session had already been started - ignoring
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8, 'session_start()...', 'C:\\xampp1\\htdoc...', 27, Array)
+#1 C:\xampp1\htdocs\agenda_festa\app\Controllers\Inicio.php(27): session_start()
+#2 C:\xampp1\htdocs\agenda_festa\app\Controllers\Inicio.php(23): App\Controllers\Inicio->destroiSission()
+#3 C:\xampp1\htdocs\agenda_festa\system\CodeIgniter.php(824): App\Controllers\Inicio->sair()
+#4 C:\xampp1\htdocs\agenda_festa\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inicio))
+#5 C:\xampp1\htdocs\agenda_festa\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp1\htdocs\agenda_festa\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp1\htdocs\agenda_festa\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#8 {main}
+CRITICAL - 2021-12-19 15:23:46 -->  route cannot be found while reverse-routing.
+#0 C:\xampp1\htdocs\agenda_festa\system\HTTP\RedirectResponse.php(56): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 C:\xampp1\htdocs\agenda_festa\app\Controllers\Inicio.php(17): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 C:\xampp1\htdocs\agenda_festa\app\Controllers\Inicio.php(11): App\Controllers\Inicio->validadorDesession()
+#3 C:\xampp1\htdocs\agenda_festa\system\CodeIgniter.php(824): App\Controllers\Inicio->index()
+#4 C:\xampp1\htdocs\agenda_festa\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inicio))
+#5 C:\xampp1\htdocs\agenda_festa\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp1\htdocs\agenda_festa\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp1\htdocs\agenda_festa\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#8 {main}
+CRITICAL - 2021-12-19 15:23:50 -->  route cannot be found while reverse-routing.
+#0 C:\xampp1\htdocs\agenda_festa\system\HTTP\RedirectResponse.php(56): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 C:\xampp1\htdocs\agenda_festa\app\Controllers\Inicio.php(17): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 C:\xampp1\htdocs\agenda_festa\app\Controllers\Inicio.php(11): App\Controllers\Inicio->validadorDesession()
+#3 C:\xampp1\htdocs\agenda_festa\system\CodeIgniter.php(824): App\Controllers\Inicio->index()
+#4 C:\xampp1\htdocs\agenda_festa\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inicio))
+#5 C:\xampp1\htdocs\agenda_festa\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp1\htdocs\agenda_festa\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp1\htdocs\agenda_festa\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#8 {main}
+CRITICAL - 2021-12-19 15:24:31 -->  route cannot be found while reverse-routing.
+#0 C:\xampp1\htdocs\agenda_festa\system\HTTP\RedirectResponse.php(56): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 C:\xampp1\htdocs\agenda_festa\app\Controllers\Inicio.php(28): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 C:\xampp1\htdocs\agenda_festa\app\Controllers\Inicio.php(23): App\Controllers\Inicio->destroiSission()
+#3 C:\xampp1\htdocs\agenda_festa\system\CodeIgniter.php(824): App\Controllers\Inicio->sair()
+#4 C:\xampp1\htdocs\agenda_festa\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inicio))
+#5 C:\xampp1\htdocs\agenda_festa\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp1\htdocs\agenda_festa\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp1\htdocs\agenda_festa\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#8 {main}
+CRITICAL - 2021-12-19 15:24:33 -->  route cannot be found while reverse-routing.
+#0 C:\xampp1\htdocs\agenda_festa\system\HTTP\RedirectResponse.php(56): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 C:\xampp1\htdocs\agenda_festa\app\Controllers\Inicio.php(17): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 C:\xampp1\htdocs\agenda_festa\app\Controllers\Inicio.php(11): App\Controllers\Inicio->validadorDesession()
+#3 C:\xampp1\htdocs\agenda_festa\system\CodeIgniter.php(824): App\Controllers\Inicio->index()
+#4 C:\xampp1\htdocs\agenda_festa\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inicio))
+#5 C:\xampp1\htdocs\agenda_festa\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp1\htdocs\agenda_festa\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp1\htdocs\agenda_festa\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#8 {main}
+CRITICAL - 2021-12-19 15:24:45 -->  route cannot be found while reverse-routing.
+#0 C:\xampp1\htdocs\agenda_festa\system\HTTP\RedirectResponse.php(56): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 C:\xampp1\htdocs\agenda_festa\app\Controllers\Inicio.php(28): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 C:\xampp1\htdocs\agenda_festa\app\Controllers\Inicio.php(23): App\Controllers\Inicio->destroiSission()
+#3 C:\xampp1\htdocs\agenda_festa\system\CodeIgniter.php(824): App\Controllers\Inicio->sair()
+#4 C:\xampp1\htdocs\agenda_festa\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inicio))
+#5 C:\xampp1\htdocs\agenda_festa\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp1\htdocs\agenda_festa\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp1\htdocs\agenda_festa\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#8 {main}
+CRITICAL - 2021-12-19 15:25:39 -->  route cannot be found while reverse-routing.
+#0 C:\xampp1\htdocs\agenda_festa\system\HTTP\RedirectResponse.php(56): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 C:\xampp1\htdocs\agenda_festa\app\Controllers\Inicio.php(17): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 C:\xampp1\htdocs\agenda_festa\app\Controllers\Inicio.php(11): App\Controllers\Inicio->validadorDesession()
+#3 C:\xampp1\htdocs\agenda_festa\system\CodeIgniter.php(824): App\Controllers\Inicio->index()
+#4 C:\xampp1\htdocs\agenda_festa\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inicio))
+#5 C:\xampp1\htdocs\agenda_festa\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp1\htdocs\agenda_festa\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp1\htdocs\agenda_festa\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#8 {main}
+CRITICAL - 2021-12-19 15:25:46 -->  route cannot be found while reverse-routing.
+#0 C:\xampp1\htdocs\agenda_festa\system\HTTP\RedirectResponse.php(56): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 C:\xampp1\htdocs\agenda_festa\app\Controllers\Inicio.php(17): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 C:\xampp1\htdocs\agenda_festa\app\Controllers\Inicio.php(11): App\Controllers\Inicio->validadorDesession()
+#3 C:\xampp1\htdocs\agenda_festa\system\CodeIgniter.php(824): App\Controllers\Inicio->index()
+#4 C:\xampp1\htdocs\agenda_festa\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inicio))
+#5 C:\xampp1\htdocs\agenda_festa\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp1\htdocs\agenda_festa\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp1\htdocs\agenda_festa\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#8 {main}
+CRITICAL - 2021-12-19 15:25:47 -->  route cannot be found while reverse-routing.
+#0 C:\xampp1\htdocs\agenda_festa\system\HTTP\RedirectResponse.php(56): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 C:\xampp1\htdocs\agenda_festa\app\Controllers\Inicio.php(28): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 C:\xampp1\htdocs\agenda_festa\app\Controllers\Inicio.php(23): App\Controllers\Inicio->destroiSission()
+#3 C:\xampp1\htdocs\agenda_festa\system\CodeIgniter.php(824): App\Controllers\Inicio->sair()
+#4 C:\xampp1\htdocs\agenda_festa\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inicio))
+#5 C:\xampp1\htdocs\agenda_festa\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp1\htdocs\agenda_festa\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp1\htdocs\agenda_festa\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#8 {main}
+CRITICAL - 2021-12-19 15:25:48 -->  route cannot be found while reverse-routing.
+#0 C:\xampp1\htdocs\agenda_festa\system\HTTP\RedirectResponse.php(56): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 C:\xampp1\htdocs\agenda_festa\app\Controllers\Inicio.php(28): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 C:\xampp1\htdocs\agenda_festa\app\Controllers\Inicio.php(23): App\Controllers\Inicio->destroiSission()
+#3 C:\xampp1\htdocs\agenda_festa\system\CodeIgniter.php(824): App\Controllers\Inicio->sair()
+#4 C:\xampp1\htdocs\agenda_festa\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inicio))
+#5 C:\xampp1\htdocs\agenda_festa\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp1\htdocs\agenda_festa\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp1\htdocs\agenda_festa\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#8 {main}
+CRITICAL - 2021-12-19 15:25:49 -->  route cannot be found while reverse-routing.
+#0 C:\xampp1\htdocs\agenda_festa\system\HTTP\RedirectResponse.php(56): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 C:\xampp1\htdocs\agenda_festa\app\Controllers\Inicio.php(28): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 C:\xampp1\htdocs\agenda_festa\app\Controllers\Inicio.php(23): App\Controllers\Inicio->destroiSission()
+#3 C:\xampp1\htdocs\agenda_festa\system\CodeIgniter.php(824): App\Controllers\Inicio->sair()
+#4 C:\xampp1\htdocs\agenda_festa\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inicio))
+#5 C:\xampp1\htdocs\agenda_festa\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp1\htdocs\agenda_festa\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp1\htdocs\agenda_festa\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#8 {main}
+CRITICAL - 2021-12-19 15:25:49 -->  route cannot be found while reverse-routing.
+#0 C:\xampp1\htdocs\agenda_festa\system\HTTP\RedirectResponse.php(56): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 C:\xampp1\htdocs\agenda_festa\app\Controllers\Inicio.php(28): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 C:\xampp1\htdocs\agenda_festa\app\Controllers\Inicio.php(23): App\Controllers\Inicio->destroiSission()
+#3 C:\xampp1\htdocs\agenda_festa\system\CodeIgniter.php(824): App\Controllers\Inicio->sair()
+#4 C:\xampp1\htdocs\agenda_festa\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inicio))
+#5 C:\xampp1\htdocs\agenda_festa\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp1\htdocs\agenda_festa\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp1\htdocs\agenda_festa\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#8 {main}
+CRITICAL - 2021-12-19 15:25:50 -->  route cannot be found while reverse-routing.
+#0 C:\xampp1\htdocs\agenda_festa\system\HTTP\RedirectResponse.php(56): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 C:\xampp1\htdocs\agenda_festa\app\Controllers\Inicio.php(28): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 C:\xampp1\htdocs\agenda_festa\app\Controllers\Inicio.php(23): App\Controllers\Inicio->destroiSission()
+#3 C:\xampp1\htdocs\agenda_festa\system\CodeIgniter.php(824): App\Controllers\Inicio->sair()
+#4 C:\xampp1\htdocs\agenda_festa\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inicio))
+#5 C:\xampp1\htdocs\agenda_festa\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp1\htdocs\agenda_festa\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp1\htdocs\agenda_festa\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#8 {main}
+CRITICAL - 2021-12-19 15:25:53 -->  route cannot be found while reverse-routing.
+#0 C:\xampp1\htdocs\agenda_festa\system\HTTP\RedirectResponse.php(56): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 C:\xampp1\htdocs\agenda_festa\app\Controllers\Inicio.php(17): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 C:\xampp1\htdocs\agenda_festa\app\Controllers\Inicio.php(11): App\Controllers\Inicio->validadorDesession()
+#3 C:\xampp1\htdocs\agenda_festa\system\CodeIgniter.php(824): App\Controllers\Inicio->index()
+#4 C:\xampp1\htdocs\agenda_festa\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inicio))
+#5 C:\xampp1\htdocs\agenda_festa\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp1\htdocs\agenda_festa\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp1\htdocs\agenda_festa\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#8 {main}
+CRITICAL - 2021-12-19 15:26:08 -->  route cannot be found while reverse-routing.
+#0 C:\xampp1\htdocs\agenda_festa\system\HTTP\RedirectResponse.php(56): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 C:\xampp1\htdocs\agenda_festa\app\Controllers\Inicio.php(28): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 C:\xampp1\htdocs\agenda_festa\app\Controllers\Inicio.php(23): App\Controllers\Inicio->destroiSission()
+#3 C:\xampp1\htdocs\agenda_festa\system\CodeIgniter.php(824): App\Controllers\Inicio->sair()
+#4 C:\xampp1\htdocs\agenda_festa\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inicio))
+#5 C:\xampp1\htdocs\agenda_festa\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp1\htdocs\agenda_festa\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp1\htdocs\agenda_festa\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#8 {main}
+CRITICAL - 2021-12-19 15:26:46 -->  route cannot be found while reverse-routing.
+#0 C:\xampp1\htdocs\agenda_festa\system\HTTP\RedirectResponse.php(56): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 C:\xampp1\htdocs\agenda_festa\app\Controllers\Inicio.php(17): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 C:\xampp1\htdocs\agenda_festa\app\Controllers\Inicio.php(11): App\Controllers\Inicio->validadorDesession()
+#3 C:\xampp1\htdocs\agenda_festa\system\CodeIgniter.php(824): App\Controllers\Inicio->index()
+#4 C:\xampp1\htdocs\agenda_festa\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inicio))
+#5 C:\xampp1\htdocs\agenda_festa\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp1\htdocs\agenda_festa\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp1\htdocs\agenda_festa\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#8 {main}
+CRITICAL - 2021-12-19 15:27:04 -->  route cannot be found while reverse-routing.
+#0 C:\xampp1\htdocs\agenda_festa\system\HTTP\RedirectResponse.php(56): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 C:\xampp1\htdocs\agenda_festa\app\Controllers\Inicio.php(28): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 C:\xampp1\htdocs\agenda_festa\app\Controllers\Inicio.php(23): App\Controllers\Inicio->destroiSission()
+#3 C:\xampp1\htdocs\agenda_festa\system\CodeIgniter.php(824): App\Controllers\Inicio->sair()
+#4 C:\xampp1\htdocs\agenda_festa\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inicio))
+#5 C:\xampp1\htdocs\agenda_festa\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp1\htdocs\agenda_festa\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp1\htdocs\agenda_festa\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#8 {main}
+CRITICAL - 2021-12-19 15:27:45 -->  route cannot be found while reverse-routing.
+#0 C:\xampp1\htdocs\agenda_festa\system\HTTP\RedirectResponse.php(56): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 C:\xampp1\htdocs\agenda_festa\app\Controllers\Inicio.php(28): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 C:\xampp1\htdocs\agenda_festa\app\Controllers\Inicio.php(23): App\Controllers\Inicio->destroiSission()
+#3 C:\xampp1\htdocs\agenda_festa\system\CodeIgniter.php(824): App\Controllers\Inicio->sair()
+#4 C:\xampp1\htdocs\agenda_festa\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inicio))
+#5 C:\xampp1\htdocs\agenda_festa\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp1\htdocs\agenda_festa\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp1\htdocs\agenda_festa\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#8 {main}
+CRITICAL - 2021-12-19 15:27:47 -->  route cannot be found while reverse-routing.
+#0 C:\xampp1\htdocs\agenda_festa\system\HTTP\RedirectResponse.php(56): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 C:\xampp1\htdocs\agenda_festa\app\Controllers\Inicio.php(17): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 C:\xampp1\htdocs\agenda_festa\app\Controllers\Inicio.php(11): App\Controllers\Inicio->validadorDesession()
+#3 C:\xampp1\htdocs\agenda_festa\system\CodeIgniter.php(824): App\Controllers\Inicio->index()
+#4 C:\xampp1\htdocs\agenda_festa\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inicio))
+#5 C:\xampp1\htdocs\agenda_festa\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp1\htdocs\agenda_festa\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp1\htdocs\agenda_festa\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#8 {main}
+CRITICAL - 2021-12-19 15:27:50 -->  route cannot be found while reverse-routing.
+#0 C:\xampp1\htdocs\agenda_festa\system\HTTP\RedirectResponse.php(56): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 C:\xampp1\htdocs\agenda_festa\app\Controllers\Inicio.php(17): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 C:\xampp1\htdocs\agenda_festa\app\Controllers\Inicio.php(11): App\Controllers\Inicio->validadorDesession()
+#3 C:\xampp1\htdocs\agenda_festa\system\CodeIgniter.php(824): App\Controllers\Inicio->index()
+#4 C:\xampp1\htdocs\agenda_festa\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inicio))
+#5 C:\xampp1\htdocs\agenda_festa\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp1\htdocs\agenda_festa\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp1\htdocs\agenda_festa\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#8 {main}
+CRITICAL - 2021-12-19 15:27:58 -->  route cannot be found while reverse-routing.
+#0 C:\xampp1\htdocs\agenda_festa\system\HTTP\RedirectResponse.php(56): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 C:\xampp1\htdocs\agenda_festa\app\Controllers\Inicio.php(17): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 C:\xampp1\htdocs\agenda_festa\app\Controllers\Inicio.php(11): App\Controllers\Inicio->validadorDesession()
+#3 C:\xampp1\htdocs\agenda_festa\system\CodeIgniter.php(824): App\Controllers\Inicio->index()
+#4 C:\xampp1\htdocs\agenda_festa\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inicio))
+#5 C:\xampp1\htdocs\agenda_festa\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp1\htdocs\agenda_festa\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp1\htdocs\agenda_festa\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#8 {main}
+CRITICAL - 2021-12-19 15:27:59 -->  route cannot be found while reverse-routing.
+#0 C:\xampp1\htdocs\agenda_festa\system\HTTP\RedirectResponse.php(56): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 C:\xampp1\htdocs\agenda_festa\app\Controllers\Inicio.php(17): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 C:\xampp1\htdocs\agenda_festa\app\Controllers\Inicio.php(11): App\Controllers\Inicio->validadorDesession()
+#3 C:\xampp1\htdocs\agenda_festa\system\CodeIgniter.php(824): App\Controllers\Inicio->index()
+#4 C:\xampp1\htdocs\agenda_festa\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inicio))
+#5 C:\xampp1\htdocs\agenda_festa\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp1\htdocs\agenda_festa\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp1\htdocs\agenda_festa\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#8 {main}
+CRITICAL - 2021-12-19 15:28:14 -->  route cannot be found while reverse-routing.
+#0 C:\xampp1\htdocs\agenda_festa\system\HTTP\RedirectResponse.php(56): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 C:\xampp1\htdocs\agenda_festa\app\Controllers\Index.php(125): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 C:\xampp1\htdocs\agenda_festa\app\Controllers\Index.php(33): App\Controllers\Index->validadorDesession()
+#3 C:\xampp1\htdocs\agenda_festa\system\CodeIgniter.php(824): App\Controllers\Index->index()
+#4 C:\xampp1\htdocs\agenda_festa\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Index))
+#5 C:\xampp1\htdocs\agenda_festa\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp1\htdocs\agenda_festa\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp1\htdocs\agenda_festa\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#8 {main}
+CRITICAL - 2021-12-19 15:29:09 -->  route cannot be found while reverse-routing.
+#0 C:\xampp1\htdocs\agenda_festa\system\HTTP\RedirectResponse.php(56): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 C:\xampp1\htdocs\agenda_festa\app\Controllers\Index.php(125): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 C:\xampp1\htdocs\agenda_festa\app\Controllers\Index.php(33): App\Controllers\Index->validadorDesession()
+#3 C:\xampp1\htdocs\agenda_festa\system\CodeIgniter.php(824): App\Controllers\Index->index()
+#4 C:\xampp1\htdocs\agenda_festa\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Index))
+#5 C:\xampp1\htdocs\agenda_festa\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp1\htdocs\agenda_festa\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp1\htdocs\agenda_festa\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#8 {main}
+CRITICAL - 2021-12-19 15:30:01 -->  route cannot be found while reverse-routing.
+#0 C:\xampp1\htdocs\agenda_festa\system\HTTP\RedirectResponse.php(56): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 C:\xampp1\htdocs\agenda_festa\app\Controllers\Index.php(125): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 C:\xampp1\htdocs\agenda_festa\app\Controllers\Index.php(33): App\Controllers\Index->validadorDesession()
+#3 C:\xampp1\htdocs\agenda_festa\system\CodeIgniter.php(824): App\Controllers\Index->index()
+#4 C:\xampp1\htdocs\agenda_festa\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Index))
+#5 C:\xampp1\htdocs\agenda_festa\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp1\htdocs\agenda_festa\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp1\htdocs\agenda_festa\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#8 {main}
+CRITICAL - 2021-12-19 15:30:15 -->  route cannot be found while reverse-routing.
+#0 C:\xampp1\htdocs\agenda_festa\system\HTTP\RedirectResponse.php(56): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 C:\xampp1\htdocs\agenda_festa\app\Controllers\Index.php(125): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 C:\xampp1\htdocs\agenda_festa\app\Controllers\Index.php(33): App\Controllers\Index->validadorDesession()
+#3 C:\xampp1\htdocs\agenda_festa\system\CodeIgniter.php(824): App\Controllers\Index->index()
+#4 C:\xampp1\htdocs\agenda_festa\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Index))
+#5 C:\xampp1\htdocs\agenda_festa\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp1\htdocs\agenda_festa\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp1\htdocs\agenda_festa\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#8 {main}
+CRITICAL - 2021-12-19 15:30:20 -->  route cannot be found while reverse-routing.
+#0 C:\xampp1\htdocs\agenda_festa\system\HTTP\RedirectResponse.php(56): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 C:\xampp1\htdocs\agenda_festa\app\Controllers\Index.php(125): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 C:\xampp1\htdocs\agenda_festa\app\Controllers\Index.php(33): App\Controllers\Index->validadorDesession()
+#3 C:\xampp1\htdocs\agenda_festa\system\CodeIgniter.php(824): App\Controllers\Index->index()
+#4 C:\xampp1\htdocs\agenda_festa\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Index))
+#5 C:\xampp1\htdocs\agenda_festa\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp1\htdocs\agenda_festa\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp1\htdocs\agenda_festa\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#8 {main}
+CRITICAL - 2021-12-19 15:30:22 -->  route cannot be found while reverse-routing.
+#0 C:\xampp1\htdocs\agenda_festa\system\HTTP\RedirectResponse.php(56): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 C:\xampp1\htdocs\agenda_festa\app\Controllers\Index.php(125): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 C:\xampp1\htdocs\agenda_festa\app\Controllers\Index.php(33): App\Controllers\Index->validadorDesession()
+#3 C:\xampp1\htdocs\agenda_festa\system\CodeIgniter.php(824): App\Controllers\Index->index()
+#4 C:\xampp1\htdocs\agenda_festa\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Index))
+#5 C:\xampp1\htdocs\agenda_festa\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp1\htdocs\agenda_festa\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp1\htdocs\agenda_festa\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#8 {main}
+CRITICAL - 2021-12-19 15:30:23 -->  route cannot be found while reverse-routing.
+#0 C:\xampp1\htdocs\agenda_festa\system\HTTP\RedirectResponse.php(56): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 C:\xampp1\htdocs\agenda_festa\app\Controllers\Index.php(125): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 C:\xampp1\htdocs\agenda_festa\app\Controllers\Index.php(33): App\Controllers\Index->validadorDesession()
+#3 C:\xampp1\htdocs\agenda_festa\system\CodeIgniter.php(824): App\Controllers\Index->index()
+#4 C:\xampp1\htdocs\agenda_festa\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Index))
+#5 C:\xampp1\htdocs\agenda_festa\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp1\htdocs\agenda_festa\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp1\htdocs\agenda_festa\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#8 {main}
+CRITICAL - 2021-12-19 15:30:23 -->  route cannot be found while reverse-routing.
+#0 C:\xampp1\htdocs\agenda_festa\system\HTTP\RedirectResponse.php(56): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 C:\xampp1\htdocs\agenda_festa\app\Controllers\Index.php(125): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 C:\xampp1\htdocs\agenda_festa\app\Controllers\Index.php(33): App\Controllers\Index->validadorDesession()
+#3 C:\xampp1\htdocs\agenda_festa\system\CodeIgniter.php(824): App\Controllers\Index->index()
+#4 C:\xampp1\htdocs\agenda_festa\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Index))
+#5 C:\xampp1\htdocs\agenda_festa\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp1\htdocs\agenda_festa\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp1\htdocs\agenda_festa\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#8 {main}
+CRITICAL - 2021-12-19 15:30:24 -->  route cannot be found while reverse-routing.
+#0 C:\xampp1\htdocs\agenda_festa\system\HTTP\RedirectResponse.php(56): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 C:\xampp1\htdocs\agenda_festa\app\Controllers\Index.php(125): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 C:\xampp1\htdocs\agenda_festa\app\Controllers\Index.php(33): App\Controllers\Index->validadorDesession()
+#3 C:\xampp1\htdocs\agenda_festa\system\CodeIgniter.php(824): App\Controllers\Index->index()
+#4 C:\xampp1\htdocs\agenda_festa\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Index))
+#5 C:\xampp1\htdocs\agenda_festa\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp1\htdocs\agenda_festa\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp1\htdocs\agenda_festa\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#8 {main}
+CRITICAL - 2021-12-19 15:30:24 -->  route cannot be found while reverse-routing.
+#0 C:\xampp1\htdocs\agenda_festa\system\HTTP\RedirectResponse.php(56): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 C:\xampp1\htdocs\agenda_festa\app\Controllers\Index.php(125): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 C:\xampp1\htdocs\agenda_festa\app\Controllers\Index.php(33): App\Controllers\Index->validadorDesession()
+#3 C:\xampp1\htdocs\agenda_festa\system\CodeIgniter.php(824): App\Controllers\Index->index()
+#4 C:\xampp1\htdocs\agenda_festa\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Index))
+#5 C:\xampp1\htdocs\agenda_festa\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp1\htdocs\agenda_festa\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp1\htdocs\agenda_festa\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#8 {main}
+CRITICAL - 2021-12-19 15:34:02 -->  route cannot be found while reverse-routing.
+#0 C:\xampp1\htdocs\agenda_festa\system\HTTP\RedirectResponse.php(56): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 C:\xampp1\htdocs\agenda_festa\app\Controllers\Inicio.php(28): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 C:\xampp1\htdocs\agenda_festa\app\Controllers\Inicio.php(23): App\Controllers\Inicio->destroiSission()
+#3 C:\xampp1\htdocs\agenda_festa\system\CodeIgniter.php(824): App\Controllers\Inicio->sair()
+#4 C:\xampp1\htdocs\agenda_festa\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inicio))
+#5 C:\xampp1\htdocs\agenda_festa\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp1\htdocs\agenda_festa\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp1\htdocs\agenda_festa\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#8 {main}
+CRITICAL - 2021-12-19 15:35:45 -->  route cannot be found while reverse-routing.
+#0 C:\xampp1\htdocs\agenda_festa\system\HTTP\RedirectResponse.php(56): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 C:\xampp1\htdocs\agenda_festa\app\Controllers\Inicio.php(25): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 C:\xampp1\htdocs\agenda_festa\system\CodeIgniter.php(824): App\Controllers\Inicio->sair()
+#3 C:\xampp1\htdocs\agenda_festa\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inicio))
+#4 C:\xampp1\htdocs\agenda_festa\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp1\htdocs\agenda_festa\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp1\htdocs\agenda_festa\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#7 {main}
+CRITICAL - 2021-12-19 15:35:47 -->  route cannot be found while reverse-routing.
+#0 C:\xampp1\htdocs\agenda_festa\system\HTTP\RedirectResponse.php(56): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 C:\xampp1\htdocs\agenda_festa\app\Controllers\Inicio.php(17): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 C:\xampp1\htdocs\agenda_festa\app\Controllers\Inicio.php(11): App\Controllers\Inicio->validadorDesession()
+#3 C:\xampp1\htdocs\agenda_festa\system\CodeIgniter.php(824): App\Controllers\Inicio->index()
+#4 C:\xampp1\htdocs\agenda_festa\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inicio))
+#5 C:\xampp1\htdocs\agenda_festa\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp1\htdocs\agenda_festa\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp1\htdocs\agenda_festa\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#8 {main}
+CRITICAL - 2021-12-19 15:35:48 -->  route cannot be found while reverse-routing.
+#0 C:\xampp1\htdocs\agenda_festa\system\HTTP\RedirectResponse.php(56): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 C:\xampp1\htdocs\agenda_festa\app\Controllers\Inicio.php(17): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 C:\xampp1\htdocs\agenda_festa\app\Controllers\Inicio.php(11): App\Controllers\Inicio->validadorDesession()
+#3 C:\xampp1\htdocs\agenda_festa\system\CodeIgniter.php(824): App\Controllers\Inicio->index()
+#4 C:\xampp1\htdocs\agenda_festa\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inicio))
+#5 C:\xampp1\htdocs\agenda_festa\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp1\htdocs\agenda_festa\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp1\htdocs\agenda_festa\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#8 {main}
+CRITICAL - 2021-12-19 15:35:49 -->  route cannot be found while reverse-routing.
+#0 C:\xampp1\htdocs\agenda_festa\system\HTTP\RedirectResponse.php(56): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 C:\xampp1\htdocs\agenda_festa\app\Controllers\Inicio.php(17): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 C:\xampp1\htdocs\agenda_festa\app\Controllers\Inicio.php(11): App\Controllers\Inicio->validadorDesession()
+#3 C:\xampp1\htdocs\agenda_festa\system\CodeIgniter.php(824): App\Controllers\Inicio->index()
+#4 C:\xampp1\htdocs\agenda_festa\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inicio))
+#5 C:\xampp1\htdocs\agenda_festa\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp1\htdocs\agenda_festa\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp1\htdocs\agenda_festa\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#8 {main}
+CRITICAL - 2021-12-19 15:36:51 -->  route cannot be found while reverse-routing.
+#0 C:\xampp1\htdocs\agenda_festa\system\HTTP\RedirectResponse.php(56): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 C:\xampp1\htdocs\agenda_festa\app\Controllers\Inicio.php(14): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 C:\xampp1\htdocs\agenda_festa\system\CodeIgniter.php(824): App\Controllers\Inicio->index()
+#3 C:\xampp1\htdocs\agenda_festa\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inicio))
+#4 C:\xampp1\htdocs\agenda_festa\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp1\htdocs\agenda_festa\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp1\htdocs\agenda_festa\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#7 {main}
+CRITICAL - 2021-12-19 15:37:06 -->  route cannot be found while reverse-routing.
+#0 C:\xampp1\htdocs\agenda_festa\system\HTTP\RedirectResponse.php(56): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 C:\xampp1\htdocs\agenda_festa\app\Controllers\Inicio.php(29): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 C:\xampp1\htdocs\agenda_festa\system\CodeIgniter.php(824): App\Controllers\Inicio->sair()
+#3 C:\xampp1\htdocs\agenda_festa\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inicio))
+#4 C:\xampp1\htdocs\agenda_festa\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp1\htdocs\agenda_festa\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp1\htdocs\agenda_festa\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#7 {main}
+CRITICAL - 2021-12-19 15:38:02 -->  route cannot be found while reverse-routing.
+#0 C:\xampp1\htdocs\agenda_festa\system\HTTP\RedirectResponse.php(56): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 C:\xampp1\htdocs\agenda_festa\app\Controllers\Inicio.php(29): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 C:\xampp1\htdocs\agenda_festa\system\CodeIgniter.php(824): App\Controllers\Inicio->sair()
+#3 C:\xampp1\htdocs\agenda_festa\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inicio))
+#4 C:\xampp1\htdocs\agenda_festa\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp1\htdocs\agenda_festa\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp1\htdocs\agenda_festa\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#7 {main}
+CRITICAL - 2021-12-19 15:38:38 -->  route cannot be found while reverse-routing.
+#0 C:\xampp1\htdocs\agenda_festa\system\HTTP\RedirectResponse.php(56): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 C:\xampp1\htdocs\agenda_festa\app\Controllers\Inicio.php(29): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 C:\xampp1\htdocs\agenda_festa\system\CodeIgniter.php(824): App\Controllers\Inicio->sair()
+#3 C:\xampp1\htdocs\agenda_festa\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inicio))
+#4 C:\xampp1\htdocs\agenda_festa\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp1\htdocs\agenda_festa\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp1\htdocs\agenda_festa\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#7 {main}
+CRITICAL - 2021-12-19 15:38:40 -->  route cannot be found while reverse-routing.
+#0 C:\xampp1\htdocs\agenda_festa\system\HTTP\RedirectResponse.php(56): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 C:\xampp1\htdocs\agenda_festa\app\Controllers\Inicio.php(14): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 C:\xampp1\htdocs\agenda_festa\system\CodeIgniter.php(824): App\Controllers\Inicio->index()
+#3 C:\xampp1\htdocs\agenda_festa\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inicio))
+#4 C:\xampp1\htdocs\agenda_festa\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp1\htdocs\agenda_festa\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp1\htdocs\agenda_festa\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#7 {main}
+CRITICAL - 2021-12-19 15:38:45 -->  route cannot be found while reverse-routing.
+#0 C:\xampp1\htdocs\agenda_festa\system\HTTP\RedirectResponse.php(56): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 C:\xampp1\htdocs\agenda_festa\app\Controllers\Inicio.php(14): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 C:\xampp1\htdocs\agenda_festa\system\CodeIgniter.php(824): App\Controllers\Inicio->index()
+#3 C:\xampp1\htdocs\agenda_festa\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inicio))
+#4 C:\xampp1\htdocs\agenda_festa\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp1\htdocs\agenda_festa\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp1\htdocs\agenda_festa\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#7 {main}
+CRITICAL - 2021-12-19 18:17:39 --> Undefined property: CodeIgniter\View\View::$carregar_view
+#0 C:\xampp1\htdocs\agenda_festa\app\Views\acesso\inicio.php(2): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp1\\htdoc...', 2, Array)
+#1 C:\xampp1\htdocs\agenda_festa\system\View\View.php(214): include('C:\\xampp1\\htdoc...')
+#2 C:\xampp1\htdocs\agenda_festa\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp1\htdocs\agenda_festa\system\Common.php(1097): CodeIgniter\View\View->render('acesso/inicio', Array, true)
+#4 C:\xampp1\htdocs\agenda_festa\app\Controllers\Inicio.php(19): view('acesso/inicio')
+#5 C:\xampp1\htdocs\agenda_festa\system\CodeIgniter.php(824): App\Controllers\Inicio->index()
+#6 C:\xampp1\htdocs\agenda_festa\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inicio))
+#7 C:\xampp1\htdocs\agenda_festa\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp1\htdocs\agenda_festa\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp1\htdocs\agenda_festa\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#10 {main}
+CRITICAL - 2021-12-19 18:31:35 --> Undefined variable: header
+#0 C:\xampp1\htdocs\agenda_festa\app\Views\acesso\cadastrar_sl.php(1): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp1\\htdoc...', 1, Array)
+#1 C:\xampp1\htdocs\agenda_festa\system\View\View.php(214): include('C:\\xampp1\\htdoc...')
+#2 C:\xampp1\htdocs\agenda_festa\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp1\htdocs\agenda_festa\system\Common.php(1097): CodeIgniter\View\View->render('acesso/cadastra...', Array, true)
+#4 C:\xampp1\htdocs\agenda_festa\app\Controllers\OperacaoSl.php(15): view('acesso/cadastra...')
+#5 C:\xampp1\htdocs\agenda_festa\system\CodeIgniter.php(824): App\Controllers\OperacaoSl->cadastrar_sl()
+#6 C:\xampp1\htdocs\agenda_festa\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OperacaoSl))
+#7 C:\xampp1\htdocs\agenda_festa\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp1\htdocs\agenda_festa\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp1\htdocs\agenda_festa\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#10 {main}

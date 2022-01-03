@@ -1,0 +1,24 @@
+CRITICAL - 2021-12-23 10:02:23 --> Undefined variable: tempo_da_intermediacao
+#0 C:\xampp1\htdocs\agenda_festa\app\Views\acesso\inicio.php(78): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp1\\htdoc...', 78, Array)
+#1 C:\xampp1\htdocs\agenda_festa\system\View\View.php(214): include('C:\\xampp1\\htdoc...')
+#2 C:\xampp1\htdocs\agenda_festa\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp1\htdocs\agenda_festa\system\Common.php(1097): CodeIgniter\View\View->render('acesso/inicio', Array, true)
+#4 C:\xampp1\htdocs\agenda_festa\app\Controllers\Inicio.php(36): view('acesso/inicio', Array)
+#5 C:\xampp1\htdocs\agenda_festa\system\CodeIgniter.php(824): App\Controllers\Inicio->index()
+#6 C:\xampp1\htdocs\agenda_festa\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inicio))
+#7 C:\xampp1\htdocs\agenda_festa\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp1\htdocs\agenda_festa\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp1\htdocs\agenda_festa\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#10 {main}
+CRITICAL - 2021-12-23 10:03:31 --> Undefined variable: tempo_da_intermediacao
+#0 C:\xampp1\htdocs\agenda_festa\app\Views\acesso\inicio.php(78): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp1\\htdoc...', 78, Array)
+#1 C:\xampp1\htdocs\agenda_festa\system\View\View.php(214): include('C:\\xampp1\\htdoc...')
+#2 C:\xampp1\htdocs\agenda_festa\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp1\htdocs\agenda_festa\system\Common.php(1097): CodeIgniter\View\View->render('acesso/inicio', Array, true)
+#4 C:\xampp1\htdocs\agenda_festa\app\Controllers\Inicio.php(36): view('acesso/inicio', Array)
+#5 C:\xampp1\htdocs\agenda_festa\system\CodeIgniter.php(824): App\Controllers\Inicio->index()
+#6 C:\xampp1\htdocs\agenda_festa\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inicio))
+#7 C:\xampp1\htdocs\agenda_festa\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp1\htdocs\agenda_festa\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp1\htdocs\agenda_festa\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#10 {main}

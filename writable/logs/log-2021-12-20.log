@@ -1,0 +1,38 @@
+ERROR - 2021-12-20 18:12:19 --> Error connecting to the database: Nenhuma ligação pôde ser feita porque o computador de destino
+as recusou ativamente.
+
+CRITICAL - 2021-12-20 18:12:19 --> Unable to connect to the database.
+Main connection [MySQLi]: Nenhuma ligação pôde ser feita porque o computador de destino
+as recusou ativamente.
+
+#0 C:\xampp1\htdocs\agenda_festa\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp1\htdocs\agenda_festa\system\Database\BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp1\htdocs\agenda_festa\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp1\htdocs\agenda_festa\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#4 C:\xampp1\htdocs\agenda_festa\app\Models\Usuario_puro.php(45): CodeIgniter\BaseModel->first()
+#5 C:\xampp1\htdocs\agenda_festa\app\Controllers\AuthController.php(22): App\Models\Usuario_puro->autenticarDado()
+#6 C:\xampp1\htdocs\agenda_festa\system\CodeIgniter.php(824): App\Controllers\AuthController->autenticar()
+#7 C:\xampp1\htdocs\agenda_festa\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+#8 C:\xampp1\htdocs\agenda_festa\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp1\htdocs\agenda_festa\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp1\htdocs\agenda_festa\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#11 {main}
+ERROR - 2021-12-20 18:12:37 --> Error connecting to the database: Nenhuma ligação pôde ser feita porque o computador de destino
+as recusou ativamente.
+
+CRITICAL - 2021-12-20 18:12:37 --> Unable to connect to the database.
+Main connection [MySQLi]: Nenhuma ligação pôde ser feita porque o computador de destino
+as recusou ativamente.
+
+#0 C:\xampp1\htdocs\agenda_festa\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp1\htdocs\agenda_festa\system\Database\BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp1\htdocs\agenda_festa\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp1\htdocs\agenda_festa\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#4 C:\xampp1\htdocs\agenda_festa\app\Models\Usuario_puro.php(45): CodeIgniter\BaseModel->first()
+#5 C:\xampp1\htdocs\agenda_festa\app\Controllers\AuthController.php(22): App\Models\Usuario_puro->autenticarDado()
+#6 C:\xampp1\htdocs\agenda_festa\system\CodeIgniter.php(824): App\Controllers\AuthController->autenticar()
+#7 C:\xampp1\htdocs\agenda_festa\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+#8 C:\xampp1\htdocs\agenda_festa\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp1\htdocs\agenda_festa\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp1\htdocs\agenda_festa\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#11 {main}
