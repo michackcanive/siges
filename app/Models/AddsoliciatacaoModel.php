@@ -21,6 +21,7 @@ class AddsoliciatacaoModel extends Model
         'qtd_lugar',
         'telefone',
         'dia_actoa_actocao',
+        'dia_actoa_actocao_fim',
         'dia_termino_acto',
         'valor_pago',
         'estado_do_processo',

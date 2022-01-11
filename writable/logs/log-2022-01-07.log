@@ -1,0 +1,1058 @@
+CRITICAL - 2022-01-07 04:40:45 --> Undefined index: id_salao
+#0 C:\xampp1\htdocs\siges\app\Controllers\OperacaoSl.php(284): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp1\\htdoc...', 284, Array)
+#1 C:\xampp1\htdocs\siges\system\CodeIgniter.php(824): App\Controllers\OperacaoSl->detalhes_sl('img', 'favicon.ico')
+#2 C:\xampp1\htdocs\siges\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OperacaoSl))
+#3 C:\xampp1\htdocs\siges\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp1\htdocs\siges\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp1\htdocs\siges\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#6 {main}
+CRITICAL - 2022-01-07 04:40:54 --> Undefined property: App\Controllers\OperacaoSl::$outDir
+#0 C:\xampp1\htdocs\siges\app\Controllers\OperacaoSl.php(115): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp1\\htdoc...', 115, Array)
+#1 C:\xampp1\htdocs\siges\app\Controllers\OperacaoSl.php(100): App\Controllers\OperacaoSl->savePdf('htmlToPDF.pdf')
+#2 C:\xampp1\htdocs\siges\system\CodeIgniter.php(824): App\Controllers\OperacaoSl->htmlToPDF()
+#3 C:\xampp1\htdocs\siges\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OperacaoSl))
+#4 C:\xampp1\htdocs\siges\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp1\htdocs\siges\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp1\htdocs\siges\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#7 {main}
+CRITICAL - 2022-01-07 04:41:06 --> Undefined property: App\Controllers\OperacaoSl::$outDir
+#0 C:\xampp1\htdocs\siges\app\Controllers\OperacaoSl.php(115): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp1\\htdoc...', 115, Array)
+#1 C:\xampp1\htdocs\siges\app\Controllers\OperacaoSl.php(100): App\Controllers\OperacaoSl->savePdf('htmlToPDF.pdf')
+#2 C:\xampp1\htdocs\siges\system\CodeIgniter.php(824): App\Controllers\OperacaoSl->htmlToPDF()
+#3 C:\xampp1\htdocs\siges\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OperacaoSl))
+#4 C:\xampp1\htdocs\siges\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp1\htdocs\siges\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp1\htdocs\siges\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#7 {main}
+CRITICAL - 2022-01-07 04:41:06 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Malformed UTF-8 characters, possibly incorrectly encoded". in C:\xampp1\htdocs\siges\system\Format\JSONFormatter.php:41
+Stack trace:
+#0 C:\xampp1\htdocs\siges\system\Format\JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Malformed UTF-8...')
+#1 C:\xampp1\htdocs\siges\system\API\ResponseTrait.php(341): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 C:\xampp1\htdocs\siges\system\API\ResponseTrait.php(99): CodeIgniter\Debug\Exceptions->format(Array)
+#3 C:\xampp1\htdocs\siges\system\Debug\Exceptions.php(110): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-01-07 04:44:51 --> Undefined property: App\Controllers\OperacaoSl::$outDir
+#0 C:\xampp1\htdocs\siges\app\Controllers\OperacaoSl.php(129): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp1\\htdoc...', 129, Array)
+#1 C:\xampp1\htdocs\siges\app\Controllers\OperacaoSl.php(92): App\Controllers\OperacaoSl->savePdf('htmlToPDF.pdf')
+#2 C:\xampp1\htdocs\siges\system\CodeIgniter.php(824): App\Controllers\OperacaoSl->htmlToPDF()
+#3 C:\xampp1\htdocs\siges\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OperacaoSl))
+#4 C:\xampp1\htdocs\siges\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp1\htdocs\siges\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp1\htdocs\siges\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#7 {main}
+CRITICAL - 2022-01-07 04:46:34 --> Undefined property: App\Controllers\OperacaoSl::$outDir
+#0 C:\xampp1\htdocs\siges\app\Controllers\OperacaoSl.php(130): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp1\\htdoc...', 130, Array)
+#1 C:\xampp1\htdocs\siges\app\Controllers\OperacaoSl.php(93): App\Controllers\OperacaoSl->savePdf('htmlToPDF.pdf')
+#2 C:\xampp1\htdocs\siges\system\CodeIgniter.php(824): App\Controllers\OperacaoSl->htmlToPDF()
+#3 C:\xampp1\htdocs\siges\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OperacaoSl))
+#4 C:\xampp1\htdocs\siges\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp1\htdocs\siges\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp1\htdocs\siges\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#7 {main}
+CRITICAL - 2022-01-07 04:47:52 --> Undefined property: App\Controllers\OperacaoSl::$outDir
+#0 C:\xampp1\htdocs\siges\app\Controllers\OperacaoSl.php(130): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp1\\htdoc...', 130, Array)
+#1 C:\xampp1\htdocs\siges\app\Controllers\OperacaoSl.php(93): App\Controllers\OperacaoSl->savePdf('htmlToPDF.pdf')
+#2 C:\xampp1\htdocs\siges\system\CodeIgniter.php(824): App\Controllers\OperacaoSl->htmlToPDF()
+#3 C:\xampp1\htdocs\siges\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OperacaoSl))
+#4 C:\xampp1\htdocs\siges\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp1\htdocs\siges\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp1\htdocs\siges\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#7 {main}
+CRITICAL - 2022-01-07 04:49:35 --> Invalid file: ola.php
+#0 C:\xampp1\htdocs\siges\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('ola.php')
+#1 C:\xampp1\htdocs\siges\system\Common.php(1097): CodeIgniter\View\View->render('ola', Array, true)
+#2 C:\xampp1\htdocs\siges\app\Controllers\OperacaoSl.php(94): view('ola')
+#3 C:\xampp1\htdocs\siges\system\CodeIgniter.php(824): App\Controllers\OperacaoSl->htmlToPDF()
+#4 C:\xampp1\htdocs\siges\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OperacaoSl))
+#5 C:\xampp1\htdocs\siges\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp1\htdocs\siges\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp1\htdocs\siges\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#8 {main}
+CRITICAL - 2022-01-07 04:50:58 --> Undefined property: App\Controllers\OperacaoSl::$outDir
+#0 C:\xampp1\htdocs\siges\app\Controllers\OperacaoSl.php(115): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp1\\htdoc...', 115, Array)
+#1 C:\xampp1\htdocs\siges\app\Controllers\OperacaoSl.php(100): App\Controllers\OperacaoSl->savePdf('htmlToPDF.pdf')
+#2 C:\xampp1\htdocs\siges\system\CodeIgniter.php(824): App\Controllers\OperacaoSl->htmlToPDF()
+#3 C:\xampp1\htdocs\siges\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OperacaoSl))
+#4 C:\xampp1\htdocs\siges\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp1\htdocs\siges\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp1\htdocs\siges\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#7 {main}
+CRITICAL - 2022-01-07 04:51:02 --> Undefined property: App\Controllers\OperacaoSl::$outDir
+#0 C:\xampp1\htdocs\siges\app\Controllers\OperacaoSl.php(115): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp1\\htdoc...', 115, Array)
+#1 C:\xampp1\htdocs\siges\app\Controllers\OperacaoSl.php(100): App\Controllers\OperacaoSl->savePdf('htmlToPDF.pdf')
+#2 C:\xampp1\htdocs\siges\system\CodeIgniter.php(824): App\Controllers\OperacaoSl->htmlToPDF()
+#3 C:\xampp1\htdocs\siges\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OperacaoSl))
+#4 C:\xampp1\htdocs\siges\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp1\htdocs\siges\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp1\htdocs\siges\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#7 {main}
+CRITICAL - 2022-01-07 04:51:02 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Malformed UTF-8 characters, possibly incorrectly encoded". in C:\xampp1\htdocs\siges\system\Format\JSONFormatter.php:41
+Stack trace:
+#0 C:\xampp1\htdocs\siges\system\Format\JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Malformed UTF-8...')
+#1 C:\xampp1\htdocs\siges\system\API\ResponseTrait.php(341): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 C:\xampp1\htdocs\siges\system\API\ResponseTrait.php(99): CodeIgniter\Debug\Exceptions->format(Array)
+#3 C:\xampp1\htdocs\siges\system\Debug\Exceptions.php(110): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-01-07 04:51:51 --> Undefined property: App\Controllers\OperacaoSl::$outDir
+#0 C:\xampp1\htdocs\siges\app\Controllers\OperacaoSl.php(115): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp1\\htdoc...', 115, Array)
+#1 C:\xampp1\htdocs\siges\app\Controllers\OperacaoSl.php(100): App\Controllers\OperacaoSl->savePdf('htmlToPDF.pdf')
+#2 C:\xampp1\htdocs\siges\system\CodeIgniter.php(824): App\Controllers\OperacaoSl->htmlToPDF()
+#3 C:\xampp1\htdocs\siges\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OperacaoSl))
+#4 C:\xampp1\htdocs\siges\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp1\htdocs\siges\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp1\htdocs\siges\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#7 {main}
+CRITICAL - 2022-01-07 04:53:51 --> Undefined property: App\Controllers\OperacaoSl::$outDir
+#0 C:\xampp1\htdocs\siges\app\Controllers\OperacaoSl.php(116): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp1\\htdoc...', 116, Array)
+#1 C:\xampp1\htdocs\siges\app\Controllers\OperacaoSl.php(101): App\Controllers\OperacaoSl->savePdf('htmlToPDF.pdf')
+#2 C:\xampp1\htdocs\siges\system\CodeIgniter.php(824): App\Controllers\OperacaoSl->htmlToPDF()
+#3 C:\xampp1\htdocs\siges\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OperacaoSl))
+#4 C:\xampp1\htdocs\siges\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp1\htdocs\siges\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp1\htdocs\siges\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#7 {main}
+CRITICAL - 2022-01-07 04:54:05 --> Undefined property: App\Controllers\OperacaoSl::$outDir
+#0 C:\xampp1\htdocs\siges\app\Controllers\OperacaoSl.php(116): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp1\\htdoc...', 116, Array)
+#1 C:\xampp1\htdocs\siges\app\Controllers\OperacaoSl.php(101): App\Controllers\OperacaoSl->savePdf('htmlToPDF.pdf')
+#2 C:\xampp1\htdocs\siges\system\CodeIgniter.php(824): App\Controllers\OperacaoSl->htmlToPDF()
+#3 C:\xampp1\htdocs\siges\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OperacaoSl))
+#4 C:\xampp1\htdocs\siges\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp1\htdocs\siges\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp1\htdocs\siges\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#7 {main}
+CRITICAL - 2022-01-07 05:05:09 --> Undefined variable: txttit
+#0 C:\xampp1\htdocs\siges\app\Controllers\OperacaoSl.php(112): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp1\\htdoc...', 112, Array)
+#1 C:\xampp1\htdocs\siges\system\CodeIgniter.php(824): App\Controllers\OperacaoSl->htmlToPDF()
+#2 C:\xampp1\htdocs\siges\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OperacaoSl))
+#3 C:\xampp1\htdocs\siges\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp1\htdocs\siges\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp1\htdocs\siges\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#6 {main}
+CRITICAL - 2022-01-07 05:07:10 --> Undefined property: App\Controllers\OperacaoSl::$outDir
+#0 C:\xampp1\htdocs\siges\app\Controllers\OperacaoSl.php(132): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp1\\htdoc...', 132, Array)
+#1 C:\xampp1\htdocs\siges\app\Controllers\OperacaoSl.php(120): App\Controllers\OperacaoSl->savePdf('htmlToPDF.pdf')
+#2 C:\xampp1\htdocs\siges\system\CodeIgniter.php(824): App\Controllers\OperacaoSl->htmlToPDF()
+#3 C:\xampp1\htdocs\siges\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OperacaoSl))
+#4 C:\xampp1\htdocs\siges\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp1\htdocs\siges\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp1\htdocs\siges\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#7 {main}
+CRITICAL - 2022-01-07 05:07:17 --> Undefined property: App\Controllers\OperacaoSl::$outDir
+#0 C:\xampp1\htdocs\siges\app\Controllers\OperacaoSl.php(132): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp1\\htdoc...', 132, Array)
+#1 C:\xampp1\htdocs\siges\app\Controllers\OperacaoSl.php(120): App\Controllers\OperacaoSl->savePdf('htmlToPDF.pdf')
+#2 C:\xampp1\htdocs\siges\system\CodeIgniter.php(824): App\Controllers\OperacaoSl->htmlToPDF()
+#3 C:\xampp1\htdocs\siges\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OperacaoSl))
+#4 C:\xampp1\htdocs\siges\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp1\htdocs\siges\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp1\htdocs\siges\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#7 {main}
+CRITICAL - 2022-01-07 05:07:17 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Malformed UTF-8 characters, possibly incorrectly encoded". in C:\xampp1\htdocs\siges\system\Format\JSONFormatter.php:41
+Stack trace:
+#0 C:\xampp1\htdocs\siges\system\Format\JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Malformed UTF-8...')
+#1 C:\xampp1\htdocs\siges\system\API\ResponseTrait.php(341): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 C:\xampp1\htdocs\siges\system\API\ResponseTrait.php(99): CodeIgniter\Debug\Exceptions->format(Array)
+#3 C:\xampp1\htdocs\siges\system\Debug\Exceptions.php(110): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-01-07 05:07:46 --> preg_split() expects parameter 2 to be string, array given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'preg_split() ex...', 'C:\\xampp1\\htdoc...', 1949, Array)
+#1 C:\xampp1\htdocs\siges\app\Controllers\pdf\Cezpdf.php(1949): preg_split('[\r\n|\r|\n]', Array)
+#2 C:\xampp1\htdocs\siges\app\Controllers\OperacaoSl.php(112): Cezpdf->ezText(Array, 10)
+#3 C:\xampp1\htdocs\siges\system\CodeIgniter.php(824): App\Controllers\OperacaoSl->htmlToPDF()
+#4 C:\xampp1\htdocs\siges\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OperacaoSl))
+#5 C:\xampp1\htdocs\siges\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp1\htdocs\siges\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp1\htdocs\siges\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#8 {main}
+CRITICAL - 2022-01-07 05:08:26 --> Undefined property: App\Controllers\OperacaoSl::$outDir
+#0 C:\xampp1\htdocs\siges\app\Controllers\OperacaoSl.php(132): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp1\\htdoc...', 132, Array)
+#1 C:\xampp1\htdocs\siges\app\Controllers\OperacaoSl.php(120): App\Controllers\OperacaoSl->savePdf('htmlToPDF.pdf')
+#2 C:\xampp1\htdocs\siges\system\CodeIgniter.php(824): App\Controllers\OperacaoSl->htmlToPDF()
+#3 C:\xampp1\htdocs\siges\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OperacaoSl))
+#4 C:\xampp1\htdocs\siges\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp1\htdocs\siges\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp1\htdocs\siges\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#7 {main}
+CRITICAL - 2022-01-07 05:08:44 --> Undefined property: App\Controllers\OperacaoSl::$outDir
+#0 C:\xampp1\htdocs\siges\app\Controllers\OperacaoSl.php(132): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp1\\htdoc...', 132, Array)
+#1 C:\xampp1\htdocs\siges\app\Controllers\OperacaoSl.php(120): App\Controllers\OperacaoSl->savePdf('htmlToPDF.pdf')
+#2 C:\xampp1\htdocs\siges\system\CodeIgniter.php(824): App\Controllers\OperacaoSl->htmlToPDF()
+#3 C:\xampp1\htdocs\siges\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OperacaoSl))
+#4 C:\xampp1\htdocs\siges\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp1\htdocs\siges\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp1\htdocs\siges\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#7 {main}
+CRITICAL - 2022-01-07 05:11:54 --> Undefined variable: titles
+#0 C:\xampp1\htdocs\siges\app\Controllers\OperacaoSl.php(112): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp1\\htdoc...', 112, Array)
+#1 C:\xampp1\htdocs\siges\system\CodeIgniter.php(824): App\Controllers\OperacaoSl->htmlToPDF()
+#2 C:\xampp1\htdocs\siges\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OperacaoSl))
+#3 C:\xampp1\htdocs\siges\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp1\htdocs\siges\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp1\htdocs\siges\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#6 {main}
+CRITICAL - 2022-01-07 05:12:53 --> Undefined property: App\Controllers\OperacaoSl::$outDir
+#0 C:\xampp1\htdocs\siges\app\Controllers\OperacaoSl.php(132): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp1\\htdoc...', 132, Array)
+#1 C:\xampp1\htdocs\siges\app\Controllers\OperacaoSl.php(120): App\Controllers\OperacaoSl->savePdf('htmlToPDF.pdf')
+#2 C:\xampp1\htdocs\siges\system\CodeIgniter.php(824): App\Controllers\OperacaoSl->htmlToPDF()
+#3 C:\xampp1\htdocs\siges\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OperacaoSl))
+#4 C:\xampp1\htdocs\siges\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp1\htdocs\siges\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp1\htdocs\siges\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#7 {main}
+CRITICAL - 2022-01-07 05:13:14 --> Undefined property: App\Controllers\OperacaoSl::$outDir
+#0 C:\xampp1\htdocs\siges\app\Controllers\OperacaoSl.php(132): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp1\\htdoc...', 132, Array)
+#1 C:\xampp1\htdocs\siges\app\Controllers\OperacaoSl.php(120): App\Controllers\OperacaoSl->savePdf('htmlToPDF.pdf')
+#2 C:\xampp1\htdocs\siges\system\CodeIgniter.php(824): App\Controllers\OperacaoSl->htmlToPDF()
+#3 C:\xampp1\htdocs\siges\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OperacaoSl))
+#4 C:\xampp1\htdocs\siges\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp1\htdocs\siges\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp1\htdocs\siges\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#7 {main}
+CRITICAL - 2022-01-07 05:13:19 --> Undefined property: App\Controllers\OperacaoSl::$outDir
+#0 C:\xampp1\htdocs\siges\app\Controllers\OperacaoSl.php(132): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp1\\htdoc...', 132, Array)
+#1 C:\xampp1\htdocs\siges\app\Controllers\OperacaoSl.php(120): App\Controllers\OperacaoSl->savePdf('htmlToPDF.pdf')
+#2 C:\xampp1\htdocs\siges\system\CodeIgniter.php(824): App\Controllers\OperacaoSl->htmlToPDF()
+#3 C:\xampp1\htdocs\siges\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OperacaoSl))
+#4 C:\xampp1\htdocs\siges\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp1\htdocs\siges\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp1\htdocs\siges\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#7 {main}
+CRITICAL - 2022-01-07 05:16:33 --> Undefined property: App\Controllers\OperacaoSl::$outDir
+#0 C:\xampp1\htdocs\siges\app\Controllers\OperacaoSl.php(115): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp1\\htdoc...', 115, Array)
+#1 C:\xampp1\htdocs\siges\app\Controllers\OperacaoSl.php(100): App\Controllers\OperacaoSl->savePdf('htmlToPDF.pdf')
+#2 C:\xampp1\htdocs\siges\system\CodeIgniter.php(824): App\Controllers\OperacaoSl->htmlToPDF()
+#3 C:\xampp1\htdocs\siges\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OperacaoSl))
+#4 C:\xampp1\htdocs\siges\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp1\htdocs\siges\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp1\htdocs\siges\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#7 {main}
+CRITICAL - 2022-01-07 05:17:04 --> Undefined property: App\Controllers\OperacaoSl::$outDir
+#0 C:\xampp1\htdocs\siges\app\Controllers\OperacaoSl.php(115): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp1\\htdoc...', 115, Array)
+#1 C:\xampp1\htdocs\siges\app\Controllers\OperacaoSl.php(100): App\Controllers\OperacaoSl->savePdf('htmlToPDF.pdf')
+#2 C:\xampp1\htdocs\siges\system\CodeIgniter.php(824): App\Controllers\OperacaoSl->htmlToPDF()
+#3 C:\xampp1\htdocs\siges\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OperacaoSl))
+#4 C:\xampp1\htdocs\siges\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp1\htdocs\siges\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp1\htdocs\siges\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#7 {main}
+CRITICAL - 2022-01-07 05:18:15 --> Undefined property: App\Controllers\OperacaoSl::$outDir
+#0 C:\xampp1\htdocs\siges\app\Controllers\OperacaoSl.php(115): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp1\\htdoc...', 115, Array)
+#1 C:\xampp1\htdocs\siges\app\Controllers\OperacaoSl.php(100): App\Controllers\OperacaoSl->savePdf('htmlToPDF.pdf')
+#2 C:\xampp1\htdocs\siges\system\CodeIgniter.php(824): App\Controllers\OperacaoSl->htmlToPDF()
+#3 C:\xampp1\htdocs\siges\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OperacaoSl))
+#4 C:\xampp1\htdocs\siges\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp1\htdocs\siges\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp1\htdocs\siges\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#7 {main}
+CRITICAL - 2022-01-07 05:20:07 --> Undefined index: id_salao
+#0 C:\xampp1\htdocs\siges\app\Controllers\OperacaoSl.php(248): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp1\\htdoc...', 248, Array)
+#1 C:\xampp1\htdocs\siges\system\CodeIgniter.php(824): App\Controllers\OperacaoSl->detalhes_sl_add_servico('img', 'favicon.ico')
+#2 C:\xampp1\htdocs\siges\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OperacaoSl))
+#3 C:\xampp1\htdocs\siges\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp1\htdocs\siges\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp1\htdocs\siges\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#6 {main}
+CRITICAL - 2022-01-07 05:20:12 --> Undefined offset: 0
+#0 C:\xampp1\htdocs\siges\app\Views\pdf_view.php(8): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\xampp1\\htdoc...', 8, Array)
+#1 C:\xampp1\htdocs\siges\system\View\View.php(214): include('C:\\xampp1\\htdoc...')
+#2 C:\xampp1\htdocs\siges\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp1\htdocs\siges\system\Common.php(1097): CodeIgniter\View\View->render('pdf_view', Array, true)
+#4 C:\xampp1\htdocs\siges\app\Controllers\OperacaoSl.php(94): view('pdf_view', Array)
+#5 C:\xampp1\htdocs\siges\system\CodeIgniter.php(824): App\Controllers\OperacaoSl->htmlToPDF()
+#6 C:\xampp1\htdocs\siges\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OperacaoSl))
+#7 C:\xampp1\htdocs\siges\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp1\htdocs\siges\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp1\htdocs\siges\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#10 {main}
+CRITICAL - 2022-01-07 05:21:11 --> Undefined property: App\Controllers\OperacaoSl::$outDir
+#0 C:\xampp1\htdocs\siges\app\Controllers\OperacaoSl.php(115): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp1\\htdoc...', 115, Array)
+#1 C:\xampp1\htdocs\siges\app\Controllers\OperacaoSl.php(100): App\Controllers\OperacaoSl->savePdf('htmlToPDF.pdf')
+#2 C:\xampp1\htdocs\siges\system\CodeIgniter.php(824): App\Controllers\OperacaoSl->htmlToPDF()
+#3 C:\xampp1\htdocs\siges\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OperacaoSl))
+#4 C:\xampp1\htdocs\siges\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp1\htdocs\siges\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp1\htdocs\siges\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#7 {main}
+CRITICAL - 2022-01-07 05:22:27 --> Undefined property: App\Controllers\OperacaoSl::$outDir
+#0 C:\xampp1\htdocs\siges\app\Controllers\OperacaoSl.php(115): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp1\\htdoc...', 115, Array)
+#1 C:\xampp1\htdocs\siges\app\Controllers\OperacaoSl.php(100): App\Controllers\OperacaoSl->savePdf('htmlToPDF.pdf')
+#2 C:\xampp1\htdocs\siges\system\CodeIgniter.php(824): App\Controllers\OperacaoSl->htmlToPDF()
+#3 C:\xampp1\htdocs\siges\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OperacaoSl))
+#4 C:\xampp1\htdocs\siges\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp1\htdocs\siges\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp1\htdocs\siges\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#7 {main}
+CRITICAL - 2022-01-07 05:22:52 --> Undefined property: App\Controllers\OperacaoSl::$outDir
+#0 C:\xampp1\htdocs\siges\app\Controllers\OperacaoSl.php(115): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp1\\htdoc...', 115, Array)
+#1 C:\xampp1\htdocs\siges\app\Controllers\OperacaoSl.php(100): App\Controllers\OperacaoSl->savePdf('htmlToPDF.pdf')
+#2 C:\xampp1\htdocs\siges\system\CodeIgniter.php(824): App\Controllers\OperacaoSl->htmlToPDF()
+#3 C:\xampp1\htdocs\siges\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OperacaoSl))
+#4 C:\xampp1\htdocs\siges\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp1\htdocs\siges\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp1\htdocs\siges\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#7 {main}
+CRITICAL - 2022-01-07 05:26:13 --> Undefined property: App\Controllers\OperacaoSl::$outDir
+#0 C:\xampp1\htdocs\siges\app\Controllers\OperacaoSl.php(115): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp1\\htdoc...', 115, Array)
+#1 C:\xampp1\htdocs\siges\app\Controllers\OperacaoSl.php(100): App\Controllers\OperacaoSl->savePdf('htmlToPDF.pdf')
+#2 C:\xampp1\htdocs\siges\system\CodeIgniter.php(824): App\Controllers\OperacaoSl->htmlToPDF()
+#3 C:\xampp1\htdocs\siges\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OperacaoSl))
+#4 C:\xampp1\htdocs\siges\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp1\htdocs\siges\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp1\htdocs\siges\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#7 {main}
+CRITICAL - 2022-01-07 05:26:36 --> Undefined property: App\Controllers\OperacaoSl::$outDir
+#0 C:\xampp1\htdocs\siges\app\Controllers\OperacaoSl.php(115): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp1\\htdoc...', 115, Array)
+#1 C:\xampp1\htdocs\siges\app\Controllers\OperacaoSl.php(100): App\Controllers\OperacaoSl->savePdf('htmlToPDF.pdf')
+#2 C:\xampp1\htdocs\siges\system\CodeIgniter.php(824): App\Controllers\OperacaoSl->htmlToPDF()
+#3 C:\xampp1\htdocs\siges\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OperacaoSl))
+#4 C:\xampp1\htdocs\siges\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp1\htdocs\siges\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp1\htdocs\siges\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#7 {main}
+CRITICAL - 2022-01-07 05:26:54 --> Undefined property: App\Controllers\OperacaoSl::$outDir
+#0 C:\xampp1\htdocs\siges\app\Controllers\OperacaoSl.php(115): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp1\\htdoc...', 115, Array)
+#1 C:\xampp1\htdocs\siges\app\Controllers\OperacaoSl.php(100): App\Controllers\OperacaoSl->savePdf('htmlToPDF.pdf')
+#2 C:\xampp1\htdocs\siges\system\CodeIgniter.php(824): App\Controllers\OperacaoSl->htmlToPDF()
+#3 C:\xampp1\htdocs\siges\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OperacaoSl))
+#4 C:\xampp1\htdocs\siges\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp1\htdocs\siges\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp1\htdocs\siges\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#7 {main}
+CRITICAL - 2022-01-07 05:28:09 --> Undefined property: App\Controllers\OperacaoSl::$outDir
+#0 C:\xampp1\htdocs\siges\app\Controllers\OperacaoSl.php(115): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp1\\htdoc...', 115, Array)
+#1 C:\xampp1\htdocs\siges\app\Controllers\OperacaoSl.php(100): App\Controllers\OperacaoSl->savePdf('htmlToPDF.pdf')
+#2 C:\xampp1\htdocs\siges\system\CodeIgniter.php(824): App\Controllers\OperacaoSl->htmlToPDF()
+#3 C:\xampp1\htdocs\siges\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OperacaoSl))
+#4 C:\xampp1\htdocs\siges\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp1\htdocs\siges\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp1\htdocs\siges\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#7 {main}
+CRITICAL - 2022-01-07 05:29:09 --> Undefined property: App\Controllers\OperacaoSl::$outDir
+#0 C:\xampp1\htdocs\siges\app\Controllers\OperacaoSl.php(115): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp1\\htdoc...', 115, Array)
+#1 C:\xampp1\htdocs\siges\app\Controllers\OperacaoSl.php(100): App\Controllers\OperacaoSl->savePdf('htmlToPDF.pdf')
+#2 C:\xampp1\htdocs\siges\system\CodeIgniter.php(824): App\Controllers\OperacaoSl->htmlToPDF()
+#3 C:\xampp1\htdocs\siges\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OperacaoSl))
+#4 C:\xampp1\htdocs\siges\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp1\htdocs\siges\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp1\htdocs\siges\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#7 {main}
+CRITICAL - 2022-01-07 05:29:22 --> Undefined property: App\Controllers\OperacaoSl::$outDir
+#0 C:\xampp1\htdocs\siges\app\Controllers\OperacaoSl.php(115): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp1\\htdoc...', 115, Array)
+#1 C:\xampp1\htdocs\siges\app\Controllers\OperacaoSl.php(100): App\Controllers\OperacaoSl->savePdf('htmlToPDF.pdf')
+#2 C:\xampp1\htdocs\siges\system\CodeIgniter.php(824): App\Controllers\OperacaoSl->htmlToPDF()
+#3 C:\xampp1\htdocs\siges\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OperacaoSl))
+#4 C:\xampp1\htdocs\siges\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp1\htdocs\siges\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp1\htdocs\siges\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#7 {main}
+CRITICAL - 2022-01-07 05:29:33 --> Undefined property: App\Controllers\OperacaoSl::$outDir
+#0 C:\xampp1\htdocs\siges\app\Controllers\OperacaoSl.php(115): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp1\\htdoc...', 115, Array)
+#1 C:\xampp1\htdocs\siges\app\Controllers\OperacaoSl.php(100): App\Controllers\OperacaoSl->savePdf('htmlToPDF.pdf')
+#2 C:\xampp1\htdocs\siges\system\CodeIgniter.php(824): App\Controllers\OperacaoSl->htmlToPDF()
+#3 C:\xampp1\htdocs\siges\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OperacaoSl))
+#4 C:\xampp1\htdocs\siges\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp1\htdocs\siges\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp1\htdocs\siges\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#7 {main}
+CRITICAL - 2022-01-07 05:29:39 --> Undefined property: App\Controllers\OperacaoSl::$outDir
+#0 C:\xampp1\htdocs\siges\app\Controllers\OperacaoSl.php(115): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp1\\htdoc...', 115, Array)
+#1 C:\xampp1\htdocs\siges\app\Controllers\OperacaoSl.php(100): App\Controllers\OperacaoSl->savePdf('htmlToPDF.pdf')
+#2 C:\xampp1\htdocs\siges\system\CodeIgniter.php(824): App\Controllers\OperacaoSl->htmlToPDF()
+#3 C:\xampp1\htdocs\siges\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OperacaoSl))
+#4 C:\xampp1\htdocs\siges\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp1\htdocs\siges\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp1\htdocs\siges\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#7 {main}
+CRITICAL - 2022-01-07 05:30:09 --> Undefined property: App\Controllers\OperacaoSl::$outDir
+#0 C:\xampp1\htdocs\siges\app\Controllers\OperacaoSl.php(115): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp1\\htdoc...', 115, Array)
+#1 C:\xampp1\htdocs\siges\app\Controllers\OperacaoSl.php(100): App\Controllers\OperacaoSl->savePdf('htmlToPDF.pdf')
+#2 C:\xampp1\htdocs\siges\system\CodeIgniter.php(824): App\Controllers\OperacaoSl->htmlToPDF()
+#3 C:\xampp1\htdocs\siges\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OperacaoSl))
+#4 C:\xampp1\htdocs\siges\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp1\htdocs\siges\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp1\htdocs\siges\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#7 {main}
+CRITICAL - 2022-01-07 05:30:32 --> Undefined property: App\Controllers\OperacaoSl::$outDir
+#0 C:\xampp1\htdocs\siges\app\Controllers\OperacaoSl.php(115): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp1\\htdoc...', 115, Array)
+#1 C:\xampp1\htdocs\siges\app\Controllers\OperacaoSl.php(100): App\Controllers\OperacaoSl->savePdf('htmlToPDF.pdf')
+#2 C:\xampp1\htdocs\siges\system\CodeIgniter.php(824): App\Controllers\OperacaoSl->htmlToPDF()
+#3 C:\xampp1\htdocs\siges\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OperacaoSl))
+#4 C:\xampp1\htdocs\siges\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp1\htdocs\siges\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp1\htdocs\siges\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#7 {main}
+CRITICAL - 2022-01-07 05:30:56 --> Undefined property: App\Controllers\OperacaoSl::$outDir
+#0 C:\xampp1\htdocs\siges\app\Controllers\OperacaoSl.php(115): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp1\\htdoc...', 115, Array)
+#1 C:\xampp1\htdocs\siges\app\Controllers\OperacaoSl.php(100): App\Controllers\OperacaoSl->savePdf('htmlToPDF.pdf')
+#2 C:\xampp1\htdocs\siges\system\CodeIgniter.php(824): App\Controllers\OperacaoSl->htmlToPDF()
+#3 C:\xampp1\htdocs\siges\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OperacaoSl))
+#4 C:\xampp1\htdocs\siges\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp1\htdocs\siges\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp1\htdocs\siges\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#7 {main}
+CRITICAL - 2022-01-07 05:31:04 --> Undefined property: App\Controllers\OperacaoSl::$outDir
+#0 C:\xampp1\htdocs\siges\app\Controllers\OperacaoSl.php(115): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp1\\htdoc...', 115, Array)
+#1 C:\xampp1\htdocs\siges\app\Controllers\OperacaoSl.php(100): App\Controllers\OperacaoSl->savePdf('htmlToPDF.pdf')
+#2 C:\xampp1\htdocs\siges\system\CodeIgniter.php(824): App\Controllers\OperacaoSl->htmlToPDF()
+#3 C:\xampp1\htdocs\siges\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OperacaoSl))
+#4 C:\xampp1\htdocs\siges\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp1\htdocs\siges\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp1\htdocs\siges\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#7 {main}
+CRITICAL - 2022-01-07 05:31:11 --> Undefined property: App\Controllers\OperacaoSl::$outDir
+#0 C:\xampp1\htdocs\siges\app\Controllers\OperacaoSl.php(115): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp1\\htdoc...', 115, Array)
+#1 C:\xampp1\htdocs\siges\app\Controllers\OperacaoSl.php(100): App\Controllers\OperacaoSl->savePdf('htmlToPDF.pdf')
+#2 C:\xampp1\htdocs\siges\system\CodeIgniter.php(824): App\Controllers\OperacaoSl->htmlToPDF()
+#3 C:\xampp1\htdocs\siges\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OperacaoSl))
+#4 C:\xampp1\htdocs\siges\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp1\htdocs\siges\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp1\htdocs\siges\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#7 {main}
+CRITICAL - 2022-01-07 05:31:49 --> Undefined property: App\Controllers\OperacaoSl::$outDir
+#0 C:\xampp1\htdocs\siges\app\Controllers\OperacaoSl.php(115): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp1\\htdoc...', 115, Array)
+#1 C:\xampp1\htdocs\siges\app\Controllers\OperacaoSl.php(100): App\Controllers\OperacaoSl->savePdf('htmlToPDF.pdf')
+#2 C:\xampp1\htdocs\siges\system\CodeIgniter.php(824): App\Controllers\OperacaoSl->htmlToPDF()
+#3 C:\xampp1\htdocs\siges\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OperacaoSl))
+#4 C:\xampp1\htdocs\siges\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp1\htdocs\siges\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp1\htdocs\siges\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#7 {main}
+CRITICAL - 2022-01-07 05:37:28 --> Undefined property: App\Controllers\OperacaoSl::$outDir
+#0 C:\xampp1\htdocs\siges\app\Controllers\OperacaoSl.php(115): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp1\\htdoc...', 115, Array)
+#1 C:\xampp1\htdocs\siges\app\Controllers\OperacaoSl.php(100): App\Controllers\OperacaoSl->savePdf('htmlToPDF.pdf')
+#2 C:\xampp1\htdocs\siges\system\CodeIgniter.php(824): App\Controllers\OperacaoSl->htmlToPDF()
+#3 C:\xampp1\htdocs\siges\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OperacaoSl))
+#4 C:\xampp1\htdocs\siges\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp1\htdocs\siges\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp1\htdocs\siges\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#7 {main}
+CRITICAL - 2022-01-07 05:38:25 --> Undefined property: App\Controllers\OperacaoSl::$outDir
+#0 C:\xampp1\htdocs\siges\app\Controllers\OperacaoSl.php(115): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp1\\htdoc...', 115, Array)
+#1 C:\xampp1\htdocs\siges\app\Controllers\OperacaoSl.php(100): App\Controllers\OperacaoSl->savePdf('htmlToPDF.pdf')
+#2 C:\xampp1\htdocs\siges\system\CodeIgniter.php(824): App\Controllers\OperacaoSl->htmlToPDF()
+#3 C:\xampp1\htdocs\siges\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OperacaoSl))
+#4 C:\xampp1\htdocs\siges\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp1\htdocs\siges\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp1\htdocs\siges\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#7 {main}
+CRITICAL - 2022-01-07 05:39:00 --> Undefined property: App\Controllers\OperacaoSl::$outDir
+#0 C:\xampp1\htdocs\siges\app\Controllers\OperacaoSl.php(115): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp1\\htdoc...', 115, Array)
+#1 C:\xampp1\htdocs\siges\app\Controllers\OperacaoSl.php(100): App\Controllers\OperacaoSl->savePdf('htmlToPDF.pdf')
+#2 C:\xampp1\htdocs\siges\system\CodeIgniter.php(824): App\Controllers\OperacaoSl->htmlToPDF()
+#3 C:\xampp1\htdocs\siges\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OperacaoSl))
+#4 C:\xampp1\htdocs\siges\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp1\htdocs\siges\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp1\htdocs\siges\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#7 {main}
+CRITICAL - 2022-01-07 05:41:28 --> Undefined property: App\Controllers\OperacaoSl::$outDir
+#0 C:\xampp1\htdocs\siges\app\Controllers\OperacaoSl.php(115): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp1\\htdoc...', 115, Array)
+#1 C:\xampp1\htdocs\siges\app\Controllers\OperacaoSl.php(100): App\Controllers\OperacaoSl->savePdf('htmlToPDF.pdf')
+#2 C:\xampp1\htdocs\siges\system\CodeIgniter.php(824): App\Controllers\OperacaoSl->htmlToPDF()
+#3 C:\xampp1\htdocs\siges\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OperacaoSl))
+#4 C:\xampp1\htdocs\siges\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp1\htdocs\siges\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp1\htdocs\siges\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#7 {main}
+CRITICAL - 2022-01-07 05:42:37 --> Undefined property: App\Controllers\OperacaoSl::$outDir
+#0 C:\xampp1\htdocs\siges\app\Controllers\OperacaoSl.php(115): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp1\\htdoc...', 115, Array)
+#1 C:\xampp1\htdocs\siges\app\Controllers\OperacaoSl.php(100): App\Controllers\OperacaoSl->savePdf('htmlToPDF.pdf')
+#2 C:\xampp1\htdocs\siges\system\CodeIgniter.php(824): App\Controllers\OperacaoSl->htmlToPDF()
+#3 C:\xampp1\htdocs\siges\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OperacaoSl))
+#4 C:\xampp1\htdocs\siges\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp1\htdocs\siges\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp1\htdocs\siges\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#7 {main}
+CRITICAL - 2022-01-07 05:43:23 --> Undefined property: App\Controllers\OperacaoSl::$outDir
+#0 C:\xampp1\htdocs\siges\app\Controllers\OperacaoSl.php(115): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp1\\htdoc...', 115, Array)
+#1 C:\xampp1\htdocs\siges\app\Controllers\OperacaoSl.php(100): App\Controllers\OperacaoSl->savePdf('htmlToPDF.pdf')
+#2 C:\xampp1\htdocs\siges\system\CodeIgniter.php(824): App\Controllers\OperacaoSl->htmlToPDF()
+#3 C:\xampp1\htdocs\siges\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OperacaoSl))
+#4 C:\xampp1\htdocs\siges\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp1\htdocs\siges\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp1\htdocs\siges\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#7 {main}
+CRITICAL - 2022-01-07 05:44:57 --> Undefined property: App\Controllers\OperacaoSl::$outDir
+#0 C:\xampp1\htdocs\siges\app\Controllers\OperacaoSl.php(115): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp1\\htdoc...', 115, Array)
+#1 C:\xampp1\htdocs\siges\app\Controllers\OperacaoSl.php(100): App\Controllers\OperacaoSl->savePdf('htmlToPDF.pdf')
+#2 C:\xampp1\htdocs\siges\system\CodeIgniter.php(824): App\Controllers\OperacaoSl->htmlToPDF()
+#3 C:\xampp1\htdocs\siges\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OperacaoSl))
+#4 C:\xampp1\htdocs\siges\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp1\htdocs\siges\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp1\htdocs\siges\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#7 {main}
+CRITICAL - 2022-01-07 05:45:50 --> Undefined property: App\Controllers\OperacaoSl::$outDir
+#0 C:\xampp1\htdocs\siges\app\Controllers\OperacaoSl.php(115): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp1\\htdoc...', 115, Array)
+#1 C:\xampp1\htdocs\siges\app\Controllers\OperacaoSl.php(100): App\Controllers\OperacaoSl->savePdf('htmlToPDF.pdf')
+#2 C:\xampp1\htdocs\siges\system\CodeIgniter.php(824): App\Controllers\OperacaoSl->htmlToPDF()
+#3 C:\xampp1\htdocs\siges\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OperacaoSl))
+#4 C:\xampp1\htdocs\siges\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp1\htdocs\siges\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp1\htdocs\siges\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#7 {main}
+CRITICAL - 2022-01-07 05:46:01 --> Undefined property: App\Controllers\OperacaoSl::$outDir
+#0 C:\xampp1\htdocs\siges\app\Controllers\OperacaoSl.php(115): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp1\\htdoc...', 115, Array)
+#1 C:\xampp1\htdocs\siges\app\Controllers\OperacaoSl.php(100): App\Controllers\OperacaoSl->savePdf('htmlToPDF.pdf')
+#2 C:\xampp1\htdocs\siges\system\CodeIgniter.php(824): App\Controllers\OperacaoSl->htmlToPDF()
+#3 C:\xampp1\htdocs\siges\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OperacaoSl))
+#4 C:\xampp1\htdocs\siges\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp1\htdocs\siges\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp1\htdocs\siges\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#7 {main}
+CRITICAL - 2022-01-07 05:46:08 --> Undefined property: App\Controllers\OperacaoSl::$outDir
+#0 C:\xampp1\htdocs\siges\app\Controllers\OperacaoSl.php(115): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp1\\htdoc...', 115, Array)
+#1 C:\xampp1\htdocs\siges\app\Controllers\OperacaoSl.php(100): App\Controllers\OperacaoSl->savePdf('htmlToPDF.pdf')
+#2 C:\xampp1\htdocs\siges\system\CodeIgniter.php(824): App\Controllers\OperacaoSl->htmlToPDF()
+#3 C:\xampp1\htdocs\siges\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OperacaoSl))
+#4 C:\xampp1\htdocs\siges\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp1\htdocs\siges\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp1\htdocs\siges\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#7 {main}
+CRITICAL - 2022-01-07 05:46:14 --> Undefined property: App\Controllers\OperacaoSl::$outDir
+#0 C:\xampp1\htdocs\siges\app\Controllers\OperacaoSl.php(115): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp1\\htdoc...', 115, Array)
+#1 C:\xampp1\htdocs\siges\app\Controllers\OperacaoSl.php(100): App\Controllers\OperacaoSl->savePdf('htmlToPDF.pdf')
+#2 C:\xampp1\htdocs\siges\system\CodeIgniter.php(824): App\Controllers\OperacaoSl->htmlToPDF()
+#3 C:\xampp1\htdocs\siges\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OperacaoSl))
+#4 C:\xampp1\htdocs\siges\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp1\htdocs\siges\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp1\htdocs\siges\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#7 {main}
+CRITICAL - 2022-01-07 05:46:24 --> Undefined property: App\Controllers\OperacaoSl::$outDir
+#0 C:\xampp1\htdocs\siges\app\Controllers\OperacaoSl.php(115): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp1\\htdoc...', 115, Array)
+#1 C:\xampp1\htdocs\siges\app\Controllers\OperacaoSl.php(100): App\Controllers\OperacaoSl->savePdf('htmlToPDF.pdf')
+#2 C:\xampp1\htdocs\siges\system\CodeIgniter.php(824): App\Controllers\OperacaoSl->htmlToPDF()
+#3 C:\xampp1\htdocs\siges\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OperacaoSl))
+#4 C:\xampp1\htdocs\siges\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp1\htdocs\siges\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp1\htdocs\siges\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#7 {main}
+CRITICAL - 2022-01-07 05:47:00 --> Undefined property: App\Controllers\OperacaoSl::$outDir
+#0 C:\xampp1\htdocs\siges\app\Controllers\OperacaoSl.php(115): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp1\\htdoc...', 115, Array)
+#1 C:\xampp1\htdocs\siges\app\Controllers\OperacaoSl.php(100): App\Controllers\OperacaoSl->savePdf('htmlToPDF.pdf')
+#2 C:\xampp1\htdocs\siges\system\CodeIgniter.php(824): App\Controllers\OperacaoSl->htmlToPDF()
+#3 C:\xampp1\htdocs\siges\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OperacaoSl))
+#4 C:\xampp1\htdocs\siges\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp1\htdocs\siges\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp1\htdocs\siges\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#7 {main}
+CRITICAL - 2022-01-07 05:47:19 --> Undefined property: App\Controllers\OperacaoSl::$outDir
+#0 C:\xampp1\htdocs\siges\app\Controllers\OperacaoSl.php(115): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp1\\htdoc...', 115, Array)
+#1 C:\xampp1\htdocs\siges\app\Controllers\OperacaoSl.php(100): App\Controllers\OperacaoSl->savePdf('htmlToPDF.pdf')
+#2 C:\xampp1\htdocs\siges\system\CodeIgniter.php(824): App\Controllers\OperacaoSl->htmlToPDF()
+#3 C:\xampp1\htdocs\siges\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OperacaoSl))
+#4 C:\xampp1\htdocs\siges\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp1\htdocs\siges\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp1\htdocs\siges\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#7 {main}
+CRITICAL - 2022-01-07 05:47:27 --> Undefined property: App\Controllers\OperacaoSl::$outDir
+#0 C:\xampp1\htdocs\siges\app\Controllers\OperacaoSl.php(115): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp1\\htdoc...', 115, Array)
+#1 C:\xampp1\htdocs\siges\app\Controllers\OperacaoSl.php(100): App\Controllers\OperacaoSl->savePdf('htmlToPDF.pdf')
+#2 C:\xampp1\htdocs\siges\system\CodeIgniter.php(824): App\Controllers\OperacaoSl->htmlToPDF()
+#3 C:\xampp1\htdocs\siges\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OperacaoSl))
+#4 C:\xampp1\htdocs\siges\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp1\htdocs\siges\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp1\htdocs\siges\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#7 {main}
+CRITICAL - 2022-01-07 05:47:36 --> Undefined property: App\Controllers\OperacaoSl::$outDir
+#0 C:\xampp1\htdocs\siges\app\Controllers\OperacaoSl.php(115): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp1\\htdoc...', 115, Array)
+#1 C:\xampp1\htdocs\siges\app\Controllers\OperacaoSl.php(100): App\Controllers\OperacaoSl->savePdf('htmlToPDF.pdf')
+#2 C:\xampp1\htdocs\siges\system\CodeIgniter.php(824): App\Controllers\OperacaoSl->htmlToPDF()
+#3 C:\xampp1\htdocs\siges\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OperacaoSl))
+#4 C:\xampp1\htdocs\siges\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp1\htdocs\siges\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp1\htdocs\siges\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#7 {main}
+CRITICAL - 2022-01-07 05:47:50 --> Undefined property: App\Controllers\OperacaoSl::$outDir
+#0 C:\xampp1\htdocs\siges\app\Controllers\OperacaoSl.php(115): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp1\\htdoc...', 115, Array)
+#1 C:\xampp1\htdocs\siges\app\Controllers\OperacaoSl.php(100): App\Controllers\OperacaoSl->savePdf('htmlToPDF.pdf')
+#2 C:\xampp1\htdocs\siges\system\CodeIgniter.php(824): App\Controllers\OperacaoSl->htmlToPDF()
+#3 C:\xampp1\htdocs\siges\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OperacaoSl))
+#4 C:\xampp1\htdocs\siges\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp1\htdocs\siges\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp1\htdocs\siges\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#7 {main}
+CRITICAL - 2022-01-07 05:48:01 --> Undefined property: App\Controllers\OperacaoSl::$outDir
+#0 C:\xampp1\htdocs\siges\app\Controllers\OperacaoSl.php(115): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp1\\htdoc...', 115, Array)
+#1 C:\xampp1\htdocs\siges\app\Controllers\OperacaoSl.php(100): App\Controllers\OperacaoSl->savePdf('htmlToPDF.pdf')
+#2 C:\xampp1\htdocs\siges\system\CodeIgniter.php(824): App\Controllers\OperacaoSl->htmlToPDF()
+#3 C:\xampp1\htdocs\siges\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OperacaoSl))
+#4 C:\xampp1\htdocs\siges\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp1\htdocs\siges\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp1\htdocs\siges\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#7 {main}
+CRITICAL - 2022-01-07 05:48:08 --> Undefined property: App\Controllers\OperacaoSl::$outDir
+#0 C:\xampp1\htdocs\siges\app\Controllers\OperacaoSl.php(115): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp1\\htdoc...', 115, Array)
+#1 C:\xampp1\htdocs\siges\app\Controllers\OperacaoSl.php(100): App\Controllers\OperacaoSl->savePdf('htmlToPDF.pdf')
+#2 C:\xampp1\htdocs\siges\system\CodeIgniter.php(824): App\Controllers\OperacaoSl->htmlToPDF()
+#3 C:\xampp1\htdocs\siges\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OperacaoSl))
+#4 C:\xampp1\htdocs\siges\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp1\htdocs\siges\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp1\htdocs\siges\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#7 {main}
+CRITICAL - 2022-01-07 05:48:27 --> Undefined property: App\Controllers\OperacaoSl::$outDir
+#0 C:\xampp1\htdocs\siges\app\Controllers\OperacaoSl.php(115): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp1\\htdoc...', 115, Array)
+#1 C:\xampp1\htdocs\siges\app\Controllers\OperacaoSl.php(100): App\Controllers\OperacaoSl->savePdf('htmlToPDF.pdf')
+#2 C:\xampp1\htdocs\siges\system\CodeIgniter.php(824): App\Controllers\OperacaoSl->htmlToPDF()
+#3 C:\xampp1\htdocs\siges\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OperacaoSl))
+#4 C:\xampp1\htdocs\siges\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp1\htdocs\siges\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp1\htdocs\siges\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#7 {main}
+CRITICAL - 2022-01-07 05:48:51 --> Undefined property: App\Controllers\OperacaoSl::$outDir
+#0 C:\xampp1\htdocs\siges\app\Controllers\OperacaoSl.php(115): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp1\\htdoc...', 115, Array)
+#1 C:\xampp1\htdocs\siges\app\Controllers\OperacaoSl.php(100): App\Controllers\OperacaoSl->savePdf('htmlToPDF.pdf')
+#2 C:\xampp1\htdocs\siges\system\CodeIgniter.php(824): App\Controllers\OperacaoSl->htmlToPDF()
+#3 C:\xampp1\htdocs\siges\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OperacaoSl))
+#4 C:\xampp1\htdocs\siges\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp1\htdocs\siges\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp1\htdocs\siges\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#7 {main}
+CRITICAL - 2022-01-07 05:49:13 --> Undefined property: App\Controllers\OperacaoSl::$outDir
+#0 C:\xampp1\htdocs\siges\app\Controllers\OperacaoSl.php(115): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp1\\htdoc...', 115, Array)
+#1 C:\xampp1\htdocs\siges\app\Controllers\OperacaoSl.php(100): App\Controllers\OperacaoSl->savePdf('htmlToPDF.pdf')
+#2 C:\xampp1\htdocs\siges\system\CodeIgniter.php(824): App\Controllers\OperacaoSl->htmlToPDF()
+#3 C:\xampp1\htdocs\siges\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OperacaoSl))
+#4 C:\xampp1\htdocs\siges\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp1\htdocs\siges\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp1\htdocs\siges\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#7 {main}
+CRITICAL - 2022-01-07 05:49:13 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Malformed UTF-8 characters, possibly incorrectly encoded". in C:\xampp1\htdocs\siges\system\Format\JSONFormatter.php:41
+Stack trace:
+#0 C:\xampp1\htdocs\siges\system\Format\JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Malformed UTF-8...')
+#1 C:\xampp1\htdocs\siges\system\API\ResponseTrait.php(341): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 C:\xampp1\htdocs\siges\system\API\ResponseTrait.php(99): CodeIgniter\Debug\Exceptions->format(Array)
+#3 C:\xampp1\htdocs\siges\system\Debug\Exceptions.php(110): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-01-07 05:49:39 --> Undefined property: App\Controllers\OperacaoSl::$outDir
+#0 C:\xampp1\htdocs\siges\app\Controllers\OperacaoSl.php(115): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp1\\htdoc...', 115, Array)
+#1 C:\xampp1\htdocs\siges\app\Controllers\OperacaoSl.php(100): App\Controllers\OperacaoSl->savePdf('htmlToPDF.pdf')
+#2 C:\xampp1\htdocs\siges\system\CodeIgniter.php(824): App\Controllers\OperacaoSl->htmlToPDF()
+#3 C:\xampp1\htdocs\siges\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OperacaoSl))
+#4 C:\xampp1\htdocs\siges\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp1\htdocs\siges\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp1\htdocs\siges\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#7 {main}
+CRITICAL - 2022-01-07 05:50:48 --> Undefined property: App\Controllers\OperacaoSl::$outDir
+#0 C:\xampp1\htdocs\siges\app\Controllers\OperacaoSl.php(115): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp1\\htdoc...', 115, Array)
+#1 C:\xampp1\htdocs\siges\app\Controllers\OperacaoSl.php(100): App\Controllers\OperacaoSl->savePdf('htmlToPDF.pdf')
+#2 C:\xampp1\htdocs\siges\system\CodeIgniter.php(824): App\Controllers\OperacaoSl->htmlToPDF()
+#3 C:\xampp1\htdocs\siges\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OperacaoSl))
+#4 C:\xampp1\htdocs\siges\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp1\htdocs\siges\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp1\htdocs\siges\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#7 {main}
+CRITICAL - 2022-01-07 05:51:06 --> Undefined property: App\Controllers\OperacaoSl::$outDir
+#0 C:\xampp1\htdocs\siges\app\Controllers\OperacaoSl.php(115): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp1\\htdoc...', 115, Array)
+#1 C:\xampp1\htdocs\siges\app\Controllers\OperacaoSl.php(100): App\Controllers\OperacaoSl->savePdf('htmlToPDF.pdf')
+#2 C:\xampp1\htdocs\siges\system\CodeIgniter.php(824): App\Controllers\OperacaoSl->htmlToPDF()
+#3 C:\xampp1\htdocs\siges\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OperacaoSl))
+#4 C:\xampp1\htdocs\siges\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp1\htdocs\siges\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp1\htdocs\siges\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#7 {main}
+CRITICAL - 2022-01-07 05:51:27 --> Undefined property: App\Controllers\OperacaoSl::$outDir
+#0 C:\xampp1\htdocs\siges\app\Controllers\OperacaoSl.php(115): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp1\\htdoc...', 115, Array)
+#1 C:\xampp1\htdocs\siges\app\Controllers\OperacaoSl.php(100): App\Controllers\OperacaoSl->savePdf('htmlToPDF.pdf')
+#2 C:\xampp1\htdocs\siges\system\CodeIgniter.php(824): App\Controllers\OperacaoSl->htmlToPDF()
+#3 C:\xampp1\htdocs\siges\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OperacaoSl))
+#4 C:\xampp1\htdocs\siges\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp1\htdocs\siges\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp1\htdocs\siges\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#7 {main}
+CRITICAL - 2022-01-07 05:52:31 --> Undefined property: App\Controllers\OperacaoSl::$outDir
+#0 C:\xampp1\htdocs\siges\app\Controllers\OperacaoSl.php(115): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp1\\htdoc...', 115, Array)
+#1 C:\xampp1\htdocs\siges\app\Controllers\OperacaoSl.php(100): App\Controllers\OperacaoSl->savePdf('htmlToPDF.pdf')
+#2 C:\xampp1\htdocs\siges\system\CodeIgniter.php(824): App\Controllers\OperacaoSl->htmlToPDF()
+#3 C:\xampp1\htdocs\siges\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OperacaoSl))
+#4 C:\xampp1\htdocs\siges\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp1\htdocs\siges\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp1\htdocs\siges\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#7 {main}
+CRITICAL - 2022-01-07 05:52:42 --> Undefined property: App\Controllers\OperacaoSl::$outDir
+#0 C:\xampp1\htdocs\siges\app\Controllers\OperacaoSl.php(115): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp1\\htdoc...', 115, Array)
+#1 C:\xampp1\htdocs\siges\app\Controllers\OperacaoSl.php(100): App\Controllers\OperacaoSl->savePdf('htmlToPDF.pdf')
+#2 C:\xampp1\htdocs\siges\system\CodeIgniter.php(824): App\Controllers\OperacaoSl->htmlToPDF()
+#3 C:\xampp1\htdocs\siges\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OperacaoSl))
+#4 C:\xampp1\htdocs\siges\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp1\htdocs\siges\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp1\htdocs\siges\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#7 {main}
+CRITICAL - 2022-01-07 05:52:52 --> Undefined property: App\Controllers\OperacaoSl::$outDir
+#0 C:\xampp1\htdocs\siges\app\Controllers\OperacaoSl.php(115): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp1\\htdoc...', 115, Array)
+#1 C:\xampp1\htdocs\siges\app\Controllers\OperacaoSl.php(100): App\Controllers\OperacaoSl->savePdf('htmlToPDF.pdf')
+#2 C:\xampp1\htdocs\siges\system\CodeIgniter.php(824): App\Controllers\OperacaoSl->htmlToPDF()
+#3 C:\xampp1\htdocs\siges\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OperacaoSl))
+#4 C:\xampp1\htdocs\siges\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp1\htdocs\siges\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp1\htdocs\siges\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#7 {main}
+CRITICAL - 2022-01-07 05:53:02 --> Undefined property: App\Controllers\OperacaoSl::$outDir
+#0 C:\xampp1\htdocs\siges\app\Controllers\OperacaoSl.php(115): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp1\\htdoc...', 115, Array)
+#1 C:\xampp1\htdocs\siges\app\Controllers\OperacaoSl.php(100): App\Controllers\OperacaoSl->savePdf('htmlToPDF.pdf')
+#2 C:\xampp1\htdocs\siges\system\CodeIgniter.php(824): App\Controllers\OperacaoSl->htmlToPDF()
+#3 C:\xampp1\htdocs\siges\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OperacaoSl))
+#4 C:\xampp1\htdocs\siges\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp1\htdocs\siges\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp1\htdocs\siges\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#7 {main}
+CRITICAL - 2022-01-07 05:53:16 --> Undefined property: App\Controllers\OperacaoSl::$outDir
+#0 C:\xampp1\htdocs\siges\app\Controllers\OperacaoSl.php(115): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp1\\htdoc...', 115, Array)
+#1 C:\xampp1\htdocs\siges\app\Controllers\OperacaoSl.php(100): App\Controllers\OperacaoSl->savePdf('htmlToPDF.pdf')
+#2 C:\xampp1\htdocs\siges\system\CodeIgniter.php(824): App\Controllers\OperacaoSl->htmlToPDF()
+#3 C:\xampp1\htdocs\siges\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OperacaoSl))
+#4 C:\xampp1\htdocs\siges\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp1\htdocs\siges\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp1\htdocs\siges\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#7 {main}
+CRITICAL - 2022-01-07 05:53:37 --> Undefined property: App\Controllers\OperacaoSl::$outDir
+#0 C:\xampp1\htdocs\siges\app\Controllers\OperacaoSl.php(115): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp1\\htdoc...', 115, Array)
+#1 C:\xampp1\htdocs\siges\app\Controllers\OperacaoSl.php(100): App\Controllers\OperacaoSl->savePdf('htmlToPDF.pdf')
+#2 C:\xampp1\htdocs\siges\system\CodeIgniter.php(824): App\Controllers\OperacaoSl->htmlToPDF()
+#3 C:\xampp1\htdocs\siges\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OperacaoSl))
+#4 C:\xampp1\htdocs\siges\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp1\htdocs\siges\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp1\htdocs\siges\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#7 {main}
+CRITICAL - 2022-01-07 05:53:56 --> Undefined property: App\Controllers\OperacaoSl::$outDir
+#0 C:\xampp1\htdocs\siges\app\Controllers\OperacaoSl.php(115): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp1\\htdoc...', 115, Array)
+#1 C:\xampp1\htdocs\siges\app\Controllers\OperacaoSl.php(100): App\Controllers\OperacaoSl->savePdf('htmlToPDF.pdf')
+#2 C:\xampp1\htdocs\siges\system\CodeIgniter.php(824): App\Controllers\OperacaoSl->htmlToPDF()
+#3 C:\xampp1\htdocs\siges\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OperacaoSl))
+#4 C:\xampp1\htdocs\siges\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp1\htdocs\siges\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp1\htdocs\siges\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#7 {main}
+CRITICAL - 2022-01-07 05:55:43 --> Undefined property: App\Controllers\OperacaoSl::$outDir
+#0 C:\xampp1\htdocs\siges\app\Controllers\OperacaoSl.php(115): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp1\\htdoc...', 115, Array)
+#1 C:\xampp1\htdocs\siges\app\Controllers\OperacaoSl.php(100): App\Controllers\OperacaoSl->savePdf('htmlToPDF.pdf')
+#2 C:\xampp1\htdocs\siges\system\CodeIgniter.php(824): App\Controllers\OperacaoSl->htmlToPDF()
+#3 C:\xampp1\htdocs\siges\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OperacaoSl))
+#4 C:\xampp1\htdocs\siges\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp1\htdocs\siges\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp1\htdocs\siges\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#7 {main}
+CRITICAL - 2022-01-07 05:55:55 --> Undefined property: App\Controllers\OperacaoSl::$outDir
+#0 C:\xampp1\htdocs\siges\app\Controllers\OperacaoSl.php(115): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp1\\htdoc...', 115, Array)
+#1 C:\xampp1\htdocs\siges\app\Controllers\OperacaoSl.php(100): App\Controllers\OperacaoSl->savePdf('htmlToPDF.pdf')
+#2 C:\xampp1\htdocs\siges\system\CodeIgniter.php(824): App\Controllers\OperacaoSl->htmlToPDF()
+#3 C:\xampp1\htdocs\siges\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OperacaoSl))
+#4 C:\xampp1\htdocs\siges\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp1\htdocs\siges\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp1\htdocs\siges\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#7 {main}
+CRITICAL - 2022-01-07 05:56:15 --> Undefined property: App\Controllers\OperacaoSl::$outDir
+#0 C:\xampp1\htdocs\siges\app\Controllers\OperacaoSl.php(115): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp1\\htdoc...', 115, Array)
+#1 C:\xampp1\htdocs\siges\app\Controllers\OperacaoSl.php(100): App\Controllers\OperacaoSl->savePdf('htmlToPDF.pdf')
+#2 C:\xampp1\htdocs\siges\system\CodeIgniter.php(824): App\Controllers\OperacaoSl->htmlToPDF()
+#3 C:\xampp1\htdocs\siges\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OperacaoSl))
+#4 C:\xampp1\htdocs\siges\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp1\htdocs\siges\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp1\htdocs\siges\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#7 {main}
+CRITICAL - 2022-01-07 05:56:43 --> Undefined property: App\Controllers\OperacaoSl::$outDir
+#0 C:\xampp1\htdocs\siges\app\Controllers\OperacaoSl.php(115): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp1\\htdoc...', 115, Array)
+#1 C:\xampp1\htdocs\siges\app\Controllers\OperacaoSl.php(100): App\Controllers\OperacaoSl->savePdf('htmlToPDF.pdf')
+#2 C:\xampp1\htdocs\siges\system\CodeIgniter.php(824): App\Controllers\OperacaoSl->htmlToPDF()
+#3 C:\xampp1\htdocs\siges\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OperacaoSl))
+#4 C:\xampp1\htdocs\siges\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp1\htdocs\siges\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp1\htdocs\siges\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#7 {main}
+CRITICAL - 2022-01-07 05:57:00 --> Undefined property: App\Controllers\OperacaoSl::$outDir
+#0 C:\xampp1\htdocs\siges\app\Controllers\OperacaoSl.php(115): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp1\\htdoc...', 115, Array)
+#1 C:\xampp1\htdocs\siges\app\Controllers\OperacaoSl.php(100): App\Controllers\OperacaoSl->savePdf('htmlToPDF.pdf')
+#2 C:\xampp1\htdocs\siges\system\CodeIgniter.php(824): App\Controllers\OperacaoSl->htmlToPDF()
+#3 C:\xampp1\htdocs\siges\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OperacaoSl))
+#4 C:\xampp1\htdocs\siges\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp1\htdocs\siges\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp1\htdocs\siges\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#7 {main}
+CRITICAL - 2022-01-07 05:57:10 --> Undefined property: App\Controllers\OperacaoSl::$outDir
+#0 C:\xampp1\htdocs\siges\app\Controllers\OperacaoSl.php(115): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp1\\htdoc...', 115, Array)
+#1 C:\xampp1\htdocs\siges\app\Controllers\OperacaoSl.php(100): App\Controllers\OperacaoSl->savePdf('htmlToPDF.pdf')
+#2 C:\xampp1\htdocs\siges\system\CodeIgniter.php(824): App\Controllers\OperacaoSl->htmlToPDF()
+#3 C:\xampp1\htdocs\siges\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OperacaoSl))
+#4 C:\xampp1\htdocs\siges\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp1\htdocs\siges\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp1\htdocs\siges\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#7 {main}
+CRITICAL - 2022-01-07 05:58:03 --> Undefined property: App\Controllers\OperacaoSl::$outDir
+#0 C:\xampp1\htdocs\siges\app\Controllers\OperacaoSl.php(115): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp1\\htdoc...', 115, Array)
+#1 C:\xampp1\htdocs\siges\app\Controllers\OperacaoSl.php(100): App\Controllers\OperacaoSl->savePdf('htmlToPDF.pdf')
+#2 C:\xampp1\htdocs\siges\system\CodeIgniter.php(824): App\Controllers\OperacaoSl->htmlToPDF()
+#3 C:\xampp1\htdocs\siges\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OperacaoSl))
+#4 C:\xampp1\htdocs\siges\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp1\htdocs\siges\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp1\htdocs\siges\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#7 {main}
+CRITICAL - 2022-01-07 06:03:10 --> Undefined property: App\Controllers\OperacaoSl::$outDir
+#0 C:\xampp1\htdocs\siges\app\Controllers\OperacaoSl.php(118): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp1\\htdoc...', 118, Array)
+#1 C:\xampp1\htdocs\siges\app\Controllers\OperacaoSl.php(103): App\Controllers\OperacaoSl->savePdf('SIGEPDF.pdf')
+#2 C:\xampp1\htdocs\siges\system\CodeIgniter.php(824): App\Controllers\OperacaoSl->SIGEPDF()
+#3 C:\xampp1\htdocs\siges\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OperacaoSl))
+#4 C:\xampp1\htdocs\siges\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp1\htdocs\siges\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp1\htdocs\siges\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#7 {main}
+CRITICAL - 2022-01-07 06:05:00 --> Undefined property: App\Controllers\OperacaoSl::$outDir
+#0 C:\xampp1\htdocs\siges\app\Controllers\OperacaoSl.php(118): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp1\\htdoc...', 118, Array)
+#1 C:\xampp1\htdocs\siges\app\Controllers\OperacaoSl.php(103): App\Controllers\OperacaoSl->savePdf('SIGEPDF.pdf')
+#2 C:\xampp1\htdocs\siges\system\CodeIgniter.php(824): App\Controllers\OperacaoSl->SIGEPDF()
+#3 C:\xampp1\htdocs\siges\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OperacaoSl))
+#4 C:\xampp1\htdocs\siges\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp1\htdocs\siges\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp1\htdocs\siges\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#7 {main}
+CRITICAL - 2022-01-07 06:05:15 --> Undefined property: App\Controllers\OperacaoSl::$outDir
+#0 C:\xampp1\htdocs\siges\app\Controllers\OperacaoSl.php(118): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp1\\htdoc...', 118, Array)
+#1 C:\xampp1\htdocs\siges\app\Controllers\OperacaoSl.php(103): App\Controllers\OperacaoSl->savePdf('SIGEPDF.pdf')
+#2 C:\xampp1\htdocs\siges\system\CodeIgniter.php(824): App\Controllers\OperacaoSl->SIGEPDF()
+#3 C:\xampp1\htdocs\siges\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OperacaoSl))
+#4 C:\xampp1\htdocs\siges\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp1\htdocs\siges\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp1\htdocs\siges\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#7 {main}
+CRITICAL - 2022-01-07 06:05:27 --> Undefined property: App\Controllers\OperacaoSl::$outDir
+#0 C:\xampp1\htdocs\siges\app\Controllers\OperacaoSl.php(118): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp1\\htdoc...', 118, Array)
+#1 C:\xampp1\htdocs\siges\app\Controllers\OperacaoSl.php(103): App\Controllers\OperacaoSl->savePdf('SIGEPDF.pdf')
+#2 C:\xampp1\htdocs\siges\system\CodeIgniter.php(824): App\Controllers\OperacaoSl->SIGEPDF()
+#3 C:\xampp1\htdocs\siges\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OperacaoSl))
+#4 C:\xampp1\htdocs\siges\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp1\htdocs\siges\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp1\htdocs\siges\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#7 {main}
+CRITICAL - 2022-01-07 06:05:41 --> Undefined property: App\Controllers\OperacaoSl::$outDir
+#0 C:\xampp1\htdocs\siges\app\Controllers\OperacaoSl.php(118): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp1\\htdoc...', 118, Array)
+#1 C:\xampp1\htdocs\siges\app\Controllers\OperacaoSl.php(103): App\Controllers\OperacaoSl->savePdf('SIGEPDF.pdf')
+#2 C:\xampp1\htdocs\siges\system\CodeIgniter.php(824): App\Controllers\OperacaoSl->SIGEPDF()
+#3 C:\xampp1\htdocs\siges\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OperacaoSl))
+#4 C:\xampp1\htdocs\siges\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp1\htdocs\siges\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp1\htdocs\siges\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#7 {main}
+CRITICAL - 2022-01-07 06:05:55 --> Undefined property: App\Controllers\OperacaoSl::$outDir
+#0 C:\xampp1\htdocs\siges\app\Controllers\OperacaoSl.php(118): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp1\\htdoc...', 118, Array)
+#1 C:\xampp1\htdocs\siges\app\Controllers\OperacaoSl.php(103): App\Controllers\OperacaoSl->savePdf('SIGEPDF.pdf')
+#2 C:\xampp1\htdocs\siges\system\CodeIgniter.php(824): App\Controllers\OperacaoSl->SIGEPDF()
+#3 C:\xampp1\htdocs\siges\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OperacaoSl))
+#4 C:\xampp1\htdocs\siges\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp1\htdocs\siges\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp1\htdocs\siges\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#7 {main}
+CRITICAL - 2022-01-07 06:06:12 --> Undefined property: App\Controllers\OperacaoSl::$outDir
+#0 C:\xampp1\htdocs\siges\app\Controllers\OperacaoSl.php(118): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp1\\htdoc...', 118, Array)
+#1 C:\xampp1\htdocs\siges\app\Controllers\OperacaoSl.php(103): App\Controllers\OperacaoSl->savePdf('SIGEPDF.pdf')
+#2 C:\xampp1\htdocs\siges\system\CodeIgniter.php(824): App\Controllers\OperacaoSl->SIGEPDF()
+#3 C:\xampp1\htdocs\siges\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OperacaoSl))
+#4 C:\xampp1\htdocs\siges\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp1\htdocs\siges\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp1\htdocs\siges\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#7 {main}
+CRITICAL - 2022-01-07 06:06:26 --> Undefined property: App\Controllers\OperacaoSl::$outDir
+#0 C:\xampp1\htdocs\siges\app\Controllers\OperacaoSl.php(118): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp1\\htdoc...', 118, Array)
+#1 C:\xampp1\htdocs\siges\app\Controllers\OperacaoSl.php(103): App\Controllers\OperacaoSl->savePdf('SIGEPDF.pdf')
+#2 C:\xampp1\htdocs\siges\system\CodeIgniter.php(824): App\Controllers\OperacaoSl->SIGEPDF()
+#3 C:\xampp1\htdocs\siges\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OperacaoSl))
+#4 C:\xampp1\htdocs\siges\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp1\htdocs\siges\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp1\htdocs\siges\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#7 {main}
+CRITICAL - 2022-01-07 06:06:44 --> Undefined property: App\Controllers\OperacaoSl::$outDir
+#0 C:\xampp1\htdocs\siges\app\Controllers\OperacaoSl.php(118): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp1\\htdoc...', 118, Array)
+#1 C:\xampp1\htdocs\siges\app\Controllers\OperacaoSl.php(103): App\Controllers\OperacaoSl->savePdf('SIGEPDF.pdf')
+#2 C:\xampp1\htdocs\siges\system\CodeIgniter.php(824): App\Controllers\OperacaoSl->SIGEPDF()
+#3 C:\xampp1\htdocs\siges\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OperacaoSl))
+#4 C:\xampp1\htdocs\siges\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp1\htdocs\siges\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp1\htdocs\siges\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#7 {main}
+CRITICAL - 2022-01-07 06:06:53 --> Undefined property: App\Controllers\OperacaoSl::$outDir
+#0 C:\xampp1\htdocs\siges\app\Controllers\OperacaoSl.php(118): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp1\\htdoc...', 118, Array)
+#1 C:\xampp1\htdocs\siges\app\Controllers\OperacaoSl.php(103): App\Controllers\OperacaoSl->savePdf('SIGEPDF.pdf')
+#2 C:\xampp1\htdocs\siges\system\CodeIgniter.php(824): App\Controllers\OperacaoSl->SIGEPDF()
+#3 C:\xampp1\htdocs\siges\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OperacaoSl))
+#4 C:\xampp1\htdocs\siges\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp1\htdocs\siges\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp1\htdocs\siges\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#7 {main}
+CRITICAL - 2022-01-07 06:07:17 --> Undefined property: App\Controllers\OperacaoSl::$outDir
+#0 C:\xampp1\htdocs\siges\app\Controllers\OperacaoSl.php(118): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp1\\htdoc...', 118, Array)
+#1 C:\xampp1\htdocs\siges\app\Controllers\OperacaoSl.php(103): App\Controllers\OperacaoSl->savePdf('SIGEPDF.pdf')
+#2 C:\xampp1\htdocs\siges\system\CodeIgniter.php(824): App\Controllers\OperacaoSl->SIGEPDF()
+#3 C:\xampp1\htdocs\siges\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OperacaoSl))
+#4 C:\xampp1\htdocs\siges\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp1\htdocs\siges\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp1\htdocs\siges\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#7 {main}
+CRITICAL - 2022-01-07 06:07:28 --> Undefined property: App\Controllers\OperacaoSl::$outDir
+#0 C:\xampp1\htdocs\siges\app\Controllers\OperacaoSl.php(118): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp1\\htdoc...', 118, Array)
+#1 C:\xampp1\htdocs\siges\app\Controllers\OperacaoSl.php(103): App\Controllers\OperacaoSl->savePdf('SIGEPDF.pdf')
+#2 C:\xampp1\htdocs\siges\system\CodeIgniter.php(824): App\Controllers\OperacaoSl->SIGEPDF()
+#3 C:\xampp1\htdocs\siges\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OperacaoSl))
+#4 C:\xampp1\htdocs\siges\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp1\htdocs\siges\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp1\htdocs\siges\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#7 {main}
+CRITICAL - 2022-01-07 06:07:43 --> Undefined property: App\Controllers\OperacaoSl::$outDir
+#0 C:\xampp1\htdocs\siges\app\Controllers\OperacaoSl.php(118): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp1\\htdoc...', 118, Array)
+#1 C:\xampp1\htdocs\siges\app\Controllers\OperacaoSl.php(103): App\Controllers\OperacaoSl->savePdf('SIGEPDF.pdf')
+#2 C:\xampp1\htdocs\siges\system\CodeIgniter.php(824): App\Controllers\OperacaoSl->SIGEPDF()
+#3 C:\xampp1\htdocs\siges\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OperacaoSl))
+#4 C:\xampp1\htdocs\siges\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp1\htdocs\siges\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp1\htdocs\siges\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#7 {main}
+CRITICAL - 2022-01-07 06:07:54 --> Undefined property: App\Controllers\OperacaoSl::$outDir
+#0 C:\xampp1\htdocs\siges\app\Controllers\OperacaoSl.php(118): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp1\\htdoc...', 118, Array)
+#1 C:\xampp1\htdocs\siges\app\Controllers\OperacaoSl.php(103): App\Controllers\OperacaoSl->savePdf('SIGEPDF.pdf')
+#2 C:\xampp1\htdocs\siges\system\CodeIgniter.php(824): App\Controllers\OperacaoSl->SIGEPDF()
+#3 C:\xampp1\htdocs\siges\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OperacaoSl))
+#4 C:\xampp1\htdocs\siges\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp1\htdocs\siges\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp1\htdocs\siges\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#7 {main}
+CRITICAL - 2022-01-07 06:08:01 --> Undefined property: App\Controllers\OperacaoSl::$outDir
+#0 C:\xampp1\htdocs\siges\app\Controllers\OperacaoSl.php(118): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp1\\htdoc...', 118, Array)
+#1 C:\xampp1\htdocs\siges\app\Controllers\OperacaoSl.php(103): App\Controllers\OperacaoSl->savePdf('SIGEPDF.pdf')
+#2 C:\xampp1\htdocs\siges\system\CodeIgniter.php(824): App\Controllers\OperacaoSl->SIGEPDF()
+#3 C:\xampp1\htdocs\siges\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OperacaoSl))
+#4 C:\xampp1\htdocs\siges\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp1\htdocs\siges\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp1\htdocs\siges\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#7 {main}
+CRITICAL - 2022-01-07 06:08:09 --> Undefined property: App\Controllers\OperacaoSl::$outDir
+#0 C:\xampp1\htdocs\siges\app\Controllers\OperacaoSl.php(118): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp1\\htdoc...', 118, Array)
+#1 C:\xampp1\htdocs\siges\app\Controllers\OperacaoSl.php(103): App\Controllers\OperacaoSl->savePdf('SIGEPDF.pdf')
+#2 C:\xampp1\htdocs\siges\system\CodeIgniter.php(824): App\Controllers\OperacaoSl->SIGEPDF()
+#3 C:\xampp1\htdocs\siges\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OperacaoSl))
+#4 C:\xampp1\htdocs\siges\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp1\htdocs\siges\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp1\htdocs\siges\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#7 {main}
+CRITICAL - 2022-01-07 06:08:15 --> Undefined property: App\Controllers\OperacaoSl::$outDir
+#0 C:\xampp1\htdocs\siges\app\Controllers\OperacaoSl.php(118): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp1\\htdoc...', 118, Array)
+#1 C:\xampp1\htdocs\siges\app\Controllers\OperacaoSl.php(103): App\Controllers\OperacaoSl->savePdf('SIGEPDF.pdf')
+#2 C:\xampp1\htdocs\siges\system\CodeIgniter.php(824): App\Controllers\OperacaoSl->SIGEPDF()
+#3 C:\xampp1\htdocs\siges\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OperacaoSl))
+#4 C:\xampp1\htdocs\siges\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp1\htdocs\siges\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp1\htdocs\siges\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#7 {main}
+CRITICAL - 2022-01-07 06:08:27 --> Undefined property: App\Controllers\OperacaoSl::$outDir
+#0 C:\xampp1\htdocs\siges\app\Controllers\OperacaoSl.php(118): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp1\\htdoc...', 118, Array)
+#1 C:\xampp1\htdocs\siges\app\Controllers\OperacaoSl.php(103): App\Controllers\OperacaoSl->savePdf('SIGEPDF.pdf')
+#2 C:\xampp1\htdocs\siges\system\CodeIgniter.php(824): App\Controllers\OperacaoSl->SIGEPDF()
+#3 C:\xampp1\htdocs\siges\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OperacaoSl))
+#4 C:\xampp1\htdocs\siges\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp1\htdocs\siges\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp1\htdocs\siges\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#7 {main}
+CRITICAL - 2022-01-07 06:08:58 --> Undefined index: id_salao
+#0 C:\xampp1\htdocs\siges\app\Controllers\OperacaoSl.php(251): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp1\\htdoc...', 251, Array)
+#1 C:\xampp1\htdocs\siges\system\CodeIgniter.php(824): App\Controllers\OperacaoSl->detalhes_sl_add_servico('img', 'favicon.ico')
+#2 C:\xampp1\htdocs\siges\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OperacaoSl))
+#3 C:\xampp1\htdocs\siges\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp1\htdocs\siges\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp1\htdocs\siges\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#6 {main}
+CRITICAL - 2022-01-07 06:11:14 --> Undefined property: App\Controllers\OperacaoSl::$outDir
+#0 C:\xampp1\htdocs\siges\app\Controllers\OperacaoSl.php(118): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp1\\htdoc...', 118, Array)
+#1 C:\xampp1\htdocs\siges\app\Controllers\OperacaoSl.php(103): App\Controllers\OperacaoSl->savePdf('SIGEPDF.pdf')
+#2 C:\xampp1\htdocs\siges\system\CodeIgniter.php(824): App\Controllers\OperacaoSl->SIGEPDF()
+#3 C:\xampp1\htdocs\siges\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OperacaoSl))
+#4 C:\xampp1\htdocs\siges\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp1\htdocs\siges\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp1\htdocs\siges\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#7 {main}
+CRITICAL - 2022-01-07 06:12:05 --> Undefined property: App\Controllers\OperacaoSl::$outDir
+#0 C:\xampp1\htdocs\siges\app\Controllers\OperacaoSl.php(118): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp1\\htdoc...', 118, Array)
+#1 C:\xampp1\htdocs\siges\app\Controllers\OperacaoSl.php(103): App\Controllers\OperacaoSl->savePdf('SIGEPDF.pdf')
+#2 C:\xampp1\htdocs\siges\system\CodeIgniter.php(824): App\Controllers\OperacaoSl->SIGEPDF()
+#3 C:\xampp1\htdocs\siges\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OperacaoSl))
+#4 C:\xampp1\htdocs\siges\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp1\htdocs\siges\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp1\htdocs\siges\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#7 {main}
+CRITICAL - 2022-01-07 06:12:56 --> Undefined property: App\Controllers\OperacaoSl::$outDir
+#0 C:\xampp1\htdocs\siges\app\Controllers\OperacaoSl.php(118): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp1\\htdoc...', 118, Array)
+#1 C:\xampp1\htdocs\siges\app\Controllers\OperacaoSl.php(103): App\Controllers\OperacaoSl->savePdf('SIGEPDF.pdf')
+#2 C:\xampp1\htdocs\siges\system\CodeIgniter.php(824): App\Controllers\OperacaoSl->SIGEPDF()
+#3 C:\xampp1\htdocs\siges\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OperacaoSl))
+#4 C:\xampp1\htdocs\siges\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp1\htdocs\siges\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp1\htdocs\siges\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#7 {main}
+CRITICAL - 2022-01-07 06:13:38 --> Undefined property: App\Controllers\OperacaoSl::$outDir
+#0 C:\xampp1\htdocs\siges\app\Controllers\OperacaoSl.php(118): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp1\\htdoc...', 118, Array)
+#1 C:\xampp1\htdocs\siges\app\Controllers\OperacaoSl.php(103): App\Controllers\OperacaoSl->savePdf('SIGEPDF.pdf')
+#2 C:\xampp1\htdocs\siges\system\CodeIgniter.php(824): App\Controllers\OperacaoSl->SIGEPDF()
+#3 C:\xampp1\htdocs\siges\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OperacaoSl))
+#4 C:\xampp1\htdocs\siges\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp1\htdocs\siges\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp1\htdocs\siges\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#7 {main}
+CRITICAL - 2022-01-07 06:13:38 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Malformed UTF-8 characters, possibly incorrectly encoded". in C:\xampp1\htdocs\siges\system\Format\JSONFormatter.php:41
+Stack trace:
+#0 C:\xampp1\htdocs\siges\system\Format\JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Malformed UTF-8...')
+#1 C:\xampp1\htdocs\siges\system\API\ResponseTrait.php(341): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 C:\xampp1\htdocs\siges\system\API\ResponseTrait.php(99): CodeIgniter\Debug\Exceptions->format(Array)
+#3 C:\xampp1\htdocs\siges\system\Debug\Exceptions.php(110): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-01-07 06:13:52 --> Undefined property: App\Controllers\OperacaoSl::$outDir
+#0 C:\xampp1\htdocs\siges\app\Controllers\OperacaoSl.php(118): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp1\\htdoc...', 118, Array)
+#1 C:\xampp1\htdocs\siges\app\Controllers\OperacaoSl.php(103): App\Controllers\OperacaoSl->savePdf('SIGEPDF.pdf')
+#2 C:\xampp1\htdocs\siges\system\CodeIgniter.php(824): App\Controllers\OperacaoSl->SIGEPDF()
+#3 C:\xampp1\htdocs\siges\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OperacaoSl))
+#4 C:\xampp1\htdocs\siges\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp1\htdocs\siges\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp1\htdocs\siges\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#7 {main}
+CRITICAL - 2022-01-07 06:13:52 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Malformed UTF-8 characters, possibly incorrectly encoded". in C:\xampp1\htdocs\siges\system\Format\JSONFormatter.php:41
+Stack trace:
+#0 C:\xampp1\htdocs\siges\system\Format\JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Malformed UTF-8...')
+#1 C:\xampp1\htdocs\siges\system\API\ResponseTrait.php(341): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 C:\xampp1\htdocs\siges\system\API\ResponseTrait.php(99): CodeIgniter\Debug\Exceptions->format(Array)
+#3 C:\xampp1\htdocs\siges\system\Debug\Exceptions.php(110): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-01-07 06:13:59 --> Undefined property: App\Controllers\OperacaoSl::$outDir
+#0 C:\xampp1\htdocs\siges\app\Controllers\OperacaoSl.php(118): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp1\\htdoc...', 118, Array)
+#1 C:\xampp1\htdocs\siges\app\Controllers\OperacaoSl.php(103): App\Controllers\OperacaoSl->savePdf('SIGEPDF.pdf')
+#2 C:\xampp1\htdocs\siges\system\CodeIgniter.php(824): App\Controllers\OperacaoSl->SIGEPDF()
+#3 C:\xampp1\htdocs\siges\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OperacaoSl))
+#4 C:\xampp1\htdocs\siges\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp1\htdocs\siges\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp1\htdocs\siges\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#7 {main}
+CRITICAL - 2022-01-07 06:13:59 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Malformed UTF-8 characters, possibly incorrectly encoded". in C:\xampp1\htdocs\siges\system\Format\JSONFormatter.php:41
+Stack trace:
+#0 C:\xampp1\htdocs\siges\system\Format\JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Malformed UTF-8...')
+#1 C:\xampp1\htdocs\siges\system\API\ResponseTrait.php(341): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 C:\xampp1\htdocs\siges\system\API\ResponseTrait.php(99): CodeIgniter\Debug\Exceptions->format(Array)
+#3 C:\xampp1\htdocs\siges\system\Debug\Exceptions.php(110): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}

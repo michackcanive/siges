@@ -23,7 +23,7 @@
                                 </tr>
                                 <?php foreach($dados as $dado_um){?>
                                 <tr>
-                                    
+                                <input type="hidden"  required="" value="<?=$dado_um['valor_pago']?> " name="valor_pago<?=$dado_um['id']??''?>" id="valor_pago<?=$dado_um['id']?>" class="form-control">
                                     <td><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"><?=$dado_um['nome_salao']?></font></font></td>
                                     <?php 
                                     if($dado_um['estado_do_processo']){?>
@@ -53,7 +53,7 @@
                                 }else{
                                     ?>
                                     <td>
-                                    <span class="pd-setting"  ><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Não Pago</font></font></span>
+                                    <button class="pd-setting" onclick="peguntar_apagar('<?=$dado_um['id']?>','<?=$dado_um['nome_salao']?>')"  ><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Confirmar</font></font></span>
                                 </td>
                                 <?php }
 
@@ -61,6 +61,7 @@
 
                                 </tr>
                            <?php } ?>
+
                               
                                 
                                

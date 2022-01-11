@@ -56,7 +56,14 @@ $routes->post('/eliminar', 'OperacaoSl::eliminar');
 $routes->post('/listar_reservas_no_pagas', 'OperacaoSl::listar_reservas_no_pagas');
 $routes->post('/listar_reservas_pagas', 'OperacaoSl::listar_reservas_pagas');
 
+$routes->get('/SIGEPDF', 'OperacaoSl::SIGEPDF');
+$routes->get('/', 'PdfController::index');
+
+
+$routes->post('/add_servico_salao_solicitado', 'OperacaoSl::add_servico_salao_solicitado');
+
 $routes->post('/liberar_espaco', 'OperacaoSl::liberar_espaco');
+
 
 ///////////////////////////////////////////////////////////////
 $routes->post('/gestao_reservas', 'OperacaoSl::gestao_reservas');

@@ -25,6 +25,16 @@
   
       <?=form_open('operacaosl/criar_servicos')?>
       <div class="row">
+      <div class="form-group col-lg-12">
+          <select class="form-control required" name="id_salao" id="id_salao" required>
+                         <option value="">SALÃO</option>
+                 <?php foreach($dados as $dado_um){?>
+            <option value="<?=$dado_um['id']?>"><?=$dado_um['nome_salao']?></option>
+                 <?php } ?>
+												</select>
+
+              <input class="form-control"  type="hidden"  required="" value="<?=$_SESSION['id']??''?>" name="id_usuario" id="id_usuario" >
+      </div>
           <div class="form-group col-lg-12">
               <label>Nome do Servicos </label>
               <input class="form-control" placeholder="Nome Serviço"  required="" value="" name="nome_servico" id="nome_servico" class="form-control">
@@ -35,16 +45,8 @@
               <input class="form-control"  type="number" required="" placeholder="Preço do serviço"  name="preco_servicos" id="preco_cada" class="form-control" >
           </div>
 
-          <div class="form-group col-lg-12">
-          <select class="form-control required" name="id_salao" id="id_salao" required>
-                         <option value="">TIPO DE SALÃO</option>
-                 <?php foreach($dados as $dado_um){?>
-            <option value="<?=$dado_um['id']?>"><?=$dado_um['nome_salao']?></option>
-                 <?php } ?>
-												</select>
+         
 
-              <input class="form-control"  type="hidden"  required="" value="<?=$_SESSION['id']??''?>" name="id_usuario" id="id_usuario" >
-      </div>
       <div class="form-group col-lg-12">
       <div class="text-center">
           <button type="submit" class="btn btn-success loginbtn col-md-4"  >Salvar</button>      

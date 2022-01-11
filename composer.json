@@ -12,6 +12,7 @@
         "ext-mbstring": "*",
         "kint-php/kint": "^3.3",
         "laminas/laminas-escaper": "^2.9",
+        "mpdf/mpdf": "^8.0",
         "psr/log": "^1.1"
     },
     "require-dev": {

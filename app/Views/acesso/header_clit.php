@@ -53,6 +53,7 @@
 		============================================ -->
     <link rel="stylesheet" href="<?= base_url()?>/assets/css/calendar/fullcalendar.min.css">
     <link rel="stylesheet" href="<?= base_url()?>/assets/css/calendar/fullcalendar.print.min.css">
+    
     <!-- style CSS
 		============================================ -->
     <link rel="stylesheet" href="<?= base_url()?>/assets/style.css">
@@ -88,19 +89,26 @@
 			</div>
             <div class="left-custom-menu-adp-wrap comment-scrollbar">
                 <nav class="sidebar-nav left-sidebar-menu-pro">
-                    <ul class="metismenu" id="menu1">
+                    <ul class="metismenu" id="menu1"> 
+                        <li >
+                            <a class="has-arrow" href="<?=base_url('/inicio')?>">
+								   <i class="icon nalika-user author-log-ic"></i>
+								   <span class="mini-click-non">Modo:  <?=$_SESSION['tipo_de_conta_init']??''?></span>
+								</a>
+                        </li>
                     <li >
                             <a class="has-arrow" href="<?=base_url('/inicio')?>">
 								   <i class="icon nalika-home icon-wrap"></i>
 								   <span class="mini-click-non">Dashboard</span>
 								</a>
-                        </li>
+                        </li> 
                         <li >
                             <a class="has-arrow" href="<?=base_url('/inicio')?>">
-								   <i class="icon nalika-user author-log-ic"></i>
-								   <span class="mini-click-non"><?=$_SESSION['tipo_de_conta_init']??''?></span>
+								   <i class="icon nalika-home icon-wrap"></i>
+								   <span class="mini-click-non">Ver Salão </span>
 								</a>
                         </li>
+                       
 
                         <li>
                             <a class="has-arrow" href="mailbox.html" aria-expanded="false"><i class="icon nalika-diamond icon-wrap"></i> <span class="mini-click-non">Reservas</span></a>

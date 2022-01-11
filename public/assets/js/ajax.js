@@ -1,3 +1,75 @@
+function add_servico(id_salao,id_servico,id_solicitacoa_salao,id_usuario_operacao,nome_reserva){
+
+  const valor_preco_servico1=document.querySelector('#valor_preco_servicov'+id_servico).value;
+  const preco_padrao1=document.querySelector('#preco_padraovv'+id_salao).value;
+
+  var valor_preco_servico2=parseInt(valor_preco_servico1);
+  var preco_padrao2=parseInt(preco_padrao1);
+  var resultado=valor_preco_servico2+preco_padrao2
+
+
+
+    var dados={
+      id_servico:id_servico,
+      id_solicitacao:id_solicitacoa_salao,
+      id_usuario_operacao:id_usuario_operacao,
+      valor_pago:resultado,
+      id_salao:id_salao
+    }
+
+    $.post("/add_servico_salao_solicitado", dados , (retorna)=>{
+console.log(retorna.length)
+
+      if(retorna.length<=4){
+        add_servico_solicitacao(nome_reserva)
+        document.getElementById("preco_padrao"+id_salao).innerHTML=resultado;
+        document.getElementById("preco_padraovv"+id_salao).value=resultado; 
+
+      }else if(retorna.length>6){
+        add_servico_solicitacao_erro(nome_reserva,retorna)
+
+      }
+    });
+
+ 
+}
+
+function add_servico_solicitacao(nome_servico){ 
+  Swal.fire(
+      `Serviço: ${nome_servico} Adicionado` ,
+  `Na SIGES todo é simplis e Rápido  !`,
+  'success',
+      )
+}
+function add_servico_solicitacao_erro(nome_servico,retorna){ 
+  Swal.fire(
+      `Serviço: ${nome_servico} Não adicinado` ,
+  `Atenção: ${retorna}`,
+  'warning',
+      )
+}
+
+
+
+function verificar_lugar(num,id){
+if(num.value==''){
+  document.getElementById("preco_padrao"+id).innerHTML=document.querySelector('#preco_padraovv'+id).value;
+  document.getElementById("preco_padraov"+id).value=document.querySelector('#preco_padraovv'+id).value;
+  return;
+}
+  const valor_cada_lugar=document.querySelector('#valor_cada_lugar'+id).value;
+
+  var total=parseInt(num.value)
+  var valor_cada=parseInt(valor_cada_lugar)
+  var resu=valor_cada*total
+  document.getElementById("preco_padrao"+id).innerHTML=parseInt(resu);
+  document.getElementById("preco_padraov"+id).value=parseInt(resu);
+
+
+ 
+
+}
+
 function peguntar_liberar(id,nome_reserva,dia_ocupado){
 
   // const salao=document.querySelector('#servico'+id).value;
@@ -51,6 +123,7 @@ function peguntar_apagar(id,nome_reserva){
 
   // const salao=document.querySelector('#servico'+id).value;
       //aceitar(id,numero);
+
   
       Swal.fire({
         title: 'Tens Acerteza ?',
@@ -73,21 +146,19 @@ function peguntar_apagar(id,nome_reserva){
 
 
 function pagar_reserva(id){
+  var valor_pagar1=document.querySelector('#valor_pago'+id).value;
   Swal.fire({
-    title: 'Valor a pagar :',
-    input: 'text',
-    inputAttributes: {
-      autocapitalize: 'off'
-    },
+    title: `Confirmar o pagamento de: ${valor_pagar1} Kz`,
     showCancelButton: true,
     confirmButtonText: 'Enviar',
     showLoaderOnConfirm: true,
     preConfirm: (valor_pagar) => {
       //
+      var valor_pagar1=document.querySelector('#valor_pago'+id).value;
 
       let data = {
         id_solicitado:id,
-        valor_pago: valor_pagar
+        valor_pago: valor_pagar1
       }
            return r=$.post("/pagar_salao", data , (retorna)=>{
              console.log(retorna)
@@ -252,15 +323,28 @@ function solicitacao(id){
     const salao=document.querySelector('#reserva'+id).value;
     const nome_salao=document.querySelector('#nome_salao'+id).value;
     const dia_actoa_actocao=document.querySelector('#dia_actoa_actocao'+id).value;
+    const dia_actoa_actocao_fim=document.querySelector('#dia_actoa_actocao_fim'+id).value;
+    const preco_padrao=document.querySelector('#preco_padrao'+id).value;
     const qtd_lugar=document.querySelector('#qtd_lugar'+id).value;
+    
     if(dia_actoa_actocao==''){
-      document.getElementById("validacao"+id).innerHTML='<div class="spinner-grow spinner-grow-sm" role="status"><span class="visually-hidden">Selecioneo dia da agenda</span></div>';
+     
+      document.getElementById("validacao"+id).innerHTML='<div class="spinner-grow spinner-grow-sm" role="status"><span class="visually-hidden">Selecioneo dia do inicio</span></div>';
+      return;
+    }if(dia_actoa_actocao_fim==''){
+      document.getElementById("validacao"+id).innerHTML='<div class="spinner-grow spinner-grow-sm" role="status"><span class="visually-hidden">Insera o fim da reserva</span></div>';
       return;
     }
     if(qtd_lugar==''){
       document.getElementById("validacao"+id).innerHTML='<div class="spinner-grow spinner-grow-sm" role="status"><span class="visually-hidden">Insera a quantidade de lugar</span></div>';
       return;
     }
+    /*var ini=parseInt(dia_actoa_actocao)
+    var fim=parseInt(dia_actoa_actocao_fim)
+    if(ini > fim  ){
+      document.getElementById("validacao"+id).innerHTML='<div class="spinner-grow spinner-grow-sm" role="status"><span class="visually-hidden">O data de inicio deve ser menor da data de termino</span></div>';
+      return;
+    }*/
     //solicitacao 
     //aceitar(id,numero);
     Swal.fire({
@@ -287,12 +371,16 @@ function solicitacao(id){
 function soliciatar_agora(id){
 
     document.getElementById("reserva"+id).innerHTML='<div class="spinner-grow spinner-grow-sm" role="status"><span class="visually-hidden"> A Reservar...</span></div>';
-    const dia_actoa_actocao=document.querySelector('#dia_actoa_actocao'+id).value;  
+    const dia_actoa_actocao=document.querySelector('#dia_actoa_actocao'+id).value; 
+    const dia_actoa_actocao_fim=document.querySelector('#dia_actoa_actocao_fim'+id).value;  
     const id_salao=document.querySelector('#id_salao'+id).value;  
     const telefone=document.querySelector('#telefone'+id).value;  
     const qtd_lugar=document.querySelector('#qtd_lugar'+id).value;  
     const nome_salao=document.querySelector('#nome_salao'+id).value; 
+    const nome_clit=document.querySelector('#nome'+id).value; 
     const id_usuario=document.querySelector('#id_usuario'+id).value;
+    var valor_pago=document.querySelector('#preco_padraov'+id).value;
+    const valor_cada_lugar=document.querySelector('#valor_cada_lugar'+id).value;
     
 
 
@@ -300,18 +388,6 @@ function soliciatar_agora(id){
     const data_mes=document.querySelector('#mes'+id).value;
     const valor_dia=document.querySelector('#dia'+id).value; 
     const inicio_dia=dia_actoa_actocao
-
-   /* for(an=0;an<inicio_dia;an++){
-        if(valor_dia==31){
-             valor_dia=1
-             data_mes++
-             if(data_mes==12){
-                  data_mes=1
-             }
-        }else{
-             valor_dia++
-        }
-   }*/
 
 
     var dados = {
@@ -321,38 +397,54 @@ function soliciatar_agora(id){
       qtd_lugar:qtd_lugar, 
       nome_salao:nome_salao,
       dia_actoa_actocao:dia_actoa_actocao,
+      dia_actoa_actocao_fim:dia_actoa_actocao_fim,
+      valor_pago:valor_pago,
       dia_termino_acto: '1'
     }
 
     $.post("/solicitar_salao", dados , (retorna)=>{
+      
+
       if(retorna.length<=4){
           console.log(retorna)
         document.getElementById("reserva"+id).innerHTML='<span class="visually-hidden">Reservado !</span>';
         //document.getElementById("corpo_dados").innerHTML=retorna;
-        sucesso(telefone)
-      }else if(retorna.length<=6){
-        document.getElementById("reserva"+id).innerHTML='<span class="visually-hidden">Não foi possível Solicitar</span>';
-        erro(telefone)
+        sucesso(telefone,nome_clit)
+      }else if(retorna.length==8|| retorna.length==6){
+        erro_ja_reservado(telefone,nome_clit)
+        document.getElementById("reserva"+id).innerHTML='<span class="visually-hidden">Data já ocupado !</span>';
+        return;
         //console.log(num+'teste')
+      }else if(retorna.length==8){
+        document.getElementById("reserva"+id).innerHTML='<span class="visually-hidden">Não foi possível Solicitar</span>';
+        erro(telefone,nome_clit)
       }
     });
 }
 
 
-function sucesso(telefone){ 
+function sucesso(telefone,nome_vend){ 
     Swal.fire(
         ' Reserva Feita!',
-    `Para mais informações contactaro : ${telefone}`,
+    `Para mais informações contactaro Sr(a).${nome_vend}, tel: ${telefone}`,
     'success',
         )
 }
 
-function erro(telefone){
+function erro(telefone,nome_vend){
     Swal.fire(
         'Erro na Reserva!',
-    `Para mais informações contactaro : ${telefone}`,
-    'success',
+    `Para mais informações contactaro Sr(a).${nome_vend}, tel: ${telefone}`,
+    'warning',
         )
+}
+
+function erro_ja_reservado(telefone,nome_vend){
+  Swal.fire(
+      'Data já se encontra Agendado!',
+  `Para mais informações contactaro Sr(a).${nome_vend}, tel: ${telefone}`,
+  'warning',
+      )
 }
 
 
@@ -405,7 +497,7 @@ function intermedicao_feita_1(){
               numvnd:numvnd,
               idpto: id_produto
             }
-                 return r=$.post("//192.168.100.54/api/get_user_contacto", data , (retorna)=>{
+                 return r=$.post("", data , (retorna)=>{
                    console.log(retorna)
                       return response=retorna;
                       })

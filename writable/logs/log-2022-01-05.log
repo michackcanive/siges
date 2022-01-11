@@ -1,0 +1,984 @@
+ERROR - 2022-01-05 16:10:36 --> Error connecting to the database: Unknown database 'bd_sige'
+CRITICAL - 2022-01-05 16:10:36 --> Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'bd_sige'
+#0 C:\xampp1\htdocs\siges\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp1\htdocs\siges\system\Model.php(721): CodeIgniter\Database\BaseConnection->query('SELECT * FROM t...')
+#2 C:\xampp1\htdocs\siges\app\Controllers\Index.php(32): CodeIgniter\Model->__call('query', Array)
+#3 C:\xampp1\htdocs\siges\system\CodeIgniter.php(801): App\Controllers\Index->__construct()
+#4 C:\xampp1\htdocs\siges\system\CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#5 C:\xampp1\htdocs\siges\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp1\htdocs\siges\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp1\htdocs\siges\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#8 {main}
+CRITICAL - 2022-01-05 16:11:52 --> Class 'Dompdf\Cpdf' not found
+#0 C:\xampp1\htdocs\siges\app\ThirdParty\dompdf\dompdf\src\CanvasFactory.php(57): Dompdf\Adapter\CPDF->__construct('letter', 'portrait', Object(Dompdf\Dompdf))
+#1 C:\xampp1\htdocs\siges\app\ThirdParty\dompdf\dompdf\src\Dompdf.php(299): Dompdf\CanvasFactory::get_instance(Object(Dompdf\Dompdf), 'letter', 'portrait')
+#2 C:\xampp1\htdocs\siges\app\Controllers\OperacaoSl.php(79): Dompdf\Dompdf->__construct()
+#3 C:\xampp1\htdocs\siges\system\CodeIgniter.php(824): App\Controllers\OperacaoSl->htmlToPDF()
+#4 C:\xampp1\htdocs\siges\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OperacaoSl))
+#5 C:\xampp1\htdocs\siges\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp1\htdocs\siges\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp1\htdocs\siges\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#8 {main}
+CRITICAL - 2022-01-05 16:12:42 --> Class 'Dompdf\Cpdf' not found
+#0 C:\xampp1\htdocs\siges\app\ThirdParty\dompdf\dompdf\src\CanvasFactory.php(57): Dompdf\Adapter\CPDF->__construct('letter', 'portrait', Object(Dompdf\Dompdf))
+#1 C:\xampp1\htdocs\siges\app\ThirdParty\dompdf\dompdf\src\Dompdf.php(299): Dompdf\CanvasFactory::get_instance(Object(Dompdf\Dompdf), 'letter', 'portrait')
+#2 C:\xampp1\htdocs\siges\app\Controllers\OperacaoSl.php(80): Dompdf\Dompdf->__construct()
+#3 C:\xampp1\htdocs\siges\system\CodeIgniter.php(824): App\Controllers\OperacaoSl->htmlToPDF()
+#4 C:\xampp1\htdocs\siges\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OperacaoSl))
+#5 C:\xampp1\htdocs\siges\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp1\htdocs\siges\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp1\htdocs\siges\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#8 {main}
+CRITICAL - 2022-01-05 16:12:56 --> Class 'Dompdf\Cpdf' not found
+#0 C:\xampp1\htdocs\siges\app\ThirdParty\dompdf\dompdf\src\CanvasFactory.php(57): Dompdf\Adapter\CPDF->__construct('letter', 'portrait', Object(Dompdf\Dompdf))
+#1 C:\xampp1\htdocs\siges\app\ThirdParty\dompdf\dompdf\src\Dompdf.php(299): Dompdf\CanvasFactory::get_instance(Object(Dompdf\Dompdf), 'letter', 'portrait')
+#2 C:\xampp1\htdocs\siges\app\Controllers\OperacaoSl.php(80): Dompdf\Dompdf->__construct()
+#3 C:\xampp1\htdocs\siges\system\CodeIgniter.php(824): App\Controllers\OperacaoSl->htmlToPDF()
+#4 C:\xampp1\htdocs\siges\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OperacaoSl))
+#5 C:\xampp1\htdocs\siges\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp1\htdocs\siges\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp1\htdocs\siges\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#8 {main}
+CRITICAL - 2022-01-05 16:14:15 --> Class 'Dompdf\Dompdf' not found
+#0 C:\xampp1\htdocs\siges\system\CodeIgniter.php(824): App\Controllers\OperacaoSl->htmlToPDF()
+#1 C:\xampp1\htdocs\siges\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OperacaoSl))
+#2 C:\xampp1\htdocs\siges\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp1\htdocs\siges\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp1\htdocs\siges\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#5 {main}
+CRITICAL - 2022-01-05 16:15:04 --> Class 'Dompdf\Dompdf' not found
+#0 C:\xampp1\htdocs\siges\system\CodeIgniter.php(824): App\Controllers\OperacaoSl->htmlToPDF()
+#1 C:\xampp1\htdocs\siges\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OperacaoSl))
+#2 C:\xampp1\htdocs\siges\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp1\htdocs\siges\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp1\htdocs\siges\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#5 {main}
+CRITICAL - 2022-01-05 16:17:52 --> Class 'Dompdf\Cpdf' not found
+#0 C:\xampp1\htdocs\siges\app\ThirdParty\dompdf\dompdf\src\CanvasFactory.php(57): Dompdf\Adapter\CPDF->__construct('letter', 'portrait', Object(Dompdf\Dompdf))
+#1 C:\xampp1\htdocs\siges\app\ThirdParty\dompdf\dompdf\src\Dompdf.php(299): Dompdf\CanvasFactory::get_instance(Object(Dompdf\Dompdf), 'letter', 'portrait')
+#2 C:\xampp1\htdocs\siges\app\Controllers\OperacaoSl.php(80): Dompdf\Dompdf->__construct()
+#3 C:\xampp1\htdocs\siges\system\CodeIgniter.php(824): App\Controllers\OperacaoSl->htmlToPDF()
+#4 C:\xampp1\htdocs\siges\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OperacaoSl))
+#5 C:\xampp1\htdocs\siges\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp1\htdocs\siges\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp1\htdocs\siges\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#8 {main}
+CRITICAL - 2022-01-05 16:25:27 --> Class 'Dompdf\Cpdf' not found
+#0 C:\xampp1\htdocs\siges\app\ThirdParty\dompdf\dompdf\src\CanvasFactory.php(57): Dompdf\Adapter\CPDF->__construct('letter', 'portrait', Object(Dompdf\Dompdf))
+#1 C:\xampp1\htdocs\siges\app\ThirdParty\dompdf\dompdf\src\Dompdf.php(299): Dompdf\CanvasFactory::get_instance(Object(Dompdf\Dompdf), 'letter', 'portrait')
+#2 C:\xampp1\htdocs\siges\app\Controllers\OperacaoSl.php(80): Dompdf\Dompdf->__construct()
+#3 C:\xampp1\htdocs\siges\system\CodeIgniter.php(824): App\Controllers\OperacaoSl->htmlToPDF()
+#4 C:\xampp1\htdocs\siges\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OperacaoSl))
+#5 C:\xampp1\htdocs\siges\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp1\htdocs\siges\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp1\htdocs\siges\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#8 {main}
+CRITICAL - 2022-01-05 16:36:46 --> Class 'Dompdf\Dompdf' not found
+#0 C:\xampp1\htdocs\siges\system\CodeIgniter.php(824): App\Controllers\OperacaoSl->htmlToPDF()
+#1 C:\xampp1\htdocs\siges\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OperacaoSl))
+#2 C:\xampp1\htdocs\siges\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp1\htdocs\siges\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp1\htdocs\siges\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#5 {main}
+CRITICAL - 2022-01-05 17:06:33 --> Class 'Dompdf\Dompdf' not found
+#0 C:\xampp1\htdocs\siges\system\CodeIgniter.php(824): App\Controllers\OperacaoSl->htmlToPDF()
+#1 C:\xampp1\htdocs\siges\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OperacaoSl))
+#2 C:\xampp1\htdocs\siges\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp1\htdocs\siges\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp1\htdocs\siges\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#5 {main}
+CRITICAL - 2022-01-05 17:22:27 --> Class 'Dompdf\Dompdf' not found
+#0 C:\xampp1\htdocs\siges\system\CodeIgniter.php(824): App\Controllers\PdfController->htmlToPDF()
+#1 C:\xampp1\htdocs\siges\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PdfController))
+#2 C:\xampp1\htdocs\siges\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp1\htdocs\siges\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp1\htdocs\siges\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#5 {main}
+CRITICAL - 2022-01-05 17:23:10 --> Class 'Dompdf\Dompdf' not found
+#0 C:\xampp1\htdocs\siges\system\CodeIgniter.php(824): App\Controllers\PdfController->htmlToPDF()
+#1 C:\xampp1\htdocs\siges\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PdfController))
+#2 C:\xampp1\htdocs\siges\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp1\htdocs\siges\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp1\htdocs\siges\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#5 {main}
+CRITICAL - 2022-01-05 17:25:12 --> Class 'Dompdf\Cpdf' not found
+#0 C:\xampp1\htdocs\siges\app\ThirdParty\dompdf\dompdf\src\CanvasFactory.php(57): Dompdf\Adapter\CPDF->__construct('letter', 'portrait', Object(Dompdf\Dompdf))
+#1 C:\xampp1\htdocs\siges\app\ThirdParty\dompdf\dompdf\src\Dompdf.php(299): Dompdf\CanvasFactory::get_instance(Object(Dompdf\Dompdf), 'letter', 'portrait')
+#2 C:\xampp1\htdocs\siges\app\Controllers\PdfController.php(14): Dompdf\Dompdf->__construct()
+#3 C:\xampp1\htdocs\siges\system\CodeIgniter.php(824): App\Controllers\PdfController->htmlToPDF()
+#4 C:\xampp1\htdocs\siges\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PdfController))
+#5 C:\xampp1\htdocs\siges\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp1\htdocs\siges\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp1\htdocs\siges\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#8 {main}
+CRITICAL - 2022-01-05 17:26:00 --> Class 'Dompdf\Dompdf' not found
+#0 C:\xampp1\htdocs\siges\system\CodeIgniter.php(824): App\Controllers\PdfController->htmlToPDF()
+#1 C:\xampp1\htdocs\siges\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PdfController))
+#2 C:\xampp1\htdocs\siges\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp1\htdocs\siges\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp1\htdocs\siges\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#5 {main}
+CRITICAL - 2022-01-05 17:26:43 --> Class 'Dompdf\Cpdf' not found
+#0 C:\xampp1\htdocs\siges\app\ThirdParty\dompdf\src\CanvasFactory.php(57): Dompdf\Adapter\CPDF->__construct('letter', 'portrait', Object(Dompdf\Dompdf))
+#1 C:\xampp1\htdocs\siges\app\ThirdParty\dompdf\src\Dompdf.php(299): Dompdf\CanvasFactory::get_instance(Object(Dompdf\Dompdf), 'letter', 'portrait')
+#2 C:\xampp1\htdocs\siges\app\Controllers\PdfController.php(14): Dompdf\Dompdf->__construct()
+#3 C:\xampp1\htdocs\siges\system\CodeIgniter.php(824): App\Controllers\PdfController->htmlToPDF()
+#4 C:\xampp1\htdocs\siges\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PdfController))
+#5 C:\xampp1\htdocs\siges\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp1\htdocs\siges\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp1\htdocs\siges\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#8 {main}
+CRITICAL - 2022-01-05 17:30:35 --> Class 'Dompdf\Cpdf' not found
+#0 C:\xampp1\htdocs\siges\app\ThirdParty\dompdf\src\CanvasFactory.php(57): Dompdf\Adapter\CPDF->__construct('letter', 'portrait', Object(Dompdf\Dompdf))
+#1 C:\xampp1\htdocs\siges\app\ThirdParty\dompdf\src\Dompdf.php(299): Dompdf\CanvasFactory::get_instance(Object(Dompdf\Dompdf), 'letter', 'portrait')
+#2 C:\xampp1\htdocs\siges\app\Controllers\PdfController.php(14): Dompdf\Dompdf->__construct()
+#3 C:\xampp1\htdocs\siges\system\CodeIgniter.php(824): App\Controllers\PdfController->htmlToPDF()
+#4 C:\xampp1\htdocs\siges\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PdfController))
+#5 C:\xampp1\htdocs\siges\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp1\htdocs\siges\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp1\htdocs\siges\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#8 {main}
+CRITICAL - 2022-01-05 17:31:05 --> Undefined index: id_salao
+#0 C:\xampp1\htdocs\siges\app\Controllers\OperacaoSl.php(224): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp1\\htdoc...', 224, Array)
+#1 C:\xampp1\htdocs\siges\system\CodeIgniter.php(824): App\Controllers\OperacaoSl->detalhes_sl('img', 'favicon.ico')
+#2 C:\xampp1\htdocs\siges\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OperacaoSl))
+#3 C:\xampp1\htdocs\siges\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp1\htdocs\siges\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp1\htdocs\siges\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#6 {main}
+CRITICAL - 2022-01-05 17:32:32 --> Undefined index: id_salao
+#0 C:\xampp1\htdocs\siges\app\Controllers\OperacaoSl.php(224): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp1\\htdoc...', 224, Array)
+#1 C:\xampp1\htdocs\siges\system\CodeIgniter.php(824): App\Controllers\OperacaoSl->detalhes_sl('img', 'favicon.ico')
+#2 C:\xampp1\htdocs\siges\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OperacaoSl))
+#3 C:\xampp1\htdocs\siges\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp1\htdocs\siges\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp1\htdocs\siges\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#6 {main}
+CRITICAL - 2022-01-05 17:40:51 --> Undefined index: id_salao
+#0 C:\xampp1\htdocs\siges\app\Controllers\OperacaoSl.php(224): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp1\\htdoc...', 224, Array)
+#1 C:\xampp1\htdocs\siges\system\CodeIgniter.php(824): App\Controllers\OperacaoSl->detalhes_sl('img', 'favicon.ico')
+#2 C:\xampp1\htdocs\siges\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OperacaoSl))
+#3 C:\xampp1\htdocs\siges\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp1\htdocs\siges\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp1\htdocs\siges\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#6 {main}
+CRITICAL - 2022-01-05 17:44:44 --> Undefined index: id_salao
+#0 C:\xampp1\htdocs\siges\app\Controllers\OperacaoSl.php(224): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp1\\htdoc...', 224, Array)
+#1 C:\xampp1\htdocs\siges\system\CodeIgniter.php(824): App\Controllers\OperacaoSl->detalhes_sl('img', 'favicon.ico')
+#2 C:\xampp1\htdocs\siges\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OperacaoSl))
+#3 C:\xampp1\htdocs\siges\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp1\htdocs\siges\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp1\htdocs\siges\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#6 {main}
+CRITICAL - 2022-01-05 17:46:15 --> Undefined index: id_salao
+#0 C:\xampp1\htdocs\siges\app\Controllers\OperacaoSl.php(224): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp1\\htdoc...', 224, Array)
+#1 C:\xampp1\htdocs\siges\system\CodeIgniter.php(824): App\Controllers\OperacaoSl->detalhes_sl('img', 'favicon.ico')
+#2 C:\xampp1\htdocs\siges\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OperacaoSl))
+#3 C:\xampp1\htdocs\siges\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp1\htdocs\siges\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp1\htdocs\siges\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#6 {main}
+CRITICAL - 2022-01-05 17:47:02 --> Undefined index: id_salao
+#0 C:\xampp1\htdocs\siges\app\Controllers\OperacaoSl.php(224): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp1\\htdoc...', 224, Array)
+#1 C:\xampp1\htdocs\siges\system\CodeIgniter.php(824): App\Controllers\OperacaoSl->detalhes_sl('img', 'favicon.ico')
+#2 C:\xampp1\htdocs\siges\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OperacaoSl))
+#3 C:\xampp1\htdocs\siges\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp1\htdocs\siges\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp1\htdocs\siges\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#6 {main}
+ERROR - 2022-01-05 17:47:04 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+CRITICAL - 2022-01-05 17:47:04 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+#0 C:\xampp1\htdocs\siges\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT * FROM t...', 0)
+#1 C:\xampp1\htdocs\siges\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM t...')
+#2 C:\xampp1\htdocs\siges\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM t...')
+#3 C:\xampp1\htdocs\siges\system\Model.php(721): CodeIgniter\Database\BaseConnection->query('SELECT * FROM t...')
+#4 C:\xampp1\htdocs\siges\app\Controllers\OperacaoSl.php(257): CodeIgniter\Model->__call('query', Array)
+#5 C:\xampp1\htdocs\siges\system\CodeIgniter.php(824): App\Controllers\OperacaoSl->add_servico_salao_solicitado()
+#6 C:\xampp1\htdocs\siges\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OperacaoSl))
+#7 C:\xampp1\htdocs\siges\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp1\htdocs\siges\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp1\htdocs\siges\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#10 {main}
+CRITICAL - 2022-01-05 17:49:06 --> Undefined index: id_salao
+#0 C:\xampp1\htdocs\siges\app\Controllers\OperacaoSl.php(224): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp1\\htdoc...', 224, Array)
+#1 C:\xampp1\htdocs\siges\system\CodeIgniter.php(824): App\Controllers\OperacaoSl->detalhes_sl('img', 'favicon.ico')
+#2 C:\xampp1\htdocs\siges\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OperacaoSl))
+#3 C:\xampp1\htdocs\siges\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp1\htdocs\siges\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp1\htdocs\siges\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#6 {main}
+ERROR - 2022-01-05 17:49:08 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+CRITICAL - 2022-01-05 17:49:08 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+#0 C:\xampp1\htdocs\siges\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT * FROM t...', 0)
+#1 C:\xampp1\htdocs\siges\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM t...')
+#2 C:\xampp1\htdocs\siges\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM t...')
+#3 C:\xampp1\htdocs\siges\system\Model.php(721): CodeIgniter\Database\BaseConnection->query('SELECT * FROM t...')
+#4 C:\xampp1\htdocs\siges\app\Controllers\OperacaoSl.php(257): CodeIgniter\Model->__call('query', Array)
+#5 C:\xampp1\htdocs\siges\system\CodeIgniter.php(824): App\Controllers\OperacaoSl->add_servico_salao_solicitado()
+#6 C:\xampp1\htdocs\siges\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OperacaoSl))
+#7 C:\xampp1\htdocs\siges\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp1\htdocs\siges\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp1\htdocs\siges\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#10 {main}
+CRITICAL - 2022-01-05 17:50:32 --> Undefined index: id_salao
+#0 C:\xampp1\htdocs\siges\app\Controllers\OperacaoSl.php(224): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp1\\htdoc...', 224, Array)
+#1 C:\xampp1\htdocs\siges\system\CodeIgniter.php(824): App\Controllers\OperacaoSl->detalhes_sl('img', 'favicon.ico')
+#2 C:\xampp1\htdocs\siges\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OperacaoSl))
+#3 C:\xampp1\htdocs\siges\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp1\htdocs\siges\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp1\htdocs\siges\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#6 {main}
+ERROR - 2022-01-05 17:50:36 --> Unknown column 'id_solicitacoa_salao' in 'field list'
+CRITICAL - 2022-01-05 17:50:36 --> Unknown column 'id_solicitacoa_salao' in 'field list'
+#0 C:\xampp1\htdocs\siges\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `se...', 0)
+#1 C:\xampp1\htdocs\siges\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `se...')
+#2 C:\xampp1\htdocs\siges\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `se...')
+#3 C:\xampp1\htdocs\siges\system\Database\BaseBuilder.php(1759): CodeIgniter\Database\BaseConnection->query('INSERT INTO `se...', Array, false)
+#4 C:\xampp1\htdocs\siges\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp1\htdocs\siges\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp1\htdocs\siges\system\Model.php(620): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp1\htdocs\siges\system\BaseModel.php(658): CodeIgniter\Model->insert(Array, false)
+#8 C:\xampp1\htdocs\siges\app\Controllers\OperacaoSl.php(271): CodeIgniter\BaseModel->save(Array)
+#9 C:\xampp1\htdocs\siges\system\CodeIgniter.php(824): App\Controllers\OperacaoSl->add_servico_salao_solicitado()
+#10 C:\xampp1\htdocs\siges\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OperacaoSl))
+#11 C:\xampp1\htdocs\siges\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp1\htdocs\siges\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 C:\xampp1\htdocs\siges\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#14 {main}
+CRITICAL - 2022-01-05 17:52:22 --> Undefined index: id_salao
+#0 C:\xampp1\htdocs\siges\app\Controllers\OperacaoSl.php(224): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp1\\htdoc...', 224, Array)
+#1 C:\xampp1\htdocs\siges\system\CodeIgniter.php(824): App\Controllers\OperacaoSl->detalhes_sl('img', 'favicon.ico')
+#2 C:\xampp1\htdocs\siges\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OperacaoSl))
+#3 C:\xampp1\htdocs\siges\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp1\htdocs\siges\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp1\htdocs\siges\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#6 {main}
+CRITICAL - 2022-01-05 17:52:28 --> Undefined index: id_salao
+#0 C:\xampp1\htdocs\siges\app\Controllers\OperacaoSl.php(224): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp1\\htdoc...', 224, Array)
+#1 C:\xampp1\htdocs\siges\system\CodeIgniter.php(824): App\Controllers\OperacaoSl->detalhes_sl('img', 'favicon.ico')
+#2 C:\xampp1\htdocs\siges\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OperacaoSl))
+#3 C:\xampp1\htdocs\siges\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp1\htdocs\siges\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp1\htdocs\siges\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#6 {main}
+ERROR - 2022-01-05 17:52:34 --> Unknown column 'id_solicitacoa_salao' in 'field list'
+CRITICAL - 2022-01-05 17:52:34 --> Unknown column 'id_solicitacoa_salao' in 'field list'
+#0 C:\xampp1\htdocs\siges\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `se...', 0)
+#1 C:\xampp1\htdocs\siges\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `se...')
+#2 C:\xampp1\htdocs\siges\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `se...')
+#3 C:\xampp1\htdocs\siges\system\Database\BaseBuilder.php(1759): CodeIgniter\Database\BaseConnection->query('INSERT INTO `se...', Array, false)
+#4 C:\xampp1\htdocs\siges\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp1\htdocs\siges\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp1\htdocs\siges\system\Model.php(620): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp1\htdocs\siges\system\BaseModel.php(658): CodeIgniter\Model->insert(Array, false)
+#8 C:\xampp1\htdocs\siges\app\Controllers\OperacaoSl.php(271): CodeIgniter\BaseModel->save(Array)
+#9 C:\xampp1\htdocs\siges\system\CodeIgniter.php(824): App\Controllers\OperacaoSl->add_servico_salao_solicitado()
+#10 C:\xampp1\htdocs\siges\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OperacaoSl))
+#11 C:\xampp1\htdocs\siges\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp1\htdocs\siges\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 C:\xampp1\htdocs\siges\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#14 {main}
+CRITICAL - 2022-01-05 17:55:12 --> Undefined index: id_salao
+#0 C:\xampp1\htdocs\siges\app\Controllers\OperacaoSl.php(224): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp1\\htdoc...', 224, Array)
+#1 C:\xampp1\htdocs\siges\system\CodeIgniter.php(824): App\Controllers\OperacaoSl->detalhes_sl('img', 'favicon.ico')
+#2 C:\xampp1\htdocs\siges\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OperacaoSl))
+#3 C:\xampp1\htdocs\siges\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp1\htdocs\siges\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp1\htdocs\siges\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#6 {main}
+ERROR - 2022-01-05 17:55:12 --> Unknown column 'id_solicitacoa_salao' in 'field list'
+CRITICAL - 2022-01-05 17:55:12 --> Unknown column 'id_solicitacoa_salao' in 'field list'
+#0 C:\xampp1\htdocs\siges\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `se...', 0)
+#1 C:\xampp1\htdocs\siges\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `se...')
+#2 C:\xampp1\htdocs\siges\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `se...')
+#3 C:\xampp1\htdocs\siges\system\Database\BaseBuilder.php(1759): CodeIgniter\Database\BaseConnection->query('INSERT INTO `se...', Array, false)
+#4 C:\xampp1\htdocs\siges\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp1\htdocs\siges\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp1\htdocs\siges\system\Model.php(620): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp1\htdocs\siges\system\BaseModel.php(658): CodeIgniter\Model->insert(Array, false)
+#8 C:\xampp1\htdocs\siges\app\Controllers\OperacaoSl.php(271): CodeIgniter\BaseModel->save(Array)
+#9 C:\xampp1\htdocs\siges\system\CodeIgniter.php(824): App\Controllers\OperacaoSl->add_servico_salao_solicitado()
+#10 C:\xampp1\htdocs\siges\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OperacaoSl))
+#11 C:\xampp1\htdocs\siges\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp1\htdocs\siges\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 C:\xampp1\htdocs\siges\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#14 {main}
+CRITICAL - 2022-01-05 17:57:26 --> Undefined index: id_salao
+#0 C:\xampp1\htdocs\siges\app\Controllers\OperacaoSl.php(224): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp1\\htdoc...', 224, Array)
+#1 C:\xampp1\htdocs\siges\system\CodeIgniter.php(824): App\Controllers\OperacaoSl->detalhes_sl('img', 'favicon.ico')
+#2 C:\xampp1\htdocs\siges\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OperacaoSl))
+#3 C:\xampp1\htdocs\siges\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp1\htdocs\siges\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp1\htdocs\siges\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#6 {main}
+ERROR - 2022-01-05 17:57:29 --> Unknown column 'id_solicitacoa_salao' in 'field list'
+CRITICAL - 2022-01-05 17:57:29 --> Unknown column 'id_solicitacoa_salao' in 'field list'
+#0 C:\xampp1\htdocs\siges\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `se...', 0)
+#1 C:\xampp1\htdocs\siges\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `se...')
+#2 C:\xampp1\htdocs\siges\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `se...')
+#3 C:\xampp1\htdocs\siges\system\Database\BaseBuilder.php(1759): CodeIgniter\Database\BaseConnection->query('INSERT INTO `se...', Array, false)
+#4 C:\xampp1\htdocs\siges\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp1\htdocs\siges\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp1\htdocs\siges\system\Model.php(620): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp1\htdocs\siges\system\BaseModel.php(658): CodeIgniter\Model->insert(Array, false)
+#8 C:\xampp1\htdocs\siges\app\Controllers\OperacaoSl.php(271): CodeIgniter\BaseModel->save(Array)
+#9 C:\xampp1\htdocs\siges\system\CodeIgniter.php(824): App\Controllers\OperacaoSl->add_servico_salao_solicitado()
+#10 C:\xampp1\htdocs\siges\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OperacaoSl))
+#11 C:\xampp1\htdocs\siges\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp1\htdocs\siges\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 C:\xampp1\htdocs\siges\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#14 {main}
+ERROR - 2022-01-05 17:57:29 --> Unknown column 'id_solicitacoa_salao' in 'field list'
+CRITICAL - 2022-01-05 17:57:29 --> Unknown column 'id_solicitacoa_salao' in 'field list'
+#0 C:\xampp1\htdocs\siges\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `se...', 0)
+#1 C:\xampp1\htdocs\siges\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `se...')
+#2 C:\xampp1\htdocs\siges\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `se...')
+#3 C:\xampp1\htdocs\siges\system\Database\BaseBuilder.php(1759): CodeIgniter\Database\BaseConnection->query('INSERT INTO `se...', Array, false)
+#4 C:\xampp1\htdocs\siges\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp1\htdocs\siges\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp1\htdocs\siges\system\Model.php(620): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp1\htdocs\siges\system\BaseModel.php(658): CodeIgniter\Model->insert(Array, false)
+#8 C:\xampp1\htdocs\siges\app\Controllers\OperacaoSl.php(271): CodeIgniter\BaseModel->save(Array)
+#9 C:\xampp1\htdocs\siges\system\CodeIgniter.php(824): App\Controllers\OperacaoSl->add_servico_salao_solicitado()
+#10 C:\xampp1\htdocs\siges\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OperacaoSl))
+#11 C:\xampp1\htdocs\siges\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp1\htdocs\siges\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 C:\xampp1\htdocs\siges\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#14 {main}
+CRITICAL - 2022-01-05 18:00:01 --> Undefined index: id_salao
+#0 C:\xampp1\htdocs\siges\app\Controllers\OperacaoSl.php(224): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp1\\htdoc...', 224, Array)
+#1 C:\xampp1\htdocs\siges\system\CodeIgniter.php(824): App\Controllers\OperacaoSl->detalhes_sl('img', 'favicon.ico')
+#2 C:\xampp1\htdocs\siges\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OperacaoSl))
+#3 C:\xampp1\htdocs\siges\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp1\htdocs\siges\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp1\htdocs\siges\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#6 {main}
+CRITICAL - 2022-01-05 18:03:03 --> Undefined index: id_salao
+#0 C:\xampp1\htdocs\siges\app\Controllers\OperacaoSl.php(224): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp1\\htdoc...', 224, Array)
+#1 C:\xampp1\htdocs\siges\system\CodeIgniter.php(824): App\Controllers\OperacaoSl->detalhes_sl('img', 'favicon.ico')
+#2 C:\xampp1\htdocs\siges\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OperacaoSl))
+#3 C:\xampp1\htdocs\siges\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp1\htdocs\siges\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp1\htdocs\siges\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#6 {main}
+CRITICAL - 2022-01-05 18:05:06 --> Undefined index: id_salao
+#0 C:\xampp1\htdocs\siges\app\Controllers\OperacaoSl.php(224): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp1\\htdoc...', 224, Array)
+#1 C:\xampp1\htdocs\siges\system\CodeIgniter.php(824): App\Controllers\OperacaoSl->detalhes_sl('img', 'favicon.ico')
+#2 C:\xampp1\htdocs\siges\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OperacaoSl))
+#3 C:\xampp1\htdocs\siges\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp1\htdocs\siges\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp1\htdocs\siges\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#6 {main}
+CRITICAL - 2022-01-05 18:09:04 --> Undefined index: id_salao
+#0 C:\xampp1\htdocs\siges\app\Controllers\OperacaoSl.php(224): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp1\\htdoc...', 224, Array)
+#1 C:\xampp1\htdocs\siges\system\CodeIgniter.php(824): App\Controllers\OperacaoSl->detalhes_sl('img', 'favicon.ico')
+#2 C:\xampp1\htdocs\siges\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OperacaoSl))
+#3 C:\xampp1\htdocs\siges\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp1\htdocs\siges\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp1\htdocs\siges\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#6 {main}
+CRITICAL - 2022-01-05 18:15:18 --> Undefined index: id_salao
+#0 C:\xampp1\htdocs\siges\app\Controllers\OperacaoSl.php(224): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp1\\htdoc...', 224, Array)
+#1 C:\xampp1\htdocs\siges\system\CodeIgniter.php(824): App\Controllers\OperacaoSl->detalhes_sl('img', 'favicon.ico')
+#2 C:\xampp1\htdocs\siges\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OperacaoSl))
+#3 C:\xampp1\htdocs\siges\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp1\htdocs\siges\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp1\htdocs\siges\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#6 {main}
+CRITICAL - 2022-01-05 18:16:10 --> Undefined index: id_salao
+#0 C:\xampp1\htdocs\siges\app\Controllers\OperacaoSl.php(224): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp1\\htdoc...', 224, Array)
+#1 C:\xampp1\htdocs\siges\system\CodeIgniter.php(824): App\Controllers\OperacaoSl->detalhes_sl('img', 'favicon.ico')
+#2 C:\xampp1\htdocs\siges\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OperacaoSl))
+#3 C:\xampp1\htdocs\siges\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp1\htdocs\siges\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp1\htdocs\siges\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#6 {main}
+CRITICAL - 2022-01-05 18:16:39 --> Undefined index: id_salao
+#0 C:\xampp1\htdocs\siges\app\Controllers\OperacaoSl.php(224): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp1\\htdoc...', 224, Array)
+#1 C:\xampp1\htdocs\siges\system\CodeIgniter.php(824): App\Controllers\OperacaoSl->detalhes_sl('img', 'favicon.ico')
+#2 C:\xampp1\htdocs\siges\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OperacaoSl))
+#3 C:\xampp1\htdocs\siges\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp1\htdocs\siges\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp1\htdocs\siges\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#6 {main}
+CRITICAL - 2022-01-05 18:18:33 --> Undefined index: id_salao
+#0 C:\xampp1\htdocs\siges\app\Controllers\OperacaoSl.php(224): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp1\\htdoc...', 224, Array)
+#1 C:\xampp1\htdocs\siges\system\CodeIgniter.php(824): App\Controllers\OperacaoSl->detalhes_sl('img', 'favicon.ico')
+#2 C:\xampp1\htdocs\siges\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OperacaoSl))
+#3 C:\xampp1\htdocs\siges\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp1\htdocs\siges\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp1\htdocs\siges\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#6 {main}
+CRITICAL - 2022-01-05 18:20:13 --> Undefined index: id_salao
+#0 C:\xampp1\htdocs\siges\app\Controllers\OperacaoSl.php(224): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp1\\htdoc...', 224, Array)
+#1 C:\xampp1\htdocs\siges\system\CodeIgniter.php(824): App\Controllers\OperacaoSl->detalhes_sl('img', 'favicon.ico')
+#2 C:\xampp1\htdocs\siges\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OperacaoSl))
+#3 C:\xampp1\htdocs\siges\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp1\htdocs\siges\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp1\htdocs\siges\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#6 {main}
+CRITICAL - 2022-01-05 18:27:51 --> Undefined index: id_salao
+#0 C:\xampp1\htdocs\siges\app\Controllers\OperacaoSl.php(224): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp1\\htdoc...', 224, Array)
+#1 C:\xampp1\htdocs\siges\system\CodeIgniter.php(824): App\Controllers\OperacaoSl->detalhes_sl('img', 'favicon.ico')
+#2 C:\xampp1\htdocs\siges\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OperacaoSl))
+#3 C:\xampp1\htdocs\siges\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp1\htdocs\siges\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp1\htdocs\siges\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#6 {main}
+CRITICAL - 2022-01-05 18:29:07 --> Undefined offset: 0
+#0 C:\xampp1\htdocs\siges\app\Views\acesso\detalhe_sl.php(10): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\xampp1\\htdoc...', 10, Array)
+#1 C:\xampp1\htdocs\siges\system\View\View.php(214): include('C:\\xampp1\\htdoc...')
+#2 C:\xampp1\htdocs\siges\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp1\htdocs\siges\system\Common.php(1097): CodeIgniter\View\View->render('acesso/detalhe_...', Array, true)
+#4 C:\xampp1\htdocs\siges\app\Controllers\OperacaoSl.php(246): view('acesso/detalhe_...', Array)
+#5 C:\xampp1\htdocs\siges\system\CodeIgniter.php(824): App\Controllers\OperacaoSl->detalhes_sl()
+#6 C:\xampp1\htdocs\siges\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OperacaoSl))
+#7 C:\xampp1\htdocs\siges\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp1\htdocs\siges\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp1\htdocs\siges\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#10 {main}
+CRITICAL - 2022-01-05 18:50:30 --> Undefined index: foto1
+#0 C:\xampp1\htdocs\siges\app\Views\acesso\detalhe_sl.php(10): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp1\\htdoc...', 10, Array)
+#1 C:\xampp1\htdocs\siges\system\View\View.php(214): include('C:\\xampp1\\htdoc...')
+#2 C:\xampp1\htdocs\siges\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp1\htdocs\siges\system\Common.php(1097): CodeIgniter\View\View->render('acesso/detalhe_...', Array, true)
+#4 C:\xampp1\htdocs\siges\app\Controllers\OperacaoSl.php(249): view('acesso/detalhe_...', Array)
+#5 C:\xampp1\htdocs\siges\system\CodeIgniter.php(824): App\Controllers\OperacaoSl->detalhes_sl_add_servico()
+#6 C:\xampp1\htdocs\siges\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OperacaoSl))
+#7 C:\xampp1\htdocs\siges\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp1\htdocs\siges\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp1\htdocs\siges\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#10 {main}
+CRITICAL - 2022-01-05 19:01:04 --> Undefined variable: dados_salao
+#0 C:\xampp1\htdocs\siges\app\Views\acesso\detalhe_sl.php(10): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp1\\htdoc...', 10, Array)
+#1 C:\xampp1\htdocs\siges\system\View\View.php(214): include('C:\\xampp1\\htdoc...')
+#2 C:\xampp1\htdocs\siges\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp1\htdocs\siges\system\Common.php(1097): CodeIgniter\View\View->render('acesso/detalhe_...', Array, true)
+#4 C:\xampp1\htdocs\siges\app\Controllers\OperacaoSl.php(251): view('acesso/detalhe_...', Array)
+#5 C:\xampp1\htdocs\siges\system\CodeIgniter.php(824): App\Controllers\OperacaoSl->detalhes_sl_add_servico()
+#6 C:\xampp1\htdocs\siges\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OperacaoSl))
+#7 C:\xampp1\htdocs\siges\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp1\htdocs\siges\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp1\htdocs\siges\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#10 {main}
+CRITICAL - 2022-01-05 19:02:04 --> Undefined offset: 0
+#0 C:\xampp1\htdocs\siges\app\Views\acesso\detalhe_sl.php(10): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\xampp1\\htdoc...', 10, Array)
+#1 C:\xampp1\htdocs\siges\system\View\View.php(214): include('C:\\xampp1\\htdoc...')
+#2 C:\xampp1\htdocs\siges\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp1\htdocs\siges\system\Common.php(1097): CodeIgniter\View\View->render('acesso/detalhe_...', Array, true)
+#4 C:\xampp1\htdocs\siges\app\Controllers\OperacaoSl.php(251): view('acesso/detalhe_...', Array)
+#5 C:\xampp1\htdocs\siges\system\CodeIgniter.php(824): App\Controllers\OperacaoSl->detalhes_sl_add_servico()
+#6 C:\xampp1\htdocs\siges\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OperacaoSl))
+#7 C:\xampp1\htdocs\siges\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp1\htdocs\siges\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp1\htdocs\siges\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#10 {main}
+CRITICAL - 2022-01-05 19:03:40 --> Undefined offset: 0
+#0 C:\xampp1\htdocs\siges\app\Views\acesso\detalhe_sl.php(10): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\xampp1\\htdoc...', 10, Array)
+#1 C:\xampp1\htdocs\siges\system\View\View.php(214): include('C:\\xampp1\\htdoc...')
+#2 C:\xampp1\htdocs\siges\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp1\htdocs\siges\system\Common.php(1097): CodeIgniter\View\View->render('acesso/detalhe_...', Array, true)
+#4 C:\xampp1\htdocs\siges\app\Controllers\OperacaoSl.php(251): view('acesso/detalhe_...', Array)
+#5 C:\xampp1\htdocs\siges\system\CodeIgniter.php(824): App\Controllers\OperacaoSl->detalhes_sl_add_servico()
+#6 C:\xampp1\htdocs\siges\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OperacaoSl))
+#7 C:\xampp1\htdocs\siges\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp1\htdocs\siges\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp1\htdocs\siges\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#10 {main}
+CRITICAL - 2022-01-05 19:09:40 --> Undefined offset: 0
+#0 C:\xampp1\htdocs\siges\app\Views\acesso\detalhe_sl.php(10): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\xampp1\\htdoc...', 10, Array)
+#1 C:\xampp1\htdocs\siges\system\View\View.php(214): include('C:\\xampp1\\htdoc...')
+#2 C:\xampp1\htdocs\siges\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp1\htdocs\siges\system\Common.php(1097): CodeIgniter\View\View->render('acesso/detalhe_...', Array, true)
+#4 C:\xampp1\htdocs\siges\app\Controllers\OperacaoSl.php(250): view('acesso/detalhe_...', Array)
+#5 C:\xampp1\htdocs\siges\system\CodeIgniter.php(824): App\Controllers\OperacaoSl->detalhes_sl_add_servico()
+#6 C:\xampp1\htdocs\siges\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OperacaoSl))
+#7 C:\xampp1\htdocs\siges\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp1\htdocs\siges\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp1\htdocs\siges\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#10 {main}
+CRITICAL - 2022-01-05 19:17:18 --> Undefined index: discricao
+#0 C:\xampp1\htdocs\siges\app\Views\acesso\detalhe_sl.php(83): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp1\\htdoc...', 83, Array)
+#1 C:\xampp1\htdocs\siges\system\View\View.php(214): include('C:\\xampp1\\htdoc...')
+#2 C:\xampp1\htdocs\siges\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp1\htdocs\siges\system\Common.php(1097): CodeIgniter\View\View->render('acesso/detalhe_...', Array, true)
+#4 C:\xampp1\htdocs\siges\app\Controllers\OperacaoSl.php(250): view('acesso/detalhe_...', Array)
+#5 C:\xampp1\htdocs\siges\system\CodeIgniter.php(824): App\Controllers\OperacaoSl->detalhes_sl_add_servico()
+#6 C:\xampp1\htdocs\siges\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OperacaoSl))
+#7 C:\xampp1\htdocs\siges\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp1\htdocs\siges\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp1\htdocs\siges\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#10 {main}
+CRITICAL - 2022-01-05 19:18:11 --> Undefined offset: 0
+#0 C:\xampp1\htdocs\siges\app\Views\acesso\detalhe_sl.php(10): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\xampp1\\htdoc...', 10, Array)
+#1 C:\xampp1\htdocs\siges\system\View\View.php(214): include('C:\\xampp1\\htdoc...')
+#2 C:\xampp1\htdocs\siges\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp1\htdocs\siges\system\Common.php(1097): CodeIgniter\View\View->render('acesso/detalhe_...', Array, true)
+#4 C:\xampp1\htdocs\siges\app\Controllers\OperacaoSl.php(250): view('acesso/detalhe_...', Array)
+#5 C:\xampp1\htdocs\siges\system\CodeIgniter.php(824): App\Controllers\OperacaoSl->detalhes_sl_add_servico()
+#6 C:\xampp1\htdocs\siges\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OperacaoSl))
+#7 C:\xampp1\htdocs\siges\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp1\htdocs\siges\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp1\htdocs\siges\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#10 {main}
+CRITICAL - 2022-01-05 19:18:15 --> Undefined index: discricao
+#0 C:\xampp1\htdocs\siges\app\Views\acesso\detalhe_sl.php(83): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp1\\htdoc...', 83, Array)
+#1 C:\xampp1\htdocs\siges\system\View\View.php(214): include('C:\\xampp1\\htdoc...')
+#2 C:\xampp1\htdocs\siges\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp1\htdocs\siges\system\Common.php(1097): CodeIgniter\View\View->render('acesso/detalhe_...', Array, true)
+#4 C:\xampp1\htdocs\siges\app\Controllers\OperacaoSl.php(250): view('acesso/detalhe_...', Array)
+#5 C:\xampp1\htdocs\siges\system\CodeIgniter.php(824): App\Controllers\OperacaoSl->detalhes_sl_add_servico()
+#6 C:\xampp1\htdocs\siges\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OperacaoSl))
+#7 C:\xampp1\htdocs\siges\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp1\htdocs\siges\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp1\htdocs\siges\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#10 {main}
+CRITICAL - 2022-01-05 19:19:17 --> Undefined index: id_salao
+#0 C:\xampp1\htdocs\siges\app\Controllers\OperacaoSl.php(225): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp1\\htdoc...', 225, Array)
+#1 C:\xampp1\htdocs\siges\system\CodeIgniter.php(824): App\Controllers\OperacaoSl->detalhes_sl_add_servico('img', 'favicon.ico')
+#2 C:\xampp1\htdocs\siges\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OperacaoSl))
+#3 C:\xampp1\htdocs\siges\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp1\htdocs\siges\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp1\htdocs\siges\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#6 {main}
+CRITICAL - 2022-01-05 19:20:00 --> Undefined index: id_salao
+#0 C:\xampp1\htdocs\siges\app\Controllers\OperacaoSl.php(225): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp1\\htdoc...', 225, Array)
+#1 C:\xampp1\htdocs\siges\system\CodeIgniter.php(824): App\Controllers\OperacaoSl->detalhes_sl_add_servico('img', 'favicon.ico')
+#2 C:\xampp1\htdocs\siges\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OperacaoSl))
+#3 C:\xampp1\htdocs\siges\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp1\htdocs\siges\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp1\htdocs\siges\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#6 {main}
+CRITICAL - 2022-01-05 19:20:22 --> Undefined index: id_salao
+#0 C:\xampp1\htdocs\siges\app\Controllers\OperacaoSl.php(225): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp1\\htdoc...', 225, Array)
+#1 C:\xampp1\htdocs\siges\system\CodeIgniter.php(824): App\Controllers\OperacaoSl->detalhes_sl_add_servico('img', 'favicon.ico')
+#2 C:\xampp1\htdocs\siges\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OperacaoSl))
+#3 C:\xampp1\htdocs\siges\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp1\htdocs\siges\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp1\htdocs\siges\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#6 {main}
+CRITICAL - 2022-01-05 19:20:37 --> Undefined index: id_salao
+#0 C:\xampp1\htdocs\siges\app\Controllers\OperacaoSl.php(225): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp1\\htdoc...', 225, Array)
+#1 C:\xampp1\htdocs\siges\system\CodeIgniter.php(824): App\Controllers\OperacaoSl->detalhes_sl_add_servico('img', 'favicon.ico')
+#2 C:\xampp1\htdocs\siges\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OperacaoSl))
+#3 C:\xampp1\htdocs\siges\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp1\htdocs\siges\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp1\htdocs\siges\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#6 {main}
+CRITICAL - 2022-01-05 19:21:36 --> Undefined index: id_salao
+#0 C:\xampp1\htdocs\siges\app\Controllers\OperacaoSl.php(225): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp1\\htdoc...', 225, Array)
+#1 C:\xampp1\htdocs\siges\system\CodeIgniter.php(824): App\Controllers\OperacaoSl->detalhes_sl_add_servico('img', 'favicon.ico')
+#2 C:\xampp1\htdocs\siges\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OperacaoSl))
+#3 C:\xampp1\htdocs\siges\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp1\htdocs\siges\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp1\htdocs\siges\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#6 {main}
+CRITICAL - 2022-01-05 19:24:05 --> Undefined index: id_salao
+#0 C:\xampp1\htdocs\siges\app\Controllers\OperacaoSl.php(261): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp1\\htdoc...', 261, Array)
+#1 C:\xampp1\htdocs\siges\system\CodeIgniter.php(824): App\Controllers\OperacaoSl->detalhes_sl('img', 'favicon.ico')
+#2 C:\xampp1\htdocs\siges\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OperacaoSl))
+#3 C:\xampp1\htdocs\siges\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp1\htdocs\siges\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp1\htdocs\siges\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#6 {main}
+CRITICAL - 2022-01-05 19:27:49 --> Undefined index: id_salao
+#0 C:\xampp1\htdocs\siges\app\Controllers\OperacaoSl.php(261): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp1\\htdoc...', 261, Array)
+#1 C:\xampp1\htdocs\siges\system\CodeIgniter.php(824): App\Controllers\OperacaoSl->detalhes_sl('img', 'favicon.ico')
+#2 C:\xampp1\htdocs\siges\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OperacaoSl))
+#3 C:\xampp1\htdocs\siges\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp1\htdocs\siges\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp1\htdocs\siges\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#6 {main}
+CRITICAL - 2022-01-05 19:28:40 --> Undefined index: id_salao
+#0 C:\xampp1\htdocs\siges\app\Controllers\OperacaoSl.php(261): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp1\\htdoc...', 261, Array)
+#1 C:\xampp1\htdocs\siges\system\CodeIgniter.php(824): App\Controllers\OperacaoSl->detalhes_sl('img', 'favicon.ico')
+#2 C:\xampp1\htdocs\siges\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OperacaoSl))
+#3 C:\xampp1\htdocs\siges\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp1\htdocs\siges\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp1\htdocs\siges\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#6 {main}
+CRITICAL - 2022-01-05 19:29:37 --> Undefined index: id_salao
+#0 C:\xampp1\htdocs\siges\app\Controllers\OperacaoSl.php(261): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp1\\htdoc...', 261, Array)
+#1 C:\xampp1\htdocs\siges\system\CodeIgniter.php(824): App\Controllers\OperacaoSl->detalhes_sl('img', 'favicon.ico')
+#2 C:\xampp1\htdocs\siges\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OperacaoSl))
+#3 C:\xampp1\htdocs\siges\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp1\htdocs\siges\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp1\htdocs\siges\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#6 {main}
+CRITICAL - 2022-01-05 19:30:26 --> Undefined index: id_salao
+#0 C:\xampp1\htdocs\siges\app\Controllers\OperacaoSl.php(261): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp1\\htdoc...', 261, Array)
+#1 C:\xampp1\htdocs\siges\system\CodeIgniter.php(824): App\Controllers\OperacaoSl->detalhes_sl('img', 'favicon.ico')
+#2 C:\xampp1\htdocs\siges\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OperacaoSl))
+#3 C:\xampp1\htdocs\siges\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp1\htdocs\siges\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp1\htdocs\siges\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#6 {main}
+CRITICAL - 2022-01-05 19:30:54 --> Undefined index: id_salao
+#0 C:\xampp1\htdocs\siges\app\Controllers\OperacaoSl.php(261): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp1\\htdoc...', 261, Array)
+#1 C:\xampp1\htdocs\siges\system\CodeIgniter.php(824): App\Controllers\OperacaoSl->detalhes_sl('img', 'favicon.ico')
+#2 C:\xampp1\htdocs\siges\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OperacaoSl))
+#3 C:\xampp1\htdocs\siges\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp1\htdocs\siges\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp1\htdocs\siges\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#6 {main}
+CRITICAL - 2022-01-05 19:31:20 --> Undefined index: id_salao
+#0 C:\xampp1\htdocs\siges\app\Controllers\OperacaoSl.php(261): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp1\\htdoc...', 261, Array)
+#1 C:\xampp1\htdocs\siges\system\CodeIgniter.php(824): App\Controllers\OperacaoSl->detalhes_sl('img', 'favicon.ico')
+#2 C:\xampp1\htdocs\siges\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OperacaoSl))
+#3 C:\xampp1\htdocs\siges\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp1\htdocs\siges\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp1\htdocs\siges\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#6 {main}
+CRITICAL - 2022-01-05 19:31:37 --> Undefined index: id_salao
+#0 C:\xampp1\htdocs\siges\app\Controllers\OperacaoSl.php(261): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp1\\htdoc...', 261, Array)
+#1 C:\xampp1\htdocs\siges\system\CodeIgniter.php(824): App\Controllers\OperacaoSl->detalhes_sl('img', 'favicon.ico')
+#2 C:\xampp1\htdocs\siges\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OperacaoSl))
+#3 C:\xampp1\htdocs\siges\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp1\htdocs\siges\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp1\htdocs\siges\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#6 {main}
+CRITICAL - 2022-01-05 19:31:58 --> Undefined index: id_salao
+#0 C:\xampp1\htdocs\siges\app\Controllers\OperacaoSl.php(261): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp1\\htdoc...', 261, Array)
+#1 C:\xampp1\htdocs\siges\system\CodeIgniter.php(824): App\Controllers\OperacaoSl->detalhes_sl('img', 'favicon.ico')
+#2 C:\xampp1\htdocs\siges\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OperacaoSl))
+#3 C:\xampp1\htdocs\siges\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp1\htdocs\siges\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp1\htdocs\siges\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#6 {main}
+CRITICAL - 2022-01-05 19:32:29 --> Undefined index: id_salao
+#0 C:\xampp1\htdocs\siges\app\Controllers\OperacaoSl.php(261): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp1\\htdoc...', 261, Array)
+#1 C:\xampp1\htdocs\siges\system\CodeIgniter.php(824): App\Controllers\OperacaoSl->detalhes_sl('img', 'favicon.ico')
+#2 C:\xampp1\htdocs\siges\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OperacaoSl))
+#3 C:\xampp1\htdocs\siges\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp1\htdocs\siges\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp1\htdocs\siges\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#6 {main}
+CRITICAL - 2022-01-05 19:32:57 --> Undefined index: id_salao
+#0 C:\xampp1\htdocs\siges\app\Controllers\OperacaoSl.php(261): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp1\\htdoc...', 261, Array)
+#1 C:\xampp1\htdocs\siges\system\CodeIgniter.php(824): App\Controllers\OperacaoSl->detalhes_sl('img', 'favicon.ico')
+#2 C:\xampp1\htdocs\siges\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OperacaoSl))
+#3 C:\xampp1\htdocs\siges\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp1\htdocs\siges\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp1\htdocs\siges\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#6 {main}
+CRITICAL - 2022-01-05 19:33:16 --> Undefined index: id_salao
+#0 C:\xampp1\htdocs\siges\app\Controllers\OperacaoSl.php(261): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp1\\htdoc...', 261, Array)
+#1 C:\xampp1\htdocs\siges\system\CodeIgniter.php(824): App\Controllers\OperacaoSl->detalhes_sl('img', 'favicon.ico')
+#2 C:\xampp1\htdocs\siges\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OperacaoSl))
+#3 C:\xampp1\htdocs\siges\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp1\htdocs\siges\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp1\htdocs\siges\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#6 {main}
+CRITICAL - 2022-01-05 19:33:45 --> Undefined index: id_salao
+#0 C:\xampp1\htdocs\siges\app\Controllers\OperacaoSl.php(261): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp1\\htdoc...', 261, Array)
+#1 C:\xampp1\htdocs\siges\system\CodeIgniter.php(824): App\Controllers\OperacaoSl->detalhes_sl('img', 'favicon.ico')
+#2 C:\xampp1\htdocs\siges\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OperacaoSl))
+#3 C:\xampp1\htdocs\siges\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp1\htdocs\siges\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp1\htdocs\siges\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#6 {main}
+CRITICAL - 2022-01-05 19:34:02 --> Undefined index: id_salao
+#0 C:\xampp1\htdocs\siges\app\Controllers\OperacaoSl.php(261): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp1\\htdoc...', 261, Array)
+#1 C:\xampp1\htdocs\siges\system\CodeIgniter.php(824): App\Controllers\OperacaoSl->detalhes_sl('img', 'favicon.ico')
+#2 C:\xampp1\htdocs\siges\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OperacaoSl))
+#3 C:\xampp1\htdocs\siges\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp1\htdocs\siges\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp1\htdocs\siges\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#6 {main}
+CRITICAL - 2022-01-05 20:03:51 --> Undefined index: id_salao
+#0 C:\xampp1\htdocs\siges\app\Controllers\OperacaoSl.php(261): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp1\\htdoc...', 261, Array)
+#1 C:\xampp1\htdocs\siges\system\CodeIgniter.php(824): App\Controllers\OperacaoSl->detalhes_sl('img', 'favicon.ico')
+#2 C:\xampp1\htdocs\siges\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OperacaoSl))
+#3 C:\xampp1\htdocs\siges\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp1\htdocs\siges\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp1\htdocs\siges\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#6 {main}
+CRITICAL - 2022-01-05 20:03:58 --> Undefined index: id_salao
+#0 C:\xampp1\htdocs\siges\app\Controllers\OperacaoSl.php(225): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp1\\htdoc...', 225, Array)
+#1 C:\xampp1\htdocs\siges\system\CodeIgniter.php(824): App\Controllers\OperacaoSl->detalhes_sl_add_servico('img', 'favicon.ico')
+#2 C:\xampp1\htdocs\siges\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OperacaoSl))
+#3 C:\xampp1\htdocs\siges\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp1\htdocs\siges\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp1\htdocs\siges\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#6 {main}
+CRITICAL - 2022-01-05 20:04:32 --> Undefined index: id_salao
+#0 C:\xampp1\htdocs\siges\app\Controllers\OperacaoSl.php(225): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp1\\htdoc...', 225, Array)
+#1 C:\xampp1\htdocs\siges\system\CodeIgniter.php(824): App\Controllers\OperacaoSl->detalhes_sl_add_servico('img', 'favicon.ico')
+#2 C:\xampp1\htdocs\siges\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OperacaoSl))
+#3 C:\xampp1\htdocs\siges\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp1\htdocs\siges\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp1\htdocs\siges\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#6 {main}
+CRITICAL - 2022-01-05 20:06:05 --> Undefined index: id_salao
+#0 C:\xampp1\htdocs\siges\app\Controllers\OperacaoSl.php(225): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp1\\htdoc...', 225, Array)
+#1 C:\xampp1\htdocs\siges\system\CodeIgniter.php(824): App\Controllers\OperacaoSl->detalhes_sl_add_servico('img', 'favicon.ico')
+#2 C:\xampp1\htdocs\siges\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OperacaoSl))
+#3 C:\xampp1\htdocs\siges\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp1\htdocs\siges\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp1\htdocs\siges\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#6 {main}
+CRITICAL - 2022-01-05 20:06:14 --> Undefined index: id_salao
+#0 C:\xampp1\htdocs\siges\app\Controllers\OperacaoSl.php(261): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp1\\htdoc...', 261, Array)
+#1 C:\xampp1\htdocs\siges\system\CodeIgniter.php(824): App\Controllers\OperacaoSl->detalhes_sl('img', 'favicon.ico')
+#2 C:\xampp1\htdocs\siges\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OperacaoSl))
+#3 C:\xampp1\htdocs\siges\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp1\htdocs\siges\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp1\htdocs\siges\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#6 {main}
+CRITICAL - 2022-01-05 20:08:06 --> Undefined index: id_salao
+#0 C:\xampp1\htdocs\siges\app\Controllers\OperacaoSl.php(261): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp1\\htdoc...', 261, Array)
+#1 C:\xampp1\htdocs\siges\system\CodeIgniter.php(824): App\Controllers\OperacaoSl->detalhes_sl('img', 'favicon.ico')
+#2 C:\xampp1\htdocs\siges\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OperacaoSl))
+#3 C:\xampp1\htdocs\siges\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp1\htdocs\siges\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp1\htdocs\siges\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#6 {main}
+CRITICAL - 2022-01-05 20:08:46 --> Undefined index: id_salao
+#0 C:\xampp1\htdocs\siges\app\Controllers\OperacaoSl.php(261): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp1\\htdoc...', 261, Array)
+#1 C:\xampp1\htdocs\siges\system\CodeIgniter.php(824): App\Controllers\OperacaoSl->detalhes_sl('img', 'favicon.ico')
+#2 C:\xampp1\htdocs\siges\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OperacaoSl))
+#3 C:\xampp1\htdocs\siges\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp1\htdocs\siges\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp1\htdocs\siges\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#6 {main}
+CRITICAL - 2022-01-05 20:09:44 --> Undefined index: id_salao
+#0 C:\xampp1\htdocs\siges\app\Controllers\OperacaoSl.php(261): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp1\\htdoc...', 261, Array)
+#1 C:\xampp1\htdocs\siges\system\CodeIgniter.php(824): App\Controllers\OperacaoSl->detalhes_sl('img', 'favicon.ico')
+#2 C:\xampp1\htdocs\siges\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OperacaoSl))
+#3 C:\xampp1\htdocs\siges\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp1\htdocs\siges\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp1\htdocs\siges\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#6 {main}
+CRITICAL - 2022-01-05 20:13:25 --> Undefined index: id_salao
+#0 C:\xampp1\htdocs\siges\app\Controllers\OperacaoSl.php(261): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp1\\htdoc...', 261, Array)
+#1 C:\xampp1\htdocs\siges\system\CodeIgniter.php(824): App\Controllers\OperacaoSl->detalhes_sl('img', 'favicon.ico')
+#2 C:\xampp1\htdocs\siges\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OperacaoSl))
+#3 C:\xampp1\htdocs\siges\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp1\htdocs\siges\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp1\htdocs\siges\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#6 {main}
+CRITICAL - 2022-01-05 20:13:50 --> Undefined index: id_salao
+#0 C:\xampp1\htdocs\siges\app\Controllers\OperacaoSl.php(261): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp1\\htdoc...', 261, Array)
+#1 C:\xampp1\htdocs\siges\system\CodeIgniter.php(824): App\Controllers\OperacaoSl->detalhes_sl('img', 'favicon.ico')
+#2 C:\xampp1\htdocs\siges\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OperacaoSl))
+#3 C:\xampp1\htdocs\siges\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp1\htdocs\siges\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp1\htdocs\siges\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#6 {main}
+CRITICAL - 2022-01-05 20:15:28 --> Undefined index: id_salao
+#0 C:\xampp1\htdocs\siges\app\Controllers\OperacaoSl.php(261): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp1\\htdoc...', 261, Array)
+#1 C:\xampp1\htdocs\siges\system\CodeIgniter.php(824): App\Controllers\OperacaoSl->detalhes_sl('img', 'favicon.ico')
+#2 C:\xampp1\htdocs\siges\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OperacaoSl))
+#3 C:\xampp1\htdocs\siges\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp1\htdocs\siges\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp1\htdocs\siges\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#6 {main}
+CRITICAL - 2022-01-05 20:16:05 --> Undefined index: id_salao
+#0 C:\xampp1\htdocs\siges\app\Controllers\OperacaoSl.php(225): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp1\\htdoc...', 225, Array)
+#1 C:\xampp1\htdocs\siges\system\CodeIgniter.php(824): App\Controllers\OperacaoSl->detalhes_sl_add_servico('img', 'favicon.ico')
+#2 C:\xampp1\htdocs\siges\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OperacaoSl))
+#3 C:\xampp1\htdocs\siges\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp1\htdocs\siges\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp1\htdocs\siges\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#6 {main}
+CRITICAL - 2022-01-05 20:16:17 --> Undefined index: id_salao
+#0 C:\xampp1\htdocs\siges\app\Controllers\OperacaoSl.php(225): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp1\\htdoc...', 225, Array)
+#1 C:\xampp1\htdocs\siges\system\CodeIgniter.php(824): App\Controllers\OperacaoSl->detalhes_sl_add_servico('img', 'favicon.ico')
+#2 C:\xampp1\htdocs\siges\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OperacaoSl))
+#3 C:\xampp1\htdocs\siges\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp1\htdocs\siges\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp1\htdocs\siges\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#6 {main}
+CRITICAL - 2022-01-05 20:16:29 --> Undefined index: id_salao
+#0 C:\xampp1\htdocs\siges\app\Controllers\OperacaoSl.php(225): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp1\\htdoc...', 225, Array)
+#1 C:\xampp1\htdocs\siges\system\CodeIgniter.php(824): App\Controllers\OperacaoSl->detalhes_sl_add_servico('img', 'favicon.ico')
+#2 C:\xampp1\htdocs\siges\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OperacaoSl))
+#3 C:\xampp1\htdocs\siges\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp1\htdocs\siges\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp1\htdocs\siges\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#6 {main}
+CRITICAL - 2022-01-05 20:18:57 --> Undefined index: id_salao
+#0 C:\xampp1\htdocs\siges\app\Controllers\OperacaoSl.php(225): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp1\\htdoc...', 225, Array)
+#1 C:\xampp1\htdocs\siges\system\CodeIgniter.php(824): App\Controllers\OperacaoSl->detalhes_sl_add_servico('img', 'favicon.ico')
+#2 C:\xampp1\htdocs\siges\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OperacaoSl))
+#3 C:\xampp1\htdocs\siges\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp1\htdocs\siges\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp1\htdocs\siges\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#6 {main}
+ERROR - 2022-01-05 20:18:58 --> Unknown column 'id_solicitacao' in 'where clause'
+CRITICAL - 2022-01-05 20:18:58 --> Unknown column 'id_solicitacao' in 'where clause'
+#0 C:\xampp1\htdocs\siges\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT * FROM t...', 0)
+#1 C:\xampp1\htdocs\siges\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM t...')
+#2 C:\xampp1\htdocs\siges\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM t...')
+#3 C:\xampp1\htdocs\siges\system\Model.php(721): CodeIgniter\Database\BaseConnection->query('SELECT * FROM t...')
+#4 C:\xampp1\htdocs\siges\app\Controllers\OperacaoSl.php(295): CodeIgniter\Model->__call('query', Array)
+#5 C:\xampp1\htdocs\siges\system\CodeIgniter.php(824): App\Controllers\OperacaoSl->add_servico_salao_solicitado()
+#6 C:\xampp1\htdocs\siges\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OperacaoSl))
+#7 C:\xampp1\htdocs\siges\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp1\htdocs\siges\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp1\htdocs\siges\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#10 {main}
+ERROR - 2022-01-05 20:19:14 --> Unknown column 'id_solicitacao' in 'where clause'
+CRITICAL - 2022-01-05 20:19:14 --> Unknown column 'id_solicitacao' in 'where clause'
+#0 C:\xampp1\htdocs\siges\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT * FROM t...', 0)
+#1 C:\xampp1\htdocs\siges\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM t...')
+#2 C:\xampp1\htdocs\siges\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM t...')
+#3 C:\xampp1\htdocs\siges\system\Model.php(721): CodeIgniter\Database\BaseConnection->query('SELECT * FROM t...')
+#4 C:\xampp1\htdocs\siges\app\Controllers\OperacaoSl.php(295): CodeIgniter\Model->__call('query', Array)
+#5 C:\xampp1\htdocs\siges\system\CodeIgniter.php(824): App\Controllers\OperacaoSl->add_servico_salao_solicitado()
+#6 C:\xampp1\htdocs\siges\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OperacaoSl))
+#7 C:\xampp1\htdocs\siges\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp1\htdocs\siges\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp1\htdocs\siges\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#10 {main}
+CRITICAL - 2022-01-05 20:20:08 --> Undefined index: id_salao
+#0 C:\xampp1\htdocs\siges\app\Controllers\OperacaoSl.php(225): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp1\\htdoc...', 225, Array)
+#1 C:\xampp1\htdocs\siges\system\CodeIgniter.php(824): App\Controllers\OperacaoSl->detalhes_sl_add_servico('img', 'favicon.ico')
+#2 C:\xampp1\htdocs\siges\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OperacaoSl))
+#3 C:\xampp1\htdocs\siges\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp1\htdocs\siges\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp1\htdocs\siges\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#6 {main}
+CRITICAL - 2022-01-05 20:20:21 --> Undefined index: id_salao
+#0 C:\xampp1\htdocs\siges\app\Controllers\OperacaoSl.php(225): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp1\\htdoc...', 225, Array)
+#1 C:\xampp1\htdocs\siges\system\CodeIgniter.php(824): App\Controllers\OperacaoSl->detalhes_sl_add_servico('img', 'favicon.ico')
+#2 C:\xampp1\htdocs\siges\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OperacaoSl))
+#3 C:\xampp1\htdocs\siges\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp1\htdocs\siges\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp1\htdocs\siges\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#6 {main}
+CRITICAL - 2022-01-05 20:20:36 --> Undefined index: id_salao
+#0 C:\xampp1\htdocs\siges\app\Controllers\OperacaoSl.php(225): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp1\\htdoc...', 225, Array)
+#1 C:\xampp1\htdocs\siges\system\CodeIgniter.php(824): App\Controllers\OperacaoSl->detalhes_sl_add_servico('img', 'favicon.ico')
+#2 C:\xampp1\htdocs\siges\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OperacaoSl))
+#3 C:\xampp1\htdocs\siges\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp1\htdocs\siges\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp1\htdocs\siges\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#6 {main}
+CRITICAL - 2022-01-05 20:25:08 --> syntax error, unexpected '}', expecting end of file
+#0 C:\xampp1\htdocs\siges\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp1\htdocs\siges\system\Common.php(1097): CodeIgniter\View\View->render('acesso/listar_r...', Array, true)
+#2 C:\xampp1\htdocs\siges\app\Controllers\OperacaoSl.php(422): view('acesso/listar_r...', Array)
+#3 C:\xampp1\htdocs\siges\system\CodeIgniter.php(824): App\Controllers\OperacaoSl->gestao_reservas()
+#4 C:\xampp1\htdocs\siges\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OperacaoSl))
+#5 C:\xampp1\htdocs\siges\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp1\htdocs\siges\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp1\htdocs\siges\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#8 {main}
+CRITICAL - 2022-01-05 20:27:19 --> Undefined index: id_salao
+#0 C:\xampp1\htdocs\siges\app\Controllers\OperacaoSl.php(225): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp1\\htdoc...', 225, Array)
+#1 C:\xampp1\htdocs\siges\system\CodeIgniter.php(824): App\Controllers\OperacaoSl->detalhes_sl_add_servico('img', 'favicon.ico')
+#2 C:\xampp1\htdocs\siges\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OperacaoSl))
+#3 C:\xampp1\htdocs\siges\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp1\htdocs\siges\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp1\htdocs\siges\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#6 {main}
+CRITICAL - 2022-01-05 20:27:35 --> Undefined index: id_salao
+#0 C:\xampp1\htdocs\siges\app\Controllers\OperacaoSl.php(261): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp1\\htdoc...', 261, Array)
+#1 C:\xampp1\htdocs\siges\system\CodeIgniter.php(824): App\Controllers\OperacaoSl->detalhes_sl('img', 'favicon.ico')
+#2 C:\xampp1\htdocs\siges\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OperacaoSl))
+#3 C:\xampp1\htdocs\siges\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp1\htdocs\siges\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp1\htdocs\siges\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#6 {main}
+CRITICAL - 2022-01-05 20:30:16 --> Undefined index: id_salao
+#0 C:\xampp1\htdocs\siges\app\Controllers\OperacaoSl.php(261): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp1\\htdoc...', 261, Array)
+#1 C:\xampp1\htdocs\siges\system\CodeIgniter.php(824): App\Controllers\OperacaoSl->detalhes_sl('img', 'favicon.ico')
+#2 C:\xampp1\htdocs\siges\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OperacaoSl))
+#3 C:\xampp1\htdocs\siges\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp1\htdocs\siges\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp1\htdocs\siges\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#6 {main}
+CRITICAL - 2022-01-05 20:37:22 --> Undefined index: id_salao
+#0 C:\xampp1\htdocs\siges\app\Controllers\OperacaoSl.php(225): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp1\\htdoc...', 225, Array)
+#1 C:\xampp1\htdocs\siges\system\CodeIgniter.php(824): App\Controllers\OperacaoSl->detalhes_sl_add_servico('img', 'favicon.ico')
+#2 C:\xampp1\htdocs\siges\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OperacaoSl))
+#3 C:\xampp1\htdocs\siges\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp1\htdocs\siges\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp1\htdocs\siges\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#6 {main}
+CRITICAL - 2022-01-05 20:37:37 --> Undefined index: id_salao
+#0 C:\xampp1\htdocs\siges\app\Controllers\OperacaoSl.php(225): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp1\\htdoc...', 225, Array)
+#1 C:\xampp1\htdocs\siges\system\CodeIgniter.php(824): App\Controllers\OperacaoSl->detalhes_sl_add_servico('img', 'favicon.ico')
+#2 C:\xampp1\htdocs\siges\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OperacaoSl))
+#3 C:\xampp1\htdocs\siges\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp1\htdocs\siges\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp1\htdocs\siges\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#6 {main}
+CRITICAL - 2022-01-05 20:37:51 --> Class 'Dompdf\Cpdf' not found
+#0 C:\xampp1\htdocs\siges\app\ThirdParty\dompdf\src\CanvasFactory.php(57): Dompdf\Adapter\CPDF->__construct('letter', 'portrait', Object(Dompdf\Dompdf))
+#1 C:\xampp1\htdocs\siges\app\ThirdParty\dompdf\src\Dompdf.php(299): Dompdf\CanvasFactory::get_instance(Object(Dompdf\Dompdf), 'letter', 'portrait')
+#2 C:\xampp1\htdocs\siges\app\Controllers\PdfController.php(14): Dompdf\Dompdf->__construct()
+#3 C:\xampp1\htdocs\siges\system\CodeIgniter.php(824): App\Controllers\PdfController->htmlToPDF()
+#4 C:\xampp1\htdocs\siges\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PdfController))
+#5 C:\xampp1\htdocs\siges\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp1\htdocs\siges\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp1\htdocs\siges\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#8 {main}
+CRITICAL - 2022-01-05 20:46:46 --> Class 'Dompdf\Cpdf' not found
+#0 C:\xampp1\htdocs\siges\app\ThirdParty\dompdf\src\CanvasFactory.php(57): Dompdf\Adapter\CPDF->__construct('letter', 'portrait', Object(Dompdf\Dompdf))
+#1 C:\xampp1\htdocs\siges\app\ThirdParty\dompdf\src\Dompdf.php(299): Dompdf\CanvasFactory::get_instance(Object(Dompdf\Dompdf), 'letter', 'portrait')
+#2 C:\xampp1\htdocs\siges\app\Controllers\PdfController.php(14): Dompdf\Dompdf->__construct()
+#3 C:\xampp1\htdocs\siges\system\CodeIgniter.php(824): App\Controllers\PdfController->htmlToPDF()
+#4 C:\xampp1\htdocs\siges\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PdfController))
+#5 C:\xampp1\htdocs\siges\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp1\htdocs\siges\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp1\htdocs\siges\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#8 {main}
+CRITICAL - 2022-01-05 20:52:58 --> Undefined index: id_salao
+#0 C:\xampp1\htdocs\siges\app\Controllers\OperacaoSl.php(225): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp1\\htdoc...', 225, Array)
+#1 C:\xampp1\htdocs\siges\system\CodeIgniter.php(824): App\Controllers\OperacaoSl->detalhes_sl_add_servico('img', 'favicon.ico')
+#2 C:\xampp1\htdocs\siges\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OperacaoSl))
+#3 C:\xampp1\htdocs\siges\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp1\htdocs\siges\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp1\htdocs\siges\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#6 {main}
+CRITICAL - 2022-01-05 21:00:24 --> Undefined index: id_salao
+#0 C:\xampp1\htdocs\siges\app\Controllers\OperacaoSl.php(261): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp1\\htdoc...', 261, Array)
+#1 C:\xampp1\htdocs\siges\system\CodeIgniter.php(824): App\Controllers\OperacaoSl->detalhes_sl('img', 'favicon.ico')
+#2 C:\xampp1\htdocs\siges\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OperacaoSl))
+#3 C:\xampp1\htdocs\siges\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp1\htdocs\siges\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp1\htdocs\siges\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#6 {main}
+CRITICAL - 2022-01-05 21:02:31 --> Undefined index: id_salao
+#0 C:\xampp1\htdocs\siges\app\Controllers\OperacaoSl.php(261): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp1\\htdoc...', 261, Array)
+#1 C:\xampp1\htdocs\siges\system\CodeIgniter.php(824): App\Controllers\OperacaoSl->detalhes_sl('img', 'favicon.ico')
+#2 C:\xampp1\htdocs\siges\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OperacaoSl))
+#3 C:\xampp1\htdocs\siges\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp1\htdocs\siges\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp1\htdocs\siges\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#6 {main}
+CRITICAL - 2022-01-05 21:03:43 --> Undefined index: id_salao
+#0 C:\xampp1\htdocs\siges\app\Controllers\OperacaoSl.php(261): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp1\\htdoc...', 261, Array)
+#1 C:\xampp1\htdocs\siges\system\CodeIgniter.php(824): App\Controllers\OperacaoSl->detalhes_sl('img', 'favicon.ico')
+#2 C:\xampp1\htdocs\siges\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OperacaoSl))
+#3 C:\xampp1\htdocs\siges\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp1\htdocs\siges\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp1\htdocs\siges\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#6 {main}
+CRITICAL - 2022-01-05 21:05:02 --> Undefined index: id_salao
+#0 C:\xampp1\htdocs\siges\app\Controllers\OperacaoSl.php(261): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp1\\htdoc...', 261, Array)
+#1 C:\xampp1\htdocs\siges\system\CodeIgniter.php(824): App\Controllers\OperacaoSl->detalhes_sl('img', 'favicon.ico')
+#2 C:\xampp1\htdocs\siges\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OperacaoSl))
+#3 C:\xampp1\htdocs\siges\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp1\htdocs\siges\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp1\htdocs\siges\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#6 {main}
+CRITICAL - 2022-01-05 21:06:36 --> Undefined index: id_salao
+#0 C:\xampp1\htdocs\siges\app\Controllers\OperacaoSl.php(261): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp1\\htdoc...', 261, Array)
+#1 C:\xampp1\htdocs\siges\system\CodeIgniter.php(824): App\Controllers\OperacaoSl->detalhes_sl('img', 'favicon.ico')
+#2 C:\xampp1\htdocs\siges\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OperacaoSl))
+#3 C:\xampp1\htdocs\siges\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp1\htdocs\siges\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp1\htdocs\siges\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#6 {main}
+CRITICAL - 2022-01-05 21:07:31 --> Undefined index: id_salao
+#0 C:\xampp1\htdocs\siges\app\Controllers\OperacaoSl.php(261): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp1\\htdoc...', 261, Array)
+#1 C:\xampp1\htdocs\siges\system\CodeIgniter.php(824): App\Controllers\OperacaoSl->detalhes_sl('img', 'favicon.ico')
+#2 C:\xampp1\htdocs\siges\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OperacaoSl))
+#3 C:\xampp1\htdocs\siges\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp1\htdocs\siges\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp1\htdocs\siges\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#6 {main}

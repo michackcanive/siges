@@ -6,9 +6,10 @@
             <div class="container-fluid">
                 <div class="row">   <h3 class="bread-ntd" style="color: white;">Meus salões</h3>
                 <?php foreach($dados as $dado_um){?>
+                   
     <!--//////////////////////////////////////////////////////////////////////////////////////////////////////-->
                     <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
-                     
+                      <hr>
                         <div class="personal-info-wrap">
                             <div class="widget-head-info-box">
                                 <div class="persoanl-widget-hd">

@@ -125,8 +125,8 @@
                         <li>
                             <a class="has-arrow" href="mailbox.html" aria-expanded="false"><i class="icon nalika-bar-chart icon-wrap"></i> <span class="mini-click-non">Operações</span></a>
                             <ul class="submenu-angle" aria-expanded="false">
-                                <li><a title="Inbox" href="<?=base_url('operacaosl/cadastrar_sl')?>"><span class="mini-sub-pro">Cadastrar</span></a></li>
-                                <li><a title="Compose Mail" href="mailbox-compose.html"><span class="mini-sub-pro">Gestão de Salão</span></a></li>
+                                <li><a title="Inbox" href="<?=base_url('operacaosl/cadastrar_sl')?>"><span class="mini-sub-pro">Cadastrar Salão</span></a></li>
+
                             </ul>
                         </li>
                         <li>

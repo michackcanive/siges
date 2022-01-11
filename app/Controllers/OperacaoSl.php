@@ -3,13 +3,20 @@
 namespace App\Controllers;
 
 use App\Controllers\BaseController;
+use CodeIgniter\Controller;
 use Exception;
 use App\Models\CadastrarSlModel;
 use App\Models\AddservicoModel;
-use App\Models\AddsoliciatacaoModel; 
-
+use App\Models\UserModel;
+use App\Models\AddsoliciatacaoModel;
+use App\Models\Addassociacao_solicitacao_servico_Model;
+use Cezpdf;
+use Dompdf;
+use Dompdf\Dompdf as DompdfDompdf;
 
 session_start();
+
+
 class OperacaoSl extends BaseController
 {
 
@@ -20,12 +27,19 @@ class OperacaoSl extends BaseController
     public $total_servicos;
     public $CadastrarSlModel;
     public $AddsoliciatacaoModel;
+    public $userModel;
+    public $Addassociacao_solicitacao_servico_Model;
 
     public function __construct()
     {   
+        if(empty($_SESSION['id'])&&empty($_SESSION['nome'])){
+            return redirect()->route('login');
+          }
+          
       $this->CadastrarSlModel=new CadastrarSlModel();
       $this->AddservicoModel=new AddservicoModel();
-      $this->AddsoliciatacaoModel=new AddsoliciatacaoModel(); //
+      $this->Addassociacao_solicitacao_servico_Model =new Addassociacao_solicitacao_servico_Model();
+      $this->AddsoliciatacaoModel=new AddsoliciatacaoModel();
       $id=$_SESSION['id'];
         $query = $this->AddservicoModel->query("SELECT * FROM servicos_salao where id_usuario= $id");
         $this->total_servicos = $query->getResultArray();
@@ -41,6 +55,67 @@ class OperacaoSl extends BaseController
                 'header'=>view('acesso/header'),
                 'footer'=>view('acesso/footer')
             ]);
+    }
+
+    /*function htmlToPDF(){
+        
+        $dompdf->loadHtml(view('pdf_view'));
+        $dompdf->setPaper('A4', 'landscape');
+        $dompdf->render();
+        $dompdf->stream();
+    }*/
+
+    function SIGEPDF(){
+        //Cpdf
+        if(empty($_SESSION['id'])&&empty($_SESSION['nome'])){
+            return redirect()->route('gestao_reservas');
+          }
+          //result
+          $id=$_GET['ped'];
+          if(empty($id)){
+            return redirect()->route('login');
+          }
+          $query = $this->AddsoliciatacaoModel->query("SELECT * FROM tb_solicitacoes_sl_usuario where id= $id");
+          $row = $query->getResultArray();
+        
+          include_once 'pdf/Cezpdf.php';
+        
+          // Initialize a ROS PDF class object using DIN-A4, with background color gray
+          $pdf = new Cezpdf('a4','portrait');
+          // Set pdf Bleedbox
+          $pdf->ezSetMargins(20,20,20,20);
+          // Use one of the pdf core fonts
+          $mainFont = 'Times-Roman';
+          // Select the font
+          $pdf->selectFont($mainFont);
+          // Define the font size
+          $size=12;
+          // Modified to use the local file if it can
+          $pdf->openHere('Fit');
+          
+          // Output some colored text by using text directives and justify it to the right of the document
+          $pdf->ezText(view('pdf_view',['dado'=>$row]), $size, ['justification'=>'left']);
+          // Output the pdf as stream, but uncompress
+          $pdf->ezStream(['compress'=>0]);
+
+        $this->output = $pdf->ezOutput(true);
+
+        $this->savePdf(__FUNCTION__ . '.pdf');
+
+        // reference the Dompdf namespace
+
+
+
+      
+
+     
+    }
+    /**
+     * save the pdf output into a file
+     */
+    private function savePdf($filename)
+    {
+        file_put_contents($this->outDir . '/' . $filename, $this->output);
     }
 
 
@@ -71,31 +146,6 @@ class OperacaoSl extends BaseController
             'valor_cada_lugar'=>$this->request->getPost('valor_cada_lugar'),
             'preco_padrao'=>$this->request->getPost('preco_padrao')
          ];
-
-        /* $this->v_foto1;
-           $data['foto2']= $this->v_foto2;
-           $data['foto3']= $this->v_foto3;
-           $data['id_usuario']= $_SESSION['id'];
-           $data['nome_salao']= $this->request->getPost('nome_salao');
-           $data['localizacao_sl']= $this->request->getPost('localizacao_sl');
-           $data['telefone']= $this->request->getPost('telefone');
-           $data['quantidade_de_lugar']= $this->request->getPost('qtd_lugar');
-           $data['discricao']= $this->request->getPost('discricao');
-           $data['valor_cada_lugar']= $this->request->getPost('preco_cada');
-           $data['preco_padrao']= $this->request->getPost('valor_padrao');*/
-           
-
-           //$this->CadastrarSlModel->db->inser
-          // $data["autor"] = $algumValorDaSessaoPorExemplo;
-           //cadastrar_servico
-           /*$id=$this->request->getPost('id_solicitado');
-           $dado=[
-            'valor_pago'=>$this->request->getPost('valor_pago'),
-            'estado_do_processo'=>1
-        ]; */
-
-        
-
         if($this->CadastrarSlModel->insert($data)){
             return view('acesso/cadastrar_sl',[
                 'header'=>view('acesso/header'),
@@ -141,13 +191,6 @@ $dado=[
     public function listar_reservas_no_pagas(){
         if($_SESSION['tipo_de_conta_init']=='Admin'){
 
-            /*
-            iner com a tabela tb_solicitacoes_sl_usuario onde id do salao de ser igual a o id do salao da tabela tb_salao_usuario ,
-             feito isto pegasomente  os dados onde o id do usuario é igual ao id da sessão
-            
-            */
-
-
             $id=$_SESSION['id'];
             $query = $this->AddservicoModel->query("SELECT 
             tb_solicitacoes_sl_usuario.*,tb_salao_usuario.nome_salao
@@ -174,7 +217,7 @@ $dado=[
     public function listar_reservas_pagas(){
         if($_SESSION['tipo_de_conta_init']=='Admin'){
                  //result
-     $id=$_SESSION['id'];
+    
      $id=$_SESSION['id'];
      $query = $this->AddservicoModel->query("SELECT 
      tb_solicitacoes_sl_usuario.*,tb_salao_usuario.nome_salao
@@ -199,19 +242,115 @@ $dado=[
     }
     } 
 
+
+    public function detalhes_sl_add_servico(){
+        if(empty($_SESSION['id'])&&empty($_SESSION['nome'])){
+            return redirect()->route('login');
+          }
+
+    $id_salao=$_GET['id_salao'];
+    $query_ser = $this->AddservicoModel->query("SELECT * FROM servicos_salao where id_salao= $id_salao ");
+     
+     $query_tb_salao_usuario = $this->CadastrarSlModel->query("SELECT * FROM tb_salao_usuario where id= $id_salao ");
+
+     $id_solicitacao=$_GET['id_solicitacao'];
+     $query = $this->AddsoliciatacaoModel->query("SELECT * FROM tb_solicitacoes_sl_usuario where id= $id_solicitacao ");
+
+     //
+
+     if($_SESSION['tipo_de_conta_init']=='Admin'){ 
+
+            return view('acesso/detalhe_sl_admin',[
+                'header'=>view('acesso/header'),
+                'footer'=>view('acesso/footer'),
+                'dados_salao'=>$row = $query_tb_salao_usuario->getResultArray(),
+                'dados'=>$row = $query->getResultArray(),
+                'servicos'=>$row = $query_ser->getResultArray()
+            ]);
+        }else{
+            return view('acesso/detalhe_sl',[
+                'header'=>view('acesso/header_clit'),
+                'footer'=>view('acesso/footer'),
+                'dados_salao'=>$row = $query_tb_salao_usuario->getResultArray(),
+                'dados'=>$row = $query->getResultArray(),
+                'servicos'=>$row = $query_ser->getResultArray()
+            ]);
+
+        }
+    }
+
     public function detalhes_sl(){
         if(empty($_SESSION['id'])&&empty($_SESSION['nome'])){
             return redirect()->route('login');
           }
+
+          $id=$_GET['id_salao'];
+          $queryser = $this->AddservicoModel->query("SELECT * FROM servicos_salao where id_salao= $id ");
+     
+
           $id=$_GET['id_salao'];
      $query = $this->CadastrarSlModel->query("SELECT * FROM tb_salao_usuario where id= $id ");
+
      //
 
-            return view('acesso/detalhe_sl',[
+     if($_SESSION['tipo_de_conta_init']=='Admin'){ 
+
+            return view('acesso/detalhe_sl_admin',[
                 'header'=>view('acesso/header'),
                 'footer'=>view('acesso/footer'),
-                'dados'=>$row = $query->getResultArray()
+                'dados'=>$row = $query->getResultArray(),
+                'servicos'=>$row = $queryser->getResultArray()
             ]);
+        }else{
+            return view('acesso/detalhe_sl_ver_mais',[
+                'header'=>view('acesso/header_clit'),
+                'footer'=>view('acesso/footer'),
+                'dados'=>$row = $query->getResultArray(),
+                'servicos'=>$queryser->getResultArray()
+            ]);
+
+        }
+    }
+    public function   add_servico_salao_solicitado(){
+        if(empty($_SESSION['id'])&&empty($_SESSION['nome'])){
+            return redirect()->route('login');
+          }
+
+            $id_solicitacao=$this->request->getPost('id_solicitacao');
+            $id_servico=$this->request->getPost('id_servico');
+   $query = $this->AddsoliciatacaoModel->query("SELECT * FROM tb_associacao_solicitaco_servicos where id_solicitacoa_salao= $id_solicitacao ");
+
+                if(!empty($row = $query->getResultArray())){
+                    echo"Este serviço já foi adicionado !";
+                    return ;
+                }
+
+                $dado=[
+                    'id_servico'=>$this->request->getPost('id_servico'),
+                    'id_solicitacoa_salao'=>$this->request->getPost('id_solicitacao'),
+                    'id_usuario_operacao'=>$_SESSION['id'],
+                    'id_salao'=>$this->request->getPost('id_salao')
+                ];
+
+          if($this->Addassociacao_solicitacao_servico_Model->save($dado)){
+
+            $id_solicitacao=$this->request->getPost('id_solicitacao');
+
+            $dado=[
+                'valor_pago'=>$this->request->getPost('valor_pago'),
+            ];  
+                if($this->AddsoliciatacaoModel->update($id_solicitacao,$dado)){
+                     echo"OK";
+            return ;
+            }
+            echo"ERROoo";
+            return ;
+       }else{
+        echo"Erro na Reserva";
+        return;
+       }
+
+          $_SESSION['servicos_add_t']=$_SESSION['servicos_add']??''.$this->request->getPost('id_servico_add');
     }
     ///////////////////////////////////////////////////////////////////////////
     public function   cadastrar_servicos(){
@@ -243,6 +382,14 @@ $dado=[
     // $this->CadastrarSlModel->update('mytable');
      $this->CadastrarSlModel->insert('associar_servicos_salao');
      echo"viva";*/
+
+     
+        $todas_codicoes  =  array( 'dia_actoa_actocao'  => $this->request->getPost('dia_actoa_actocao'));
+        $data = $this->AddsoliciatacaoModel->where($todas_codicoes)->first();
+        if(!empty($data)){
+                echo"EXISTE";
+                return;
+        } 
 
      if($this->AddsoliciatacaoModel->save($this->request->getPost())){
         echo"OK";

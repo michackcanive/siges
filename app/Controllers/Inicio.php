@@ -27,8 +27,16 @@ public function index()
         if($_SESSION['tipo_de_conta_init']=='Admin'){ 
             // ADMINS
 
+           
             $id=$_SESSION['id'];
-            $query = $this->CadastrarSlModel->query("SELECT * FROM tb_salao_usuario where id_usuario= $id");
+            $query = $this->CadastrarSlModel->query("SELECT 
+            tb_salao_usuario.*,tb_usuarios.nome
+            FROM  
+            tb_salao_usuario 
+            INNER JOIN 
+            tb_usuarios 
+            ON tb_salao_usuario.id_usuario  =  tb_usuarios.id
+             WHERE tb_usuarios.id = $id  ORDER BY tb_salao_usuario.id");
 
             return view('acesso/inicio',[
                 'header'=>view('acesso/header'),
@@ -39,8 +47,20 @@ public function index()
         }
     }
     // CLIENTES
-    $id=$_SESSION['id'];
-            $query = $this->CadastrarSlModel->query("SELECT * FROM tb_salao_usuario where id_usuario!=$id");
+
+
+  $id=$_SESSION['id'];
+    $query = $this->CadastrarSlModel->query("SELECT 
+    tb_salao_usuario.*,tb_usuarios.nome
+    FROM  
+    tb_salao_usuario 
+    INNER JOIN 
+    tb_usuarios 
+    ON tb_salao_usuario.id_usuario =  tb_usuarios.id
+     WHERE tb_usuarios.id != $id  ORDER BY tb_salao_usuario.id");
+     
+
+  
     return view('acesso/inicio_clit',[
         'header'=>view('acesso/header_clit'),
         'footer'=>view('acesso/footer'),
