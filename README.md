@@ -1,5 +1,6 @@
-# CodeIgniter 4 Development
+# Siges-Agendamentos de Salões
 
+#Tecnologia utilizadas.
 [![Build Status](https://github.com/codeigniter4/CodeIgniter4/workflows/PHPUnit/badge.svg)](https://github.com/codeigniter4/CodeIgniter4/actions?query=workflow%3A%22PHPUnit%22)
 [![Coverage Status](https://coveralls.io/repos/github/codeigniter4/CodeIgniter4/badge.svg?branch=develop)](https://coveralls.io/github/codeigniter4/CodeIgniter4?branch=develop)
 [![Downloads](https://poser.pugx.org/codeigniter4/framework/downloads)](https://packagist.org/packages/codeigniter4/framework)
@@ -9,16 +10,15 @@
 [![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/codeigniter4/CodeIgniter4/pulls)
 <br>
 
-## What is CodeIgniter?
+##O que é CodeIgniter?
 
-CodeIgniter is a PHP full-stack web framework that is light, fast, flexible and secure.
-More information can be found at the [official site](http://codeigniter.com).
+CodeIgniter é um framework web PHP full-stack que é leve, rápido, flexível e seguro.
+Mais informações podem ser encontradas em [official site](http://codeigniter.com).
 
-This repository holds the source code for CodeIgniter 4 only.
-Version 4 is a complete rewrite to bring the quality and the code into a more modern version,
-while still keeping as many of the things intact that has made people love the framework over the years.
-
-More information about the plans for version 4 can be found in [the announcement](http://forum.codeigniter.com/thread-62615.html) on the forums.
+Este repositório contém o código fonte apenas para CodeIgniter 4.
+A versão 4 é uma reescrita completa para trazer a qualidade e o código para uma versão mais moderna,
+enquanto ainda mantém intactas muitas das coisas que fizeram as pessoas amarem a estrutura ao longo dos anos.
+ [the announcement](http://forum.codeigniter.com/thread-62615.html) on the forums.
 
 ### Documentation
 
